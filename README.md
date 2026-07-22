@@ -97,7 +97,7 @@ cd IOS && swiftgen config run
 
 **Vlad Podvoiskyi** — iOS developer
 
-Also on the App Store: [PrapoDe](https://apps.apple.com) (German theory exam prep)
+Also on the App Store: [PrapoDe](https://apps.apple.com/app/id6758207550) (German prepositions — A1 to C1)
 
 ## License
 
