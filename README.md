@@ -1,61 +1,104 @@
 # FahrPrufung DE
 
-Подготовка к **практическому экзамену** (Fahrprüfung) в Германии — словарь, фразы экзаменатора, знаки StVO, карточки и квиз.
+**iOS app for preparing for the German practical driving exam (Prüfungsfahrt).**
 
-## Структура репозитория
+Helps newcomers learn exam vocabulary, examiner phrases, and official StVO road signs — with flashcards, quizzes, and progress tracking.
+
+[![Platform](https://img.shields.io/badge/iOS-17%2B-blue)](https://developer.apple.com/ios/)
+[![Swift](https://img.shields.io/badge/Swift-5.9-orange)](https://swift.org)
+[![SwiftUI](https://img.shields.io/badge/SwiftUI-5.9-blue)](https://developer.apple.com/xcode/swiftui/)
+
+**Live on the App Store** · Bundle ID: `de.fahrprufung.app`
+
+---
+
+## About
+
+FahrPrufung DE is an educational iOS app built for people preparing for the **practical driving test in Germany**. The exam is conducted in German; this app bridges the language gap with structured learning content in **5 UI languages** (Russian, English, Ukrainian, French, Turkish).
+
+German is always the source language (terms, signs, examiner phrases). Translations help users understand what they will hear and see on test day.
+
+## Features
+
+- **386 vocabulary terms** across 14 categories (vehicle controls, safety checks, manoeuvres, examiner phrases, traffic rules)
+- **556 official StVO road signs** with search, category filters, and detailed explanations
+- **Flashcards** — flip German ↔ translation, mark terms as known
+- **Quiz mode** — up to 10 questions per session with answer review
+- **Examiner phrases** — grouped by context (directions, manoeuvres, safety, results) with German text-to-speech
+- **Progress tracking** — known terms/signs, category breakdown, study streak, quiz history
+- **Onboarding** — language selection and feature overview
+- **Custom in-app localization** — UI language independent of system locale
+
+## Tech Stack
+
+| Layer | Technology |
+|-------|------------|
+| UI | SwiftUI |
+| Architecture | MVVM + Coordinator pattern |
+| Navigation | `NavigationStack`, tab-based shell |
+| Localization | SwiftGen (`L10n`) + 6 `.lproj` bundles |
+| Data | Bundled JSON + `UserDefaults` |
+| Analytics | Firebase Analytics |
+| Speech | `AVSpeechSynthesizer` (de-DE) |
+
+The app uses a custom **"Open Road"** design system — brand colors, rounded typography, and card-based layout.
+
+## Repository Structure
 
 ```
 FahrPrufungDE/
-├── IOS/          # SwiftUI-приложение (App Store)
-├── Android/      # Kotlin + Jetpack Compose (Google Play)
-└── README.md
+└── IOS/
+    ├── FahrPrufungDE/              # SwiftUI source code
+    ├── FahrPrufungDE.xcodeproj     # Xcode project
+    ├── scripts/                    # Content generation tools
+    ├── docs/                       # App Store & privacy docs
+    └── signs-svg/                  # SVG sources (not bundled in app)
 ```
 
-| Платформа | Путь | Bundle ID |
-|-----------|------|-----------|
-| iOS | `IOS/FahrPrufungDE.xcodeproj` | `de.fahrprufung.app` |
-| Android | `Android/` | `de.fahrprufung.app` |
+## Content
 
-## Языки интерфейса
+| Asset | Count | Description |
+|-------|-------|-------------|
+| `vocabulary.json` | 386 terms | 14 categories, 5 translation languages |
+| `signs.json` | 556 signs | Official StVO names (VzKat), 5 categories |
+| `Signs/*.png` | 556 images | Rendered sign previews |
 
-`ru` · `en` · `uk` · `fr` · `tr` — немецкий только как учебный контент.
+Sign graphics are based on Wikimedia Commons / PD-VzKat sources.
 
-## iOS
+## UI Languages
+
+`ru` · `en` · `uk` · `fr` · `tr`
+
+German is exam content only, not a UI language.
+
+## Getting Started
 
 ```bash
 open IOS/FahrPrufungDE.xcodeproj
 ```
 
-Сборка и публикация: Xcode → Archive. Скрипты и документация — в `IOS/scripts/`, `IOS/docs/`.
+1. Open the project in Xcode
+2. Select your Development Team in **Signing & Capabilities**
+3. Run (⌘R)
 
-## Android
-
-Требования: Android Studio, JDK 17+, Android SDK 35.
+Regenerate localization after editing `Localizable.strings`:
 
 ```bash
-cd Android
-export JAVA_HOME="/Applications/Android Studio.app/Contents/jbr/Contents/Home"
-./gradlew assembleDebug
+cd IOS && swiftgen config run
 ```
 
-APK: `Android/app/build/outputs/apk/debug/app-debug.apk`
+## Screens
 
-Открыть в Android Studio: **File → Open → `Android/`**
+| Home | Categories | Flashcards | Quiz | Signs | Progress |
+|------|------------|------------|------|-------|----------|
+| Hero + quick actions | 14 topic groups | Flip cards | 4-choice quiz | StVO catalog | Streak + history |
 
-## Контент
+## Author
 
-- `vocabulary.json` — 386 терминов, 14 категорий
-- `signs.json` + PNG в `assets/Signs/` — 556 знаков
+**Vlad Podvoiskyi** — iOS developer
 
-Источник для iOS: `IOS/FahrPrufungDE/Resources/`.  
-Для Android: `Android/app/src/main/assets/` (синхронизировать при обновлении контента).
+Also on the App Store: [PrapoDe](https://apps.apple.com) (German theory exam prep)
 
-## Фичи (обе платформы)
+## License
 
-- Онбординг + выбор языка
-- 4 вкладки: Учёба · Знаки · Прогресс · Настройки
-- Категории, карточки, квиз (до 10 вопросов)
-- Фразы экзаменатора + TTS (de-DE)
-- Знаки StVO с поиском и фильтрами
-- «Знаю» + отмена, серия дней, история квизов
-- Тёмная тема не используется — светлая «Open Road»
+Educational project. Sign images: Wikimedia Commons / public domain (PD-VzKat). App content and code © Vlad Podvoiskyi.
