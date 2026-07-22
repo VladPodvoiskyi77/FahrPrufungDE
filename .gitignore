@@ -1,0 +1,34 @@
+# macOS
+.DS_Store
+*.swp
+*~
+
+# Xcode / iOS
+DerivedData/
+build/
+*.xcuserstate
+**/xcuserdata/
+*.moved-aside
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# Swift Package Manager
+.swiftpm/
+.build/
+
+# Android
+.gradle/
+**/build/
+local.properties
+*.iml
+.idea/
+*.jks
+*.keystore
+captures/
+.externalNativeBuild/
+.cxx/
+
+# Logs
+*.log

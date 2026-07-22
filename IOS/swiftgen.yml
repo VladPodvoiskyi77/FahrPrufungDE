@@ -1,0 +1,9 @@
+strings:
+  inputs:
+    - FahrPrufungDE/Resources/Localization/de.lproj/Localizable.strings
+  outputs:
+    - templateName: structured-swift5
+      params:
+        enumName: L10n
+        lookupFunction: l10nLookup
+      output: FahrPrufungDE/Generated/L10n.swift

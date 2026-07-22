@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" version="1.0" width="250" height="730">
+  <title>Zeichen 161 – einstreifige Bake (links)</title>
+  <rect style="fill:white; fill-opacity:1; stroke:black; stroke-width:2px; stroke-linecap:round; stroke-linejoin:round; stroke-dasharray:none; stroke-opacity:1"
+        width="215.51418" height="718.8183" x="17.259365" y="5.5906959" rx="25" ry="25" />
+  <path d="M 31.478789,340.52587 L 218.29101,447.14557 L 218.29101,525.51557 L 29.656229,415.25077 L 31.478789,340.52587 z "
+        style="fill:#c00;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+  <rect style="fill:none; stroke:black; stroke-width:7px; stroke-linecap:round;stroke-linejoin:round; stroke-dasharray:none; stroke-opacity:1"
+        width="192.30368" height="695.0387" x="28.510275" y="17.919878" rx="12" ry="12" />
+</svg>

@@ -1,0 +1,5809 @@
+{
+  "version": "1.0.0",
+  "app": "FahrPrufungDE",
+  "description": "Driving exam vocabulary for newcomers in Germany",
+  "languages": [
+    "de",
+    "ru",
+    "en",
+    "uk",
+    "fr",
+    "tr"
+  ],
+  "categories": [
+    {
+      "id": "exam",
+      "de": "Prüfung",
+      "ru": "Экзамен",
+      "en": "Exam",
+      "uk": "Іспит",
+      "fr": "Examen",
+      "tr": "Test"
+    },
+    {
+      "id": "technik",
+      "de": "Technik",
+      "ru": "Техника",
+      "en": "Technical check",
+      "uk": "Техніка",
+      "fr": "Technique",
+      "tr": "Teknoloji"
+    },
+    {
+      "id": "car",
+      "de": "Fahrzeug",
+      "ru": "Автомобиль",
+      "en": "Vehicle",
+      "uk": "Автомобіль",
+      "fr": "Véhicule",
+      "tr": "Araç"
+    },
+    {
+      "id": "lights",
+      "de": "Beleuchtung",
+      "ru": "Освещение",
+      "en": "Lights",
+      "uk": "Освітлення",
+      "fr": "Éclairage",
+      "tr": "Aydınlatma"
+    },
+    {
+      "id": "brakes",
+      "de": "Bremsen",
+      "ru": "Тормоза",
+      "en": "Brakes",
+      "uk": "Гальма",
+      "fr": "Freins",
+      "tr": "Frenler"
+    },
+    {
+      "id": "fluids",
+      "de": "Flüssigkeiten",
+      "ru": "Жидкости",
+      "en": "Fluids",
+      "uk": "Рідини",
+      "fr": "Liquides",
+      "tr": "Sıvılar"
+    },
+    {
+      "id": "safety",
+      "de": "Sicherheit",
+      "ru": "Безопасность",
+      "en": "Safety",
+      "uk": "Безпека",
+      "fr": "Sécurité",
+      "tr": "Güvenlik"
+    },
+    {
+      "id": "assist",
+      "de": "Assistenzsysteme",
+      "ru": "Ассистенты",
+      "en": "Driver assistance",
+      "uk": "Асистенти",
+      "fr": "Aides à la conduite",
+      "tr": "Asistan sistemleri"
+    },
+    {
+      "id": "maneuvers",
+      "de": "Manöver",
+      "ru": "Манёвры",
+      "en": "Maneuvers",
+      "uk": "Маневри",
+      "fr": "Manœuvres",
+      "tr": "Manevra"
+    },
+    {
+      "id": "grundaufgaben",
+      "de": "Grundfahraufgaben",
+      "ru": "Базовые упражнения",
+      "en": "Basic tasks",
+      "uk": "Базові вправи",
+      "fr": "Exercices de base",
+      "tr": "Temel sürüş görevleri"
+    },
+    {
+      "id": "traffic",
+      "de": "Verkehr",
+      "ru": "Дорожное движение",
+      "en": "Traffic",
+      "uk": "Дорожній рух",
+      "fr": "Circulation",
+      "tr": "Trafik"
+    },
+    {
+      "id": "phrases",
+      "de": "Prüfer-Phrasen",
+      "ru": "Фразы экзаменатора",
+      "en": "Examiner phrases",
+      "uk": "Фрази екзаменатора",
+      "fr": "Phrases de l'examinateur",
+      "tr": "Muayene eden ifadeler"
+    },
+    {
+      "id": "documents",
+      "de": "Dokumente",
+      "ru": "Документы",
+      "en": "Documents",
+      "uk": "Документи",
+      "fr": "Documents",
+      "tr": "Belgeler"
+    },
+    {
+      "id": "emergency",
+      "de": "Panne & Unfall",
+      "ru": "Поломка и ДТП",
+      "en": "Breakdown & accident",
+      "uk": "Поломка та ДТП",
+      "fr": "Panne & accident",
+      "tr": "Arıza ve kaza"
+    }
+  ],
+  "terms": [
+    {
+      "id": "pruefungsfahrt",
+      "de": "Die Prüfungsfahrt",
+      "article": "die",
+      "de_base": "Prüfungsfahrt",
+      "ru": "Практический экзамен (экзаменационная поездка)",
+      "en": "Practical driving examination",
+      "uk": "Практичний іспит (іспитна поїздка)",
+      "fr": "Examen pratique de conduite",
+      "category": "exam",
+      "tags": [
+        "core"
+      ],
+      "tr": "Uygulamalı sürüş sınavı"
+    },
+    {
+      "id": "pruefer",
+      "de": "Der Prüfer",
+      "article": "der",
+      "de_base": "Prüfer",
+      "ru": "Экзаменатор (уполномоченное лицо)",
+      "en": "Examiner (authorised official)",
+      "uk": "Екзаменатор (уповноважена особа)",
+      "fr": "Examinateur (agent habilité)",
+      "category": "exam",
+      "tags": [
+        "core"
+      ],
+      "tr": "Sınav görevlisi (yetkili memur)"
+    },
+    {
+      "id": "pruefling",
+      "de": "Der Prüfling",
+      "article": "der",
+      "de_base": "Prüfling",
+      "ru": "Кандидат на получение права на управление ТС",
+      "en": "Driving test candidate",
+      "uk": "Кандидат на отримання права на керування ТЗ",
+      "fr": "Candidat à l'examen de conduite",
+      "category": "exam",
+      "tags": [],
+      "tr": "Sürüş sınavı adayı"
+    },
+    {
+      "id": "fahrlehrer",
+      "de": "Der Fahrlehrer",
+      "article": "der",
+      "de_base": "Fahrlehrer",
+      "ru": "Инструктор по вождению (муж.)",
+      "en": "Approved driving instructor (male)",
+      "uk": "Інструктор з водіння (чол.)",
+      "fr": "Moniteur d'auto-école (homme)",
+      "category": "exam",
+      "tags": [
+        "core"
+      ],
+      "tr": "Sürücü kursu eğitmeni (erkek)"
+    },
+    {
+      "id": "fahrlehrerin",
+      "de": "Die Fahrlehrerin",
+      "article": "die",
+      "de_base": "Fahrlehrerin",
+      "ru": "Инструктор по вождению (жен.)",
+      "en": "Approved driving instructor (female)",
+      "uk": "Інструкторка з водіння (жін.)",
+      "fr": "Monitrice d'auto-école (femme)",
+      "category": "exam",
+      "tags": [],
+      "tr": "Sürücü kursu eğitmeni (kadın)"
+    },
+    {
+      "id": "fahrschueler",
+      "de": "Der Fahrschüler",
+      "article": "der",
+      "de_base": "Fahrschüler",
+      "ru": "Обучающийся в автошколе",
+      "en": "Driving school pupil",
+      "uk": "Учень автошколи",
+      "fr": "Élève de conduite",
+      "category": "exam",
+      "tags": [],
+      "tr": "Sürücü kursu kursiyeri"
+    },
+    {
+      "id": "fuehrerschein",
+      "de": "Der Führerschein",
+      "article": "der",
+      "de_base": "Führerschein",
+      "ru": "Водительское удостоверение",
+      "en": "Driving licence",
+      "uk": "Водійське посвідчення",
+      "fr": "Permis de conduire",
+      "category": "exam",
+      "tags": [
+        "core"
+      ],
+      "tr": "Sürücü belgesi"
+    },
+    {
+      "id": "pruefungsstrecke",
+      "de": "Die Prüfungsstrecke",
+      "article": "die",
+      "de_base": "Prüfungsstrecke",
+      "ru": "Маршрут практического экзамена",
+      "en": "Practical test route",
+      "uk": "Маршрут практичного іспиту",
+      "fr": "Parcours d'examen pratique",
+      "category": "exam",
+      "tags": [],
+      "tr": "Uygulamalı sınav güzergâhı"
+    },
+    {
+      "id": "pruefungsdauer",
+      "de": "Die Prüfungsdauer",
+      "article": "die",
+      "de_base": "Prüfungsdauer",
+      "ru": "Продолжительность экзамена",
+      "en": "Duration of the examination",
+      "uk": "Тривалість іспиту",
+      "fr": "Durée de l'examen",
+      "category": "exam",
+      "tags": [],
+      "tr": "Sınav süresi"
+    },
+    {
+      "id": "durchfallen",
+      "de": "Durchfallen",
+      "article": null,
+      "de_base": "durchfallen",
+      "ru": "Не сдать экзамен",
+      "en": "To fail the examination",
+      "uk": "Не скласти іспит",
+      "fr": "Échouer à l'examen",
+      "category": "exam",
+      "tags": [
+        "verb"
+      ],
+      "tr": "Sınavda kalmak"
+    },
+    {
+      "id": "bestehen",
+      "de": "Bestehen",
+      "article": null,
+      "de_base": "bestehen",
+      "ru": "Сдать экзамен",
+      "en": "To pass the examination",
+      "uk": "Скласти іспит",
+      "fr": "Réussir l'examen",
+      "category": "exam",
+      "tags": [
+        "verb"
+      ],
+      "tr": "Sınavı geçmek"
+    },
+    {
+      "id": "tuev_gelaende",
+      "de": "Das TÜV-Gelände",
+      "article": "das",
+      "de_base": "TÜV-Gelände",
+      "ru": "Территория организации технического осмотра (TÜV)",
+      "en": "TÜV examination premises",
+      "uk": "Територія організації технічного огляду (TÜV)",
+      "fr": "Terrain d'examen du TÜV",
+      "category": "exam",
+      "tags": [],
+      "tr": "TÜV sınav sahası"
+    },
+    {
+      "id": "grundfahraufgabe",
+      "de": "Die Grundfahraufgabe",
+      "article": "die",
+      "de_base": "Grundfahraufgabe",
+      "ru": "Основное маневровое задание (Grundfahraufgabe)",
+      "en": "Basic driving manoeuvre task",
+      "uk": "Основне маневрове завдання (Grundfahraufgabe)",
+      "fr": "Manœuvre de base (Grundfahraufgabe)",
+      "category": "exam",
+      "tags": [
+        "core"
+      ],
+      "tr": "Temel sürüş manevrası (Grundfahraufgabe)"
+    },
+    {
+      "id": "theoriepruefung",
+      "de": "Die Theorieprüfung",
+      "article": "die",
+      "de_base": "Theorieprüfung",
+      "ru": "Теоретический экзамен",
+      "en": "Theory examination",
+      "uk": "Теоретичний іспит",
+      "fr": "Examen théorique",
+      "category": "exam",
+      "tags": [],
+      "tr": "Teorik sınav"
+    },
+    {
+      "id": "praktische_pruefung",
+      "de": "Die praktische Prüfung",
+      "article": "die",
+      "de_base": "praktische Prüfung",
+      "ru": "Практический экзамен",
+      "en": "Practical examination",
+      "uk": "Практичний іспит",
+      "fr": "Examen pratique",
+      "category": "exam",
+      "tags": [],
+      "tr": "Uygulamalı sınav"
+    },
+    {
+      "id": "fahrschule",
+      "de": "Die Fahrschule",
+      "article": "die",
+      "de_base": "Fahrschule",
+      "ru": "Автошкола (учебное заведение)",
+      "en": "Driving school",
+      "uk": "Автошкола (навчальний заклад)",
+      "fr": "École de conduite",
+      "category": "exam",
+      "tags": [],
+      "tr": "Sürücü kursu"
+    },
+    {
+      "id": "fahrstunde",
+      "de": "Die Fahrstunde",
+      "article": "die",
+      "de_base": "Fahrstunde",
+      "ru": "Урок практического вождения",
+      "en": "Driving lesson",
+      "uk": "Урок практичного водіння",
+      "fr": "Leçon de conduite",
+      "category": "exam",
+      "tags": [],
+      "tr": "Uygulamalı sürüş dersi"
+    },
+    {
+      "id": "ausweis",
+      "de": "Der Ausweis",
+      "article": "der",
+      "de_base": "Ausweis",
+      "ru": "Документ, удостоверяющий личность",
+      "en": "Identity document",
+      "uk": "Документ, що посвідчує особу",
+      "fr": "Pièce d'identité",
+      "category": "exam",
+      "tags": [],
+      "tr": "Kimlik belgesi"
+    },
+    {
+      "id": "reisepass",
+      "de": "Der Reisepass",
+      "article": "der",
+      "de_base": "Reisepass",
+      "ru": "Паспорт",
+      "en": "Passport",
+      "uk": "Паспорт",
+      "fr": "Passeport",
+      "category": "exam",
+      "tags": [],
+      "tr": "Pasaport"
+    },
+    {
+      "id": "technische_frage",
+      "de": "Die technische Frage",
+      "article": "die",
+      "de_base": "technische Frage",
+      "ru": "Вопрос по технической части экзамена",
+      "en": "Technical examination question",
+      "uk": "Питання з технічної частини іспиту",
+      "fr": "Question technique d'examen",
+      "category": "technik",
+      "tags": [
+        "core"
+      ],
+      "tr": "Teknik sınav sorusu"
+    },
+    {
+      "id": "betriebsbremse",
+      "de": "Die Betriebsbremse",
+      "article": "die",
+      "de_base": "Betriebsbremse",
+      "ru": "Рабочая тормозная система",
+      "en": "Service brake (foot brake)",
+      "uk": "Робоча гальмівна система",
+      "fr": "Frein de service",
+      "category": "technik",
+      "tags": [
+        "core",
+        "exam"
+      ],
+      "exam_phrase_de": "Wie überprüfen Sie die Betriebsbremse?",
+      "tr": "Hizmet freni"
+    },
+    {
+      "id": "bremspedal",
+      "de": "Das Bremspedal",
+      "article": "das",
+      "de_base": "Bremspedal",
+      "ru": "Педаль тормоза",
+      "en": "Brake pedal",
+      "uk": "Педаль гальма",
+      "fr": "Pédale de frein",
+      "category": "technik",
+      "tags": [],
+      "tr": "Fren pedalı"
+    },
+    {
+      "id": "feststellbremse",
+      "de": "Die Feststellbremse",
+      "article": "die",
+      "de_base": "Feststellbremse",
+      "ru": "Стояночная тормозная система",
+      "en": "Parking brake / handbrake",
+      "uk": "Стоянкова гальмівна система",
+      "fr": "Frein de stationnement",
+      "category": "technik",
+      "tags": [
+        "core",
+        "exam"
+      ],
+      "exam_phrase_de": "Wie überprüfen Sie die Feststellbremse?",
+      "tr": "Park freni"
+    },
+    {
+      "id": "handbremse",
+      "de": "Die Handbremse",
+      "article": "die",
+      "de_base": "Handbremse",
+      "ru": "Ручной тормоз",
+      "en": "Handbrake",
+      "uk": "Ручне гальмо",
+      "fr": "Frein à main",
+      "category": "technik",
+      "tags": [],
+      "tr": "El freni"
+    },
+    {
+      "id": "kontrollleuchte",
+      "de": "Die Kontrollleuchte",
+      "article": "die",
+      "de_base": "Kontrollleuchte",
+      "ru": "Контрольная лампа",
+      "en": "Warning light",
+      "uk": "Контрольна лампа",
+      "fr": "Voyant de contrôle",
+      "category": "technik",
+      "tags": [
+        "core"
+      ],
+      "tr": "Gösterge ışığı"
+    },
+    {
+      "id": "zuendung",
+      "de": "Die Zündung",
+      "article": "die",
+      "de_base": "Zündung",
+      "ru": "Зажигание",
+      "en": "Ignition",
+      "uk": "Запалювання",
+      "fr": "Allumage",
+      "category": "technik",
+      "tags": [],
+      "tr": "Ateşleme"
+    },
+    {
+      "id": "zuendung_an",
+      "de": "Die Zündung an",
+      "article": "die",
+      "de_base": "Zündung an",
+      "ru": "Включить зажигание",
+      "en": "Turn on ignition",
+      "uk": "Увімкнути запалювання",
+      "fr": "Mettre le contact",
+      "category": "technik",
+      "tags": [
+        "phrase"
+      ],
+      "tr": "Ateşleme açık"
+    },
+    {
+      "id": "motor_aus",
+      "de": "Den Motor aus",
+      "article": "den",
+      "de_base": "Motor aus",
+      "ru": "Заглушить двигатель",
+      "en": "Turn off engine",
+      "uk": "Заглушити двигун",
+      "fr": "Couper le moteur",
+      "category": "technik",
+      "tags": [
+        "phrase"
+      ],
+      "tr": "Motor kapalı"
+    },
+    {
+      "id": "verkehrssicher",
+      "de": "Verkehrssicher",
+      "article": null,
+      "de_base": "verkehrssicher",
+      "ru": "Соответствие требованиям безопасности дорожного движения",
+      "en": "Roadworthy / fit for road use",
+      "uk": "Відповідність вимогам безпеки дорожнього руху",
+      "fr": "En état de circuler en sécurité",
+      "category": "technik",
+      "tags": [],
+      "tr": "Trafik güvenliğine uygun"
+    },
+    {
+      "id": "lenkradschloss",
+      "de": "Das Lenkradschloss",
+      "article": "das",
+      "de_base": "Lenkradschloss",
+      "ru": "Блокировка руля",
+      "en": "Steering lock",
+      "uk": "Блокування керма",
+      "fr": "Antivol de direction",
+      "category": "technik",
+      "tags": [],
+      "tr": "Direksiyon kilidi"
+    },
+    {
+      "id": "reifenzustand",
+      "de": "Der Reifenzustand",
+      "article": "der",
+      "de_base": "Reifenzustand",
+      "ru": "Состояние шин",
+      "en": "Tyre condition",
+      "uk": "Стан шин",
+      "fr": "État des pneus",
+      "category": "technik",
+      "tags": [
+        "exam"
+      ],
+      "exam_phrase_de": "Wie prüfen Sie den Reifenzustand?",
+      "tr": "Lastik durumu"
+    },
+    {
+      "id": "profiltiefe",
+      "de": "Die Profiltiefe",
+      "article": "die",
+      "de_base": "Profiltiefe",
+      "ru": "Глубина протектора",
+      "en": "Tread depth",
+      "uk": "Глибина протектора",
+      "fr": "Profondeur de sculpture",
+      "category": "technik",
+      "tags": [],
+      "tr": "Diş derinliği"
+    },
+    {
+      "id": "beleuchtung_pruefen",
+      "de": "Die Beleuchtung prüfen",
+      "article": "die",
+      "de_base": "Beleuchtung prüfen",
+      "ru": "Проверить освещение",
+      "en": "Check the lights",
+      "uk": "Перевірити освітлення",
+      "fr": "Vérifier l'éclairage",
+      "category": "technik",
+      "tags": [
+        "exam"
+      ],
+      "exam_phrase_de": "Wie prüfen Sie die Beleuchtung?",
+      "tr": "Aydınlatmayı kontrol et"
+    },
+    {
+      "id": "auto",
+      "de": "Das Auto",
+      "article": "das",
+      "de_base": "Auto",
+      "ru": "Автомобиль",
+      "en": "Car",
+      "uk": "Автомобіль",
+      "fr": "Voiture",
+      "category": "car",
+      "tags": [
+        "core"
+      ],
+      "tr": "Araba"
+    },
+    {
+      "id": "pkw",
+      "de": "Der PKW",
+      "article": "der",
+      "de_base": "PKW",
+      "ru": "Легковой автомобиль (PKW)",
+      "en": "Passenger motor vehicle (PKW)",
+      "uk": "Легковий автомобіль (PKW)",
+      "fr": "Véhicule particulier (PKW)",
+      "category": "car",
+      "tags": [],
+      "tr": "Binek otomobil (PKW)"
+    },
+    {
+      "id": "motor",
+      "de": "Der Motor",
+      "article": "der",
+      "de_base": "Motor",
+      "ru": "Двигатель",
+      "en": "Engine",
+      "uk": "Двигун",
+      "fr": "Moteur",
+      "category": "car",
+      "tags": [],
+      "tr": "Motor"
+    },
+    {
+      "id": "getriebe",
+      "de": "Das Getriebe",
+      "article": "das",
+      "de_base": "Getriebe",
+      "ru": "Коробка передач",
+      "en": "Gearbox",
+      "uk": "Коробка передач",
+      "fr": "Boîte de vitesses",
+      "category": "car",
+      "tags": [],
+      "tr": "Şanzıman"
+    },
+    {
+      "id": "lenkrad",
+      "de": "Das Lenkrad",
+      "article": "das",
+      "de_base": "Lenkrad",
+      "ru": "Руль",
+      "en": "Steering wheel",
+      "uk": "Кермо",
+      "fr": "Volant",
+      "category": "car",
+      "tags": [
+        "core"
+      ],
+      "tr": "Direksiyon"
+    },
+    {
+      "id": "gaspedal",
+      "de": "Das Gaspedal",
+      "article": "das",
+      "de_base": "Gaspedal",
+      "ru": "Педаль газа",
+      "en": "Accelerator pedal",
+      "uk": "Педаль газу",
+      "fr": "Pédale d'accélération",
+      "category": "car",
+      "tags": [],
+      "tr": "Gaz pedalı"
+    },
+    {
+      "id": "kupplung",
+      "de": "Die Kupplung",
+      "article": "die",
+      "de_base": "Kupplung",
+      "ru": "Сцепление",
+      "en": "Clutch",
+      "uk": "Зчеплення",
+      "fr": "Embrayage",
+      "category": "car",
+      "tags": [
+        "core"
+      ],
+      "tr": "Debriyaj"
+    },
+    {
+      "id": "kupplungspedal",
+      "de": "Das Kupplungspedal",
+      "article": "das",
+      "de_base": "Kupplungspedal",
+      "ru": "Педаль сцепления",
+      "en": "Clutch pedal",
+      "uk": "Педаль зчеплення",
+      "fr": "Pédale d'embrayage",
+      "category": "car",
+      "tags": [],
+      "tr": "Debriyaj pedalı"
+    },
+    {
+      "id": "erster_gang",
+      "de": "Der erste Gang",
+      "article": "der",
+      "de_base": "erste Gang",
+      "ru": "Первая передача",
+      "en": "First gear",
+      "uk": "Перша передача",
+      "fr": "Première vitesse",
+      "category": "car",
+      "tags": [
+        "core"
+      ],
+      "tr": "Ilk kurs"
+    },
+    {
+      "id": "rueckwaertsgang",
+      "de": "Der Rückwärtsgang",
+      "article": "der",
+      "de_base": "Rückwärtsgang",
+      "ru": "Задняя передача",
+      "en": "Reverse gear",
+      "uk": "Задня передача",
+      "fr": "Marche arrière",
+      "category": "car",
+      "tags": [
+        "core"
+      ],
+      "tr": "Geri vites"
+    },
+    {
+      "id": "leerlauf",
+      "de": "Der Leerlauf",
+      "article": "der",
+      "de_base": "Leerlauf",
+      "ru": "Нейтральная передача",
+      "en": "Neutral",
+      "uk": "Нейтральна передача",
+      "fr": "Point mort",
+      "category": "car",
+      "tags": [],
+      "tr": "Boşta"
+    },
+    {
+      "id": "schaltgetriebe",
+      "de": "Das Schaltgetriebe",
+      "article": "das",
+      "de_base": "Schaltgetriebe",
+      "ru": "Механическая КПП",
+      "en": "Manual transmission",
+      "uk": "Механічна КПП",
+      "fr": "Boîte manuelle",
+      "category": "car",
+      "tags": [],
+      "tr": "Manuel şanzıman"
+    },
+    {
+      "id": "automatikgetriebe",
+      "de": "Das Automatikgetriebe",
+      "article": "das",
+      "de_base": "Automatikgetriebe",
+      "ru": "Автоматическая КПП",
+      "en": "Automatic transmission",
+      "uk": "Автоматична КПП",
+      "fr": "Boîte automatique",
+      "category": "car",
+      "tags": [],
+      "tr": "Otomatik şanzıman"
+    },
+    {
+      "id": "rückspiegel",
+      "de": "Der Rückspiegel",
+      "article": "der",
+      "de_base": "Rückspiegel",
+      "ru": "Внутреннее зеркало",
+      "en": "Rear-view mirror",
+      "uk": "Внутрішнє дзеркало",
+      "fr": "Rétroviseur intérieur",
+      "category": "car",
+      "tags": [
+        "core"
+      ],
+      "tr": "Dikiz aynası"
+    },
+    {
+      "id": "aussenspiegel",
+      "de": "Der Außenspiegel",
+      "article": "der",
+      "de_base": "Außenspiegel",
+      "ru": "Боковое зеркало",
+      "en": "Side mirror",
+      "uk": "Бокове дзеркало",
+      "fr": "Rétroviseur extérieur",
+      "category": "car",
+      "tags": [
+        "core"
+      ],
+      "tr": "Dış ayna"
+    },
+    {
+      "id": "totwinkel",
+      "de": "Der Totwinkel",
+      "article": "der",
+      "de_base": "Totwinkel",
+      "ru": "Мёртвая зона (слепая зона)",
+      "en": "Blind spot",
+      "uk": "Мертва зона (сліпа зона)",
+      "fr": "Angle mort",
+      "category": "car",
+      "tags": [
+        "core"
+      ],
+      "tr": "Kör nokta"
+    },
+    {
+      "id": "sitz",
+      "de": "Der Sitz",
+      "article": "der",
+      "de_base": "Sitz",
+      "ru": "Сиденье",
+      "en": "Seat",
+      "uk": "Сидіння",
+      "fr": "Siège",
+      "category": "car",
+      "tags": [],
+      "tr": "Koltuk"
+    },
+    {
+      "id": "fahrersitz",
+      "de": "Der Fahrersitz",
+      "article": "der",
+      "de_base": "Fahrersitz",
+      "ru": "Сиденье водителя",
+      "en": "Driver's seat",
+      "uk": "Сидіння водія",
+      "fr": "Siège conducteur",
+      "category": "car",
+      "tags": [],
+      "tr": "Sürücü koltuğu"
+    },
+    {
+      "id": "kopfstuetze",
+      "de": "Die Kopfstütze",
+      "article": "die",
+      "de_base": "Kopfstütze",
+      "ru": "Подголовник",
+      "en": "Headrest",
+      "uk": "Підголівник",
+      "fr": "Appui-tête",
+      "category": "car",
+      "tags": [
+        "core"
+      ],
+      "tr": "Kafalık"
+    },
+    {
+      "id": "sicherheitsgurt",
+      "de": "Der Sicherheitsgurt",
+      "article": "der",
+      "de_base": "Sicherheitsgurt",
+      "ru": "Ремень безопасности",
+      "en": "Seat belt",
+      "uk": "Ремінь безпеки",
+      "fr": "Ceinture de sécurité",
+      "category": "car",
+      "tags": [
+        "core"
+      ],
+      "tr": "Emniyet kemeri"
+    },
+    {
+      "id": "windschutzscheibe",
+      "de": "Die Windschutzscheibe",
+      "article": "die",
+      "de_base": "Windschutzscheibe",
+      "ru": "Лобовое стекло",
+      "en": "Windscreen",
+      "uk": "Лобове скло",
+      "fr": "Pare-brise",
+      "category": "car",
+      "tags": [],
+      "tr": "Ön cam"
+    },
+    {
+      "id": "heckscheibe",
+      "de": "Die Heckscheibe",
+      "article": "die",
+      "de_base": "Heckscheibe",
+      "ru": "Заднее стекло",
+      "en": "Rear window",
+      "uk": "Заднє скло",
+      "fr": "Lunette arrière",
+      "category": "car",
+      "tags": [],
+      "tr": "Arka pencere"
+    },
+    {
+      "id": "motorhaube",
+      "de": "Die Motorhaube",
+      "article": "die",
+      "de_base": "Motorhaube",
+      "ru": "Капот",
+      "en": "Bonnet / hood",
+      "uk": "Капот",
+      "fr": "Capot",
+      "category": "car",
+      "tags": [],
+      "tr": "Başlık"
+    },
+    {
+      "id": "kofferraum",
+      "de": "Der Kofferraum",
+      "article": "der",
+      "de_base": "Kofferraum",
+      "ru": "Багажник",
+      "en": "Boot / trunk",
+      "uk": "Багажник",
+      "fr": "Coffre",
+      "category": "car",
+      "tags": [],
+      "tr": "Bagaj"
+    },
+    {
+      "id": "reifen",
+      "de": "Der Reifen",
+      "article": "der",
+      "de_base": "Reifen",
+      "ru": "Шина",
+      "en": "Tyre",
+      "uk": "Шина",
+      "fr": "Pneu",
+      "category": "car",
+      "tags": [],
+      "tr": "Lastik"
+    },
+    {
+      "id": "rad",
+      "de": "Das Rad",
+      "article": "das",
+      "de_base": "Rad",
+      "ru": "Колесо",
+      "en": "Wheel",
+      "uk": "Колесо",
+      "fr": "Roue",
+      "category": "car",
+      "tags": [],
+      "tr": "Tekerlek"
+    },
+    {
+      "id": "bordstein",
+      "de": "Der Bordstein",
+      "article": "der",
+      "de_base": "Bordstein",
+      "ru": "Бордюр",
+      "en": "Kerb",
+      "uk": "Бордюр",
+      "fr": "Bordure",
+      "category": "car",
+      "tags": [],
+      "tr": "Kaldırım"
+    },
+    {
+      "id": "tank",
+      "de": "Der Tank",
+      "article": "der",
+      "de_base": "Tank",
+      "ru": "Бак",
+      "en": "Fuel tank",
+      "uk": "Бак",
+      "fr": "Réservoir",
+      "category": "car",
+      "tags": [],
+      "tr": "Tank"
+    },
+    {
+      "id": "armaturenbrett",
+      "de": "Das Armaturenbrett",
+      "article": "das",
+      "de_base": "Armaturenbrett",
+      "ru": "Приборная панель",
+      "en": "Dashboard",
+      "uk": "Панель приладів",
+      "fr": "Tableau de bord",
+      "category": "car",
+      "tags": [],
+      "tr": "Kontrol paneli"
+    },
+    {
+      "id": "tacho",
+      "de": "Der Tacho",
+      "article": "der",
+      "de_base": "Tacho",
+      "ru": "Спидометр",
+      "en": "Speedometer",
+      "uk": "Спідометр",
+      "fr": "Compteur de vitesse",
+      "category": "car",
+      "tags": [],
+      "tr": "Hız göstergesi"
+    },
+    {
+      "id": "drehzahlmesser",
+      "de": "Der Drehzahlmesser",
+      "article": "der",
+      "de_base": "Drehzahlmesser",
+      "ru": "Тахометр",
+      "en": "Rev counter",
+      "uk": "Тахометр",
+      "fr": "Compte-tours",
+      "category": "car",
+      "tags": [],
+      "tr": "Takometre"
+    },
+    {
+      "id": "blinker",
+      "de": "Der Blinker",
+      "article": "der",
+      "de_base": "Blinker",
+      "ru": "Поворотник",
+      "en": "Indicator / turn signal",
+      "uk": "Поворотник",
+      "fr": "Clignotant",
+      "category": "car",
+      "tags": [
+        "core"
+      ],
+      "tr": "Dönüş sinyali"
+    },
+    {
+      "id": "hupe",
+      "de": "Die Hupe",
+      "article": "die",
+      "de_base": "Hupe",
+      "ru": "Звуковой сигнал",
+      "en": "Horn",
+      "uk": "Сигнал",
+      "fr": "Klaxon",
+      "category": "car",
+      "tags": [],
+      "tr": "Boynuz"
+    },
+    {
+      "id": "scheibenwischer",
+      "de": "Der Scheibenwischer",
+      "article": "der",
+      "de_base": "Scheibenwischer",
+      "ru": "Стеклоочиститель",
+      "en": "Windscreen wiper",
+      "uk": "Склоочисник",
+      "fr": "Essuie-glace",
+      "category": "car",
+      "tags": [],
+      "tr": "Ön cam sileceği"
+    },
+    {
+      "id": "schluessel",
+      "de": "Der Schlüssel",
+      "article": "der",
+      "de_base": "Schlüssel",
+      "ru": "Ключ зажигания",
+      "en": "Key",
+      "uk": "Ключ запалювання",
+      "fr": "Clé de contact",
+      "category": "car",
+      "tags": [],
+      "tr": "Anahtar"
+    },
+    {
+      "id": "startknopf",
+      "de": "Der Startknopf",
+      "article": "der",
+      "de_base": "Startknopf",
+      "ru": "Кнопка запуска",
+      "en": "Start button",
+      "uk": "Кнопка запуску",
+      "fr": "Bouton de démarrage",
+      "category": "car",
+      "tags": [],
+      "tr": "Başlat düğmesi"
+    },
+    {
+      "id": "abblendlicht",
+      "de": "Das Abblendlicht",
+      "article": "das",
+      "de_base": "Abblendlicht",
+      "ru": "Ближний свет",
+      "en": "Dipped beam",
+      "uk": "Ближнє світло",
+      "fr": "Feux de croisement",
+      "category": "lights",
+      "tags": [
+        "core",
+        "exam"
+      ],
+      "tr": "Kısa ışın"
+    },
+    {
+      "id": "fernlicht",
+      "de": "Das Fernlicht",
+      "article": "das",
+      "de_base": "Fernlicht",
+      "ru": "Дальний свет",
+      "en": "Main beam / high beam",
+      "uk": "Далеке світло",
+      "fr": "Feux de route",
+      "category": "lights",
+      "tags": [
+        "core",
+        "exam"
+      ],
+      "tr": "Uzun ışın"
+    },
+    {
+      "id": "standlicht",
+      "de": "Das Standlicht",
+      "article": "das",
+      "de_base": "Standlicht",
+      "ru": "Габаритные огни",
+      "en": "Side lights",
+      "uk": "Габаритні вогні",
+      "fr": "Feux de position",
+      "category": "lights",
+      "tags": [],
+      "tr": "Park lambası"
+    },
+    {
+      "id": "tagfahrlicht",
+      "de": "Das Tagfahrlicht",
+      "article": "das",
+      "de_base": "Tagfahrlicht",
+      "ru": "Дневные ходовые огни",
+      "en": "Daytime running lights",
+      "uk": "Денні ходові вогні",
+      "fr": "Feux de jour",
+      "category": "lights",
+      "tags": [],
+      "tr": "Gündüz farları"
+    },
+    {
+      "id": "nebelscheinwerfer",
+      "de": "Der Nebelscheinwerfer",
+      "article": "der",
+      "de_base": "Nebelscheinwerfer",
+      "ru": "Противотуманные фары",
+      "en": "Fog lights",
+      "uk": "Протитуманні фари",
+      "fr": "Feux antibrouillard",
+      "category": "lights",
+      "tags": [],
+      "tr": "Sis farları"
+    },
+    {
+      "id": "nebelschlusslicht",
+      "de": "Das Nebelschlusslicht",
+      "article": "das",
+      "de_base": "Nebelschlusslicht",
+      "ru": "Задний противотуманный фонарь",
+      "en": "Rear fog light",
+      "uk": "Задній протитуманний ліхтар",
+      "fr": "Feu antibrouillard arrière",
+      "category": "lights",
+      "tags": [],
+      "tr": "Arka sis lambası"
+    },
+    {
+      "id": "ruecklicht",
+      "de": "Das Rücklicht",
+      "article": "das",
+      "de_base": "Rücklicht",
+      "ru": "Задний габарит",
+      "en": "Tail light",
+      "uk": "Задній габарит",
+      "fr": "Feu arrière",
+      "category": "lights",
+      "tags": [],
+      "tr": "Arka lamba"
+    },
+    {
+      "id": "bremslicht",
+      "de": "Das Bremslicht",
+      "article": "das",
+      "de_base": "Bremslicht",
+      "ru": "Стоп-сигнал",
+      "en": "Brake light",
+      "uk": "Стоп-сигнал",
+      "fr": "Feu de freinage",
+      "category": "lights",
+      "tags": [],
+      "tr": "Fren lambası"
+    },
+    {
+      "id": "rueckfahrlicht",
+      "de": "Das Rückfahrlicht",
+      "article": "das",
+      "de_base": "Rückfahrlicht",
+      "ru": "Фонарь заднего хода",
+      "en": "Reversing light",
+      "uk": "Ліхтар заднього ходу",
+      "fr": "Feu de marche arrière",
+      "category": "lights",
+      "tags": [],
+      "tr": "Geri vites lambası"
+    },
+    {
+      "id": "warnblinkanlage",
+      "de": "Die Warnblinkanlage",
+      "article": "die",
+      "de_base": "Warnblinkanlage",
+      "ru": "Аварийная сигнализация",
+      "en": "Hazard warning lights",
+      "uk": "Аварійна сигналізація",
+      "fr": "Feux de détresse",
+      "category": "lights",
+      "tags": [
+        "core"
+      ],
+      "tr": "Tehlike uyarı ışıkları"
+    },
+    {
+      "id": "kontrollleuchte_oel",
+      "de": "Die Kontrollleuchte für Öldruck",
+      "article": "die",
+      "de_base": "Kontrollleuchte für Öldruck",
+      "ru": "Лампа давления масла",
+      "en": "Oil pressure warning light",
+      "uk": "Лампа тиску масла",
+      "fr": "Voyant de pression d'huile",
+      "category": "lights",
+      "tags": [],
+      "tr": "Yağ basıncı gösterge ışığı"
+    },
+    {
+      "id": "kontrollleuchte_batterie",
+      "de": "Die Kontrollleuchte für die Batterie",
+      "article": "die",
+      "de_base": "Kontrollleuchte für die Batterie",
+      "ru": "Лампа аккумулятора",
+      "en": "Battery warning light",
+      "uk": "Лампа акумулятора",
+      "fr": "Voyant de batterie",
+      "category": "lights",
+      "tags": [],
+      "tr": "Pil gösterge ışığı"
+    },
+    {
+      "id": "kontrollleuchte_abs",
+      "de": "Die Kontrollleuchte für ABS",
+      "article": "die",
+      "de_base": "Kontrollleuchte für ABS",
+      "ru": "Лампа ABS",
+      "en": "ABS warning light",
+      "uk": "Лампа ABS",
+      "fr": "Voyant ABS",
+      "category": "lights",
+      "tags": [],
+      "tr": "ABS gösterge ışığı"
+    },
+    {
+      "id": "kontrollleuchte_esp",
+      "de": "Die Kontrollleuchte für ESP",
+      "article": "die",
+      "de_base": "Kontrollleuchte für ESP",
+      "ru": "Лампа ESP",
+      "en": "ESP warning light",
+      "uk": "Лампа ESP",
+      "fr": "Voyant ESP",
+      "category": "lights",
+      "tags": [],
+      "tr": "ESP gösterge ışığı"
+    },
+    {
+      "id": "kontrollleuchte_airbag",
+      "de": "Die Kontrollleuchte für Airbag",
+      "article": "die",
+      "de_base": "Kontrollleuchte für Airbag",
+      "ru": "Лампа подушки безопасности",
+      "en": "Airbag warning light",
+      "uk": "Лампа подушки безпеки",
+      "fr": "Voyant airbag",
+      "category": "lights",
+      "tags": [],
+      "tr": "Hava yastığı gösterge ışığı"
+    },
+    {
+      "id": "bremsanlage",
+      "de": "Die Bremsanlage",
+      "article": "die",
+      "de_base": "Bremsanlage",
+      "ru": "Тормозная система",
+      "en": "Braking system",
+      "uk": "Гальмівна система",
+      "fr": "Système de freinage",
+      "category": "brakes",
+      "tags": [],
+      "tr": "Fren sistemi"
+    },
+    {
+      "id": "bremsfluessigkeit",
+      "de": "Die Bremsflüssigkeit",
+      "article": "die",
+      "de_base": "Bremsflüssigkeit",
+      "ru": "Тормозная жидкость",
+      "en": "Brake fluid",
+      "uk": "Гальмівна рідина",
+      "fr": "Liquide de frein",
+      "category": "brakes",
+      "tags": [],
+      "tr": "Fren sıvısı"
+    },
+    {
+      "id": "bremsbelag",
+      "de": "Der Bremsbelag",
+      "article": "der",
+      "de_base": "Bremsbelag",
+      "ru": "Тормозная колодка",
+      "en": "Brake pad",
+      "uk": "Гальмівна колодка",
+      "fr": "Plaquette de frein",
+      "category": "brakes",
+      "tags": [],
+      "tr": "Fren balatası"
+    },
+    {
+      "id": "bremsscheibe",
+      "de": "Die Bremsscheibe",
+      "article": "die",
+      "de_base": "Bremsscheibe",
+      "ru": "Тормозной диск",
+      "en": "Brake disc",
+      "uk": "Гальмівний диск",
+      "fr": "Disque de frein",
+      "category": "brakes",
+      "tags": [],
+      "tr": "Fren diski"
+    },
+    {
+      "id": "abs",
+      "de": "Das ABS",
+      "article": "das",
+      "de_base": "ABS",
+      "ru": "Антиблокировочная система",
+      "en": "Anti-lock braking system",
+      "uk": "Антиблокувальна система",
+      "fr": "Système antiblocage",
+      "category": "brakes",
+      "tags": [],
+      "tr": "ABS"
+    },
+    {
+      "id": "esp",
+      "de": "Das ESP",
+      "article": "das",
+      "de_base": "ESP",
+      "ru": "Система стабилизации",
+      "en": "Electronic stability program",
+      "uk": "Система стабілізації",
+      "fr": "Programme de stabilité électronique",
+      "category": "brakes",
+      "tags": [],
+      "tr": "ESP"
+    },
+    {
+      "id": "bremsweg",
+      "de": "Der Bremsweg",
+      "article": "der",
+      "de_base": "Bremsweg",
+      "ru": "Тормозной путь",
+      "en": "Braking distance",
+      "uk": "Гальмівний шлях",
+      "fr": "Distance de freinage",
+      "category": "brakes",
+      "tags": [],
+      "tr": "Fren mesafesi"
+    },
+    {
+      "id": "anhalteweg",
+      "de": "Der Anhalteweg",
+      "article": "der",
+      "de_base": "Anhalteweg",
+      "ru": "Путь остановки",
+      "en": "Stopping distance",
+      "uk": "Шлях зупинки",
+      "fr": "Distance d'arrêt",
+      "category": "brakes",
+      "tags": [],
+      "tr": "Durma mesafesi"
+    },
+    {
+      "id": "gefahrenbremsung",
+      "de": "Die Gefahrenbremsung",
+      "article": "die",
+      "de_base": "Gefahrenbremsung",
+      "ru": "Экстренное торможение",
+      "en": "Emergency braking",
+      "uk": "Екстрене гальмування",
+      "fr": "Freinage d'urgence",
+      "category": "brakes",
+      "tags": [
+        "core"
+      ],
+      "tr": "Acil frenleme"
+    },
+    {
+      "id": "vollbremsung",
+      "de": "Die Vollbremsung",
+      "article": "die",
+      "de_base": "Vollbremsung",
+      "ru": "Полное торможение",
+      "en": "Full braking",
+      "uk": "Повне гальмування",
+      "fr": "Freinage complet",
+      "category": "brakes",
+      "tags": [],
+      "tr": "Acil frenleme"
+    },
+    {
+      "id": "motorbremse",
+      "de": "Die Motorbremse",
+      "article": "die",
+      "de_base": "Motorbremse",
+      "ru": "Торможение двигателем",
+      "en": "Engine braking",
+      "uk": "Гальмування двигуном",
+      "fr": "Frein moteur",
+      "category": "brakes",
+      "tags": [],
+      "tr": "Motor freni"
+    },
+    {
+      "id": "handbremse_anziehen",
+      "de": "Die Handbremse anziehen",
+      "article": "die",
+      "de_base": "Handbremse anziehen",
+      "ru": "Поставить ручник",
+      "en": "Pull handbrake",
+      "uk": "Поставити ручник",
+      "fr": "Serrer le frein à main",
+      "category": "brakes",
+      "tags": [
+        "phrase"
+      ],
+      "tr": "El frenini çekin"
+    },
+    {
+      "id": "handbremse_loesen",
+      "de": "Die Handbremse lösen",
+      "article": "die",
+      "de_base": "Handbremse lösen",
+      "ru": "Отпустить ручник",
+      "en": "Release handbrake",
+      "uk": "Відпустити ручник",
+      "fr": "Relâcher le frein à main",
+      "category": "brakes",
+      "tags": [
+        "phrase"
+      ],
+      "tr": "El frenini serbest bırak"
+    },
+    {
+      "id": "motoroel",
+      "de": "Das Motoröl",
+      "article": "das",
+      "de_base": "Motoröl",
+      "ru": "Моторное масло",
+      "en": "Engine oil",
+      "uk": "Моторна олива",
+      "fr": "Huile moteur",
+      "category": "fluids",
+      "tags": [],
+      "tr": "Motor yağı"
+    },
+    {
+      "id": "oelstand",
+      "de": "Der Ölstand",
+      "article": "der",
+      "de_base": "Ölstand",
+      "ru": "Уровень масла",
+      "en": "Oil level",
+      "uk": "Рівень оливи",
+      "fr": "Niveau d'huile",
+      "category": "fluids",
+      "tags": [
+        "exam"
+      ],
+      "exam_phrase_de": "Wie überprüfen Sie den Ölstand?",
+      "tr": "Yağ seviyesi"
+    },
+    {
+      "id": "oelpeilstab",
+      "de": "Der Ölpeilstab",
+      "article": "der",
+      "de_base": "Ölpeilstab",
+      "ru": "Щуп масла",
+      "en": "Dipstick",
+      "uk": "Щуп оливи",
+      "fr": "Jauge d'huile",
+      "category": "fluids",
+      "tags": [],
+      "tr": "Yağ çubuğu"
+    },
+    {
+      "id": "kuehlmittel",
+      "de": "Das Kühlmittel",
+      "article": "das",
+      "de_base": "Kühlmittel",
+      "ru": "Охлаждающая жидкость",
+      "en": "Coolant",
+      "uk": "Охолоджувальна рідина",
+      "fr": "Liquide de refroidissement",
+      "category": "fluids",
+      "tags": [],
+      "tr": "Soğutucu"
+    },
+    {
+      "id": "kuehlwasserstand",
+      "de": "Der Kühlwasserstand",
+      "article": "der",
+      "de_base": "Kühlwasserstand",
+      "ru": "Уровень охлаждающей жидкости",
+      "en": "Coolant level",
+      "uk": "Рівень охолоджувальної рідини",
+      "fr": "Niveau de liquide de refroidissement",
+      "category": "fluids",
+      "tags": [],
+      "tr": "Soğutma suyu seviyesi"
+    },
+    {
+      "id": "scheibenwaschfluessigkeit",
+      "de": "Die Scheibenwaschflüssigkeit",
+      "article": "die",
+      "de_base": "Scheibenwaschflüssigkeit",
+      "ru": "Жидкость омывателя",
+      "en": "Windscreen washer fluid",
+      "uk": "Рідина омивача",
+      "fr": "Liquide lave-glace",
+      "category": "fluids",
+      "tags": [],
+      "tr": "Ön cam yıkama sıvısı"
+    },
+    {
+      "id": "kraftstoff",
+      "de": "Der Kraftstoff",
+      "article": "der",
+      "de_base": "Kraftstoff",
+      "ru": "Топливо",
+      "en": "Fuel",
+      "uk": "Паливо",
+      "fr": "Carburant",
+      "category": "fluids",
+      "tags": [],
+      "tr": "Yakıt"
+    },
+    {
+      "id": "benzin",
+      "de": "Das Benzin",
+      "article": "das",
+      "de_base": "Benzin",
+      "ru": "Бензин",
+      "en": "Petrol / gasoline",
+      "uk": "Бензин",
+      "fr": "Essence",
+      "category": "fluids",
+      "tags": [],
+      "tr": "Benzin"
+    },
+    {
+      "id": "diesel",
+      "de": "Der Diesel",
+      "article": "der",
+      "de_base": "Diesel",
+      "ru": "Дизель",
+      "en": "Diesel",
+      "uk": "Дизель",
+      "fr": "Diesel",
+      "category": "fluids",
+      "tags": [],
+      "tr": "Dizel"
+    },
+    {
+      "id": "batterie",
+      "de": "Die Batterie",
+      "article": "die",
+      "de_base": "Batterie",
+      "ru": "Аккумулятор",
+      "en": "Battery",
+      "uk": "Акумулятор",
+      "fr": "Batterie",
+      "category": "fluids",
+      "tags": [],
+      "tr": "Pil"
+    },
+    {
+      "id": "reifendruck",
+      "de": "Der Reifendruck",
+      "article": "der",
+      "de_base": "Reifendruck",
+      "ru": "Давление в шинах",
+      "en": "Tyre pressure",
+      "uk": "Тиск у шинах",
+      "fr": "Pression des pneus",
+      "category": "fluids",
+      "tags": [],
+      "tr": "Lastik basıncı"
+    },
+    {
+      "id": "airbag",
+      "de": "Der Airbag",
+      "article": "der",
+      "de_base": "Airbag",
+      "ru": "Подушка безопасности",
+      "en": "Airbag",
+      "uk": "Подушка безпеки",
+      "fr": "Airbag",
+      "category": "safety",
+      "tags": [],
+      "tr": "Hava yastığı"
+    },
+    {
+      "id": "kindersitz",
+      "de": "Der Kindersitz",
+      "article": "der",
+      "de_base": "Kindersitz",
+      "ru": "Детское кресло",
+      "en": "Child seat",
+      "uk": "Дитяче крісло",
+      "fr": "Siège enfant",
+      "category": "safety",
+      "tags": [],
+      "tr": "Çocuk koltuğu"
+    },
+    {
+      "id": "isofix",
+      "de": "Die Isofix-Haltevorrichtung",
+      "article": "die",
+      "de_base": "Isofix-Haltevorrichtung",
+      "ru": "Крепление Isofix",
+      "en": "Isofix mount",
+      "uk": "Кріплення Isofix",
+      "fr": "Fixation Isofix",
+      "category": "safety",
+      "tags": [],
+      "tr": "Isofix tutma cihazı"
+    },
+    {
+      "id": "warndreieck",
+      "de": "Das Warndreieck",
+      "article": "das",
+      "de_base": "Warndreieck",
+      "ru": "Знак аварийной остановки",
+      "en": "Warning triangle",
+      "uk": "Знак аварійної зупинки",
+      "fr": "Triangle de pré-signalisation",
+      "category": "safety",
+      "tags": [
+        "core"
+      ],
+      "tr": "Uyarı üçgeni"
+    },
+    {
+      "id": "warnweste",
+      "de": "Die Warnweste",
+      "article": "die",
+      "de_base": "Warnweste",
+      "ru": "Световозвращающий жилет",
+      "en": "High-visibility warning vest",
+      "uk": "Світловідбивний жилет",
+      "fr": "Gilet de sécurité haute visibilité",
+      "category": "safety",
+      "tags": [
+        "core"
+      ],
+      "tr": "Uyarı yeleği"
+    },
+    {
+      "id": "verbandskasten",
+      "de": "Der Verbandskasten",
+      "article": "der",
+      "de_base": "Verbandskasten",
+      "ru": "Аптечка",
+      "en": "First-aid kit",
+      "uk": "Аптечка",
+      "fr": "Trousse de secours",
+      "category": "safety",
+      "tags": [],
+      "tr": "Ilk yardım çantası"
+    },
+    {
+      "id": "notfallausruestung",
+      "de": "Die Notfallausrüstung",
+      "article": "die",
+      "de_base": "Notfallausrüstung",
+      "ru": "Аварийный комплект",
+      "en": "Emergency equipment",
+      "uk": "Аварійний комплект",
+      "fr": "Équipement de secours",
+      "category": "safety",
+      "tags": [],
+      "tr": "Acil durum ekipmanı"
+    },
+    {
+      "id": "winterreifen",
+      "de": "Der Winterreifen",
+      "article": "der",
+      "de_base": "Winterreifen",
+      "ru": "Зимняя шина",
+      "en": "Winter tyre",
+      "uk": "Зимова шина",
+      "fr": "Pneu hiver",
+      "category": "safety",
+      "tags": [],
+      "tr": "Kış lastikleri"
+    },
+    {
+      "id": "sommerreifen",
+      "de": "Der Sommerreifen",
+      "article": "der",
+      "de_base": "Sommerreifen",
+      "ru": "Летняя шина",
+      "en": "Summer tyre",
+      "uk": "Літня шина",
+      "fr": "Pneu été",
+      "category": "safety",
+      "tags": [],
+      "tr": "Yaz lastikleri"
+    },
+    {
+      "id": "assistenzsystem",
+      "de": "Das Assistenzsystem",
+      "article": "das",
+      "de_base": "Assistenzsystem",
+      "ru": "Система помощи водителю",
+      "en": "Driver assistance system",
+      "uk": "Система допомоги водію",
+      "fr": "Système d'aide à la conduite",
+      "category": "assist",
+      "tags": [
+        "core"
+      ],
+      "tr": "Sürücü destek sistemi"
+    },
+    {
+      "id": "acc",
+      "de": "Der ACC",
+      "article": "der",
+      "de_base": "ACC",
+      "ru": "Адаптивный круиз-контроль",
+      "en": "Adaptive cruise control",
+      "uk": "Адаптивний круїз-контроль",
+      "fr": "Régulateur de vitesse adaptatif",
+      "category": "assist",
+      "tags": [
+        "core",
+        "exam"
+      ],
+      "tr": "ACC"
+    },
+    {
+      "id": "tempomat",
+      "de": "Der Tempomat",
+      "article": "der",
+      "de_base": "Tempomat",
+      "ru": "Круиз-контроль",
+      "en": "Cruise control",
+      "uk": "Круїз-контроль",
+      "fr": "Régulateur de vitesse",
+      "category": "assist",
+      "tags": [
+        "core"
+      ],
+      "tr": "Seyir kontrolü"
+    },
+    {
+      "id": "abstandsregler",
+      "de": "Der Abstandsregler",
+      "article": "der",
+      "de_base": "Abstandsregler",
+      "ru": "Регулятор дистанции",
+      "en": "Distance control",
+      "uk": "Регулятор дистанції",
+      "fr": "Régulateur de distance",
+      "category": "assist",
+      "tags": [],
+      "tr": "Mesafe kontrolörü"
+    },
+    {
+      "id": "parkautomatik",
+      "de": "Die Parkautomatik",
+      "article": "die",
+      "de_base": "Parkautomatik",
+      "ru": "Автоматическая парковка",
+      "en": "Parking assist",
+      "uk": "Автоматичне паркування",
+      "fr": "Aide au stationnement",
+      "category": "assist",
+      "tags": [
+        "exam"
+      ],
+      "tr": "Otomatik park sistemi"
+    },
+    {
+      "id": "einparkassistent",
+      "de": "Der Einparkassistent",
+      "article": "der",
+      "de_base": "Einparkassistent",
+      "ru": "Парковочный ассистент",
+      "en": "Parking assistant",
+      "uk": "Парковочний асистент",
+      "fr": "Assistant de stationnement",
+      "category": "assist",
+      "tags": [],
+      "tr": "Park asistanı"
+    },
+    {
+      "id": "parksensoren",
+      "de": "Die Parksensoren",
+      "article": "die",
+      "de_base": "Parksensoren",
+      "ru": "Парктроник",
+      "en": "Parking sensors",
+      "uk": "Парктронік",
+      "fr": "Capteurs de stationnement",
+      "category": "assist",
+      "tags": [],
+      "tr": "Park sensörleri"
+    },
+    {
+      "id": "rueckfahrkamera",
+      "de": "Die Rückfahrkamera",
+      "article": "die",
+      "de_base": "Rückfahrkamera",
+      "ru": "Камера заднего хода",
+      "en": "Reversing camera",
+      "uk": "Камера заднього ходу",
+      "fr": "Caméra de recul",
+      "category": "assist",
+      "tags": [],
+      "tr": "Arka görüş kamerası"
+    },
+    {
+      "id": "spurhalteassistent",
+      "de": "Der Spurhalteassistent",
+      "article": "der",
+      "de_base": "Spurhalteassistent",
+      "ru": "Ассистент удержания в полосе",
+      "en": "Lane keeping assist",
+      "uk": "Асистент утримання смуги",
+      "fr": "Aide au maintien de voie",
+      "category": "assist",
+      "tags": [],
+      "tr": "Şerit takip asistanı"
+    },
+    {
+      "id": "notbremsassistent",
+      "de": "Der Notbremsassistent",
+      "article": "der",
+      "de_base": "Notbremsassistent",
+      "ru": "Ассистент экстренного торможения",
+      "en": "Emergency brake assist",
+      "uk": "Асистент екстренного гальмування",
+      "fr": "Aide au freinage d'urgence",
+      "category": "assist",
+      "tags": [],
+      "tr": "Acil fren asistanı"
+    },
+    {
+      "id": "berganfahrassistent",
+      "de": "Der Berganfahrassistent",
+      "article": "der",
+      "de_base": "Berganfahrassistent",
+      "ru": "Ассистент трогания на подъёме",
+      "en": "Hill start assist",
+      "uk": "Асистент рушу на підйомі",
+      "fr": "Aide au démarrage en côte",
+      "category": "assist",
+      "tags": [],
+      "tr": "Yokuşta kalkış asistanı"
+    },
+    {
+      "id": "schulterblick",
+      "de": "Der Schulterblick",
+      "article": "der",
+      "de_base": "Schulterblick",
+      "ru": "Контрольный обзор через плечо (Schulterblick)",
+      "en": "Shoulder check (blind spot check)",
+      "uk": "Контрольний огляд через плече (Schulterblick)",
+      "fr": "Contrôle de l'angle mort (Schulterblick)",
+      "category": "maneuvers",
+      "tags": [
+        "core"
+      ],
+      "tr": "Omuz üzerinden kontrol (Schulterblick)"
+    },
+    {
+      "id": "anfahren",
+      "de": "Anfahren",
+      "article": null,
+      "de_base": "anfahren",
+      "ru": "Начало движения",
+      "en": "Moving off",
+      "uk": "Початок руху",
+      "fr": "Démarrer (mise en mouvement)",
+      "category": "maneuvers",
+      "tags": [
+        "verb",
+        "core"
+      ],
+      "tr": "Harekete başlama"
+    },
+    {
+      "id": "anhalten",
+      "de": "Anhalten",
+      "article": null,
+      "de_base": "anhalten",
+      "ru": "Остановка транспортного средства",
+      "en": "Stopping the vehicle",
+      "uk": "Зупинка транспортного засобу",
+      "fr": "Arrêt du véhicule",
+      "category": "maneuvers",
+      "tags": [
+        "verb",
+        "core"
+      ],
+      "tr": "Aracı durdurma"
+    },
+    {
+      "id": "abbiegen",
+      "de": "Abbiegen",
+      "article": null,
+      "de_base": "abbiegen",
+      "ru": "Повернуть",
+      "en": "To turn",
+      "uk": "Повернути",
+      "fr": "Tourner",
+      "category": "maneuvers",
+      "tags": [
+        "verb",
+        "core"
+      ],
+      "tr": "Dönüş"
+    },
+    {
+      "id": "links_abbiegen",
+      "de": "Links abbiegen",
+      "article": null,
+      "de_base": "links abbiegen",
+      "ru": "Повернуть налево",
+      "en": "Turn left",
+      "uk": "Повернути ліворуч",
+      "fr": "Tourner à gauche",
+      "category": "maneuvers",
+      "tags": [
+        "phrase"
+      ],
+      "tr": "Sola çevirin"
+    },
+    {
+      "id": "rechts_abbiegen",
+      "de": "Rechts abbiegen",
+      "article": null,
+      "de_base": "rechts abbiegen",
+      "ru": "Повернуть направо",
+      "en": "Turn right",
+      "uk": "Повернути праворуч",
+      "fr": "Tourner à droite",
+      "category": "maneuvers",
+      "tags": [
+        "phrase"
+      ],
+      "tr": "Sağa dönün"
+    },
+    {
+      "id": "ueberholen",
+      "de": "Überholen",
+      "article": null,
+      "de_base": "überholen",
+      "ru": "Обогнать",
+      "en": "To overtake",
+      "uk": "Обігнати",
+      "fr": "Dépasser",
+      "category": "maneuvers",
+      "tags": [
+        "verb"
+      ],
+      "tr": "Sollamak"
+    },
+    {
+      "id": "einscheren",
+      "de": "Einscheren",
+      "article": null,
+      "de_base": "einscheren",
+      "ru": "Перестроиться в ряд",
+      "en": "To merge in",
+      "uk": "Перебудуватися в ряд",
+      "fr": "Se rabattre",
+      "category": "maneuvers",
+      "tags": [
+        "verb"
+      ],
+      "tr": "Kesmek"
+    },
+    {
+      "id": "ausscheren",
+      "de": "Ausscheren",
+      "article": null,
+      "de_base": "ausscheren",
+      "ru": "Выехать из ряда",
+      "en": "To pull out",
+      "uk": "Виїхати з ряду",
+      "fr": "Sortir de la file",
+      "category": "maneuvers",
+      "tags": [
+        "verb"
+      ],
+      "tr": "Kesmek"
+    },
+    {
+      "id": "spurwechsel",
+      "de": "Der Spurwechsel",
+      "article": "der",
+      "de_base": "Spurwechsel",
+      "ru": "Смена полосы",
+      "en": "Lane change",
+      "uk": "Зміна смуги",
+      "fr": "Changement de voie",
+      "category": "maneuvers",
+      "tags": [],
+      "tr": "Şerit değişikliği"
+    },
+    {
+      "id": "einparken",
+      "de": "Einparken",
+      "article": null,
+      "de_base": "einparken",
+      "ru": "Припарковаться",
+      "en": "To park",
+      "uk": "Припаркуватися",
+      "fr": "Se garer",
+      "category": "maneuvers",
+      "tags": [
+        "verb",
+        "core"
+      ],
+      "tr": "Park"
+    },
+    {
+      "id": "ausparken",
+      "de": "Ausparken",
+      "article": null,
+      "de_base": "ausparken",
+      "ru": "Выехать с парковки",
+      "en": "To pull out of parking",
+      "uk": "Виїхати з парковки",
+      "fr": "Sortir d'un stationnement",
+      "category": "maneuvers",
+      "tags": [
+        "verb"
+      ],
+      "tr": "Dışarı park etmek"
+    },
+    {
+      "id": "rueckwaertsfahren",
+      "de": "Rückwärtsfahren",
+      "article": null,
+      "de_base": "rückwärtsfahren",
+      "ru": "Движение задним ходом",
+      "en": "To reverse",
+      "uk": "Рух заднім ходом",
+      "fr": "Reculer",
+      "category": "maneuvers",
+      "tags": [
+        "verb"
+      ],
+      "tr": "Geriye doğru sürmek"
+    },
+    {
+      "id": "rangieren",
+      "de": "Rangieren",
+      "article": null,
+      "de_base": "rangieren",
+      "ru": "Маневрировать",
+      "en": "To manoeuvre",
+      "uk": "Маневрувати",
+      "fr": "Manœuvrer",
+      "category": "maneuvers",
+      "tags": [
+        "verb"
+      ],
+      "tr": "Rütbe"
+    },
+    {
+      "id": "wenden",
+      "de": "Wenden",
+      "article": null,
+      "de_base": "wenden",
+      "ru": "Разворот в противоположном направлении",
+      "en": "Turning around (reversing direction)",
+      "uk": "Розворот у протилежному напрямку",
+      "fr": "Demi-tour",
+      "category": "maneuvers",
+      "tags": [
+        "verb"
+      ],
+      "tr": "Yön değiştirerek dönme"
+    },
+    {
+      "id": "umkehren",
+      "de": "Umkehren",
+      "article": null,
+      "de_base": "umkehren",
+      "ru": "Развернуться / сделать разворот",
+      "en": "To make a U-turn",
+      "uk": "Розвернутися",
+      "fr": "Inverser la marche",
+      "category": "maneuvers",
+      "tags": [
+        "verb",
+        "core"
+      ],
+      "tr": "Tersi"
+    },
+    {
+      "id": "durchlassen",
+      "de": "Durchlassen",
+      "article": null,
+      "de_base": "durchlassen",
+      "ru": "Пропустить",
+      "en": "To let pass",
+      "uk": "Пропустити",
+      "fr": "Laisser passer",
+      "category": "maneuvers",
+      "tags": [
+        "verb"
+      ],
+      "tr": "Izin vermek"
+    },
+    {
+      "id": "vorfahrt_gewaehren",
+      "de": "Vorfahrt gewähren",
+      "article": null,
+      "de_base": "Vorfahrt gewähren",
+      "ru": "Предоставить преимущество в движении",
+      "en": "Yield right of way",
+      "uk": "Надати перевагу в русі",
+      "fr": "Céder la priorité",
+      "category": "maneuvers",
+      "tags": [
+        "phrase",
+        "core"
+      ],
+      "tr": "Geçiş üstünlüğü vermek"
+    },
+    {
+      "id": "vorausschauend_fahren",
+      "de": "Vorausschauend fahren",
+      "article": null,
+      "de_base": "vorausschauend fahren",
+      "ru": "Ехать с упреждением",
+      "en": "To drive anticipatorily",
+      "uk": "Їхати з випередженням",
+      "fr": "Conduire avec anticipation",
+      "category": "maneuvers",
+      "tags": [
+        "phrase",
+        "core"
+      ],
+      "tr": "Öngörüyle hareket etmek"
+    },
+    {
+      "id": "sich_einordnen",
+      "de": "Sich einordnen",
+      "article": null,
+      "de_base": "sich einordnen",
+      "ru": "Занять положение на проезжей части",
+      "en": "Take up position on the carriageway",
+      "uk": "Зайняти положення на проїзній частині",
+      "fr": "Se placer sur la chaussée",
+      "category": "maneuvers",
+      "tags": [
+        "verb"
+      ],
+      "tr": "Taşıt yolunda konum alma"
+    },
+    {
+      "id": "sich_rechts_einordnen",
+      "de": "Sich rechts einordnen",
+      "article": null,
+      "de_base": "sich rechts einordnen",
+      "ru": "Занять крайнее правое положение",
+      "en": "Take up position on the right",
+      "uk": "Зайняти крайнє праве положення",
+      "fr": "Se placer à droite",
+      "category": "maneuvers",
+      "tags": [
+        "phrase",
+        "core"
+      ],
+      "tr": "Sağ şeride yanaşma"
+    },
+    {
+      "id": "grosser_bogen",
+      "de": "Der große Bogen",
+      "article": "der",
+      "de_base": "große Bogen",
+      "ru": "Широкая дуга",
+      "en": "Wide arc",
+      "uk": "Широка дуга",
+      "fr": "Grand virage",
+      "category": "maneuvers",
+      "tags": [],
+      "tr": "Büyük kemer"
+    },
+    {
+      "id": "schleifende_kupplung",
+      "de": "Die schleifende Kupplung",
+      "article": "die",
+      "de_base": "schleifende Kupplung",
+      "ru": "Полувыжатое сцепление",
+      "en": "Slipping clutch / biting point",
+      "uk": "Напіввивільнене зчеплення",
+      "fr": "Embrayage en prise douce",
+      "category": "maneuvers",
+      "tags": [],
+      "tr": "Kayan kavrama"
+    },
+    {
+      "id": "schrittgeschwindigkeit",
+      "de": "Die Schrittgeschwindigkeit",
+      "article": "die",
+      "de_base": "Schrittgeschwindigkeit",
+      "ru": "Скорость пешеходного шага (Schrittgeschwindigkeit)",
+      "en": "Walking pace speed (Schrittgeschwindigkeit)",
+      "uk": "Швидкість пішохідного кроку (Schrittgeschwindigkeit)",
+      "fr": "Allure au pas (Schrittgeschwindigkeit)",
+      "category": "maneuvers",
+      "tags": [],
+      "tr": "Yürüme hızı (Schrittgeschwindigkeit)"
+    },
+    {
+      "id": "passgeschwindigkeit",
+      "de": "Die Passgeschwindigkeit",
+      "article": "die",
+      "de_base": "Passgeschwindigkeit",
+      "ru": "Минимальная скорость движения (Passgeschwindigkeit)",
+      "en": "Minimum manoeuvring speed (Passgeschwindigkeit)",
+      "uk": "Мінімальна швидкість руху (Passgeschwindigkeit)",
+      "fr": "Vitesse minimale de manœuvre (Passgeschwindigkeit)",
+      "category": "maneuvers",
+      "tags": [],
+      "tr": "Minimum manevra hızı (Passgeschwindigkeit)"
+    },
+    {
+      "id": "motor_abwueren",
+      "de": "Den Motor abwürgen",
+      "article": "den",
+      "de_base": "Motor abwürgen",
+      "ru": "Заглохнуть",
+      "en": "To stall",
+      "uk": "Заглохнути",
+      "fr": "Caler le moteur",
+      "category": "maneuvers",
+      "tags": [
+        "phrase"
+      ],
+      "tr": "Motoru durdur"
+    },
+    {
+      "id": "sich_anschnallen",
+      "de": "Sich anschnallen",
+      "article": null,
+      "de_base": "sich anschnallen",
+      "ru": "Пристегнуться",
+      "en": "To fasten seat belt",
+      "uk": "Пристебнутися",
+      "fr": "S'attacher",
+      "category": "maneuvers",
+      "tags": [
+        "verb",
+        "core"
+      ],
+      "tr": "Kemerini bağlamak"
+    },
+    {
+      "id": "kopf_nach_hinten",
+      "de": "Den Kopf nach hinten drehen",
+      "article": "den",
+      "de_base": "Kopf nach hinten drehen",
+      "ru": "Повернуть голову назад",
+      "en": "Look over shoulder backwards",
+      "uk": "Повернути голову назад",
+      "fr": "Tourner la tête vers l'arrière",
+      "category": "maneuvers",
+      "tags": [
+        "phrase"
+      ],
+      "tr": "Kafanı geriye çevir"
+    },
+    {
+      "id": "parken_laengs",
+      "de": "Das Parken in Längsaufstellung",
+      "article": "das",
+      "de_base": "Parken in Längsaufstellung",
+      "ru": "Постановка на стоянку вдоль бордюра (Längsaufstellung)",
+      "en": "Parallel parking along the kerb",
+      "uk": "Постановка на стоянку вздовж бордюра (Längsaufstellung)",
+      "fr": "Stationnement en créneau parallèle",
+      "category": "grundaufgaben",
+      "tags": [
+        "core"
+      ],
+      "tr": "Kaldırım boyu paralel park etme"
+    },
+    {
+      "id": "rueckwaerts_einparken",
+      "de": "Rückwärts einparken",
+      "article": null,
+      "de_base": "rückwärts einparken",
+      "ru": "Постановка на стоянку задним ходом",
+      "en": "Reverse parking manoeuvre",
+      "uk": "Постановка на стоянку заднім ходом",
+      "fr": "Stationnement en marche arrière",
+      "category": "grundaufgaben",
+      "tags": [
+        "phrase"
+      ],
+      "tr": "Geri geri park etme"
+    },
+    {
+      "id": "vorwaerts_einparken",
+      "de": "Vorwärts einparken",
+      "article": null,
+      "de_base": "vorwärts einparken",
+      "ru": "Постановка на стоянку передним ходом",
+      "en": "Forward parking manoeuvre",
+      "uk": "Постановка на стоянку переднім ходом",
+      "fr": "Stationnement en marche avant",
+      "category": "grundaufgaben",
+      "tags": [
+        "phrase"
+      ],
+      "tr": "İleri doğru park etme"
+    },
+    {
+      "id": "wendehammer",
+      "de": "Der Wendehammer",
+      "article": "der",
+      "de_base": "Wendehammer",
+      "ru": "Площадка для разворота (Wendehammer)",
+      "en": "Turning area (Wendehammer)",
+      "uk": "Майданчик для розвороту (Wendehammer)",
+      "fr": "Aire de retournement (Wendehammer)",
+      "category": "grundaufgaben",
+      "tags": [],
+      "tr": "Dönüş alanı (Wendehammer)"
+    },
+    {
+      "id": "parkluecke",
+      "de": "Die Parklücke",
+      "article": "die",
+      "de_base": "Parklücke",
+      "ru": "Парковочное место",
+      "en": "Parking space",
+      "uk": "Паркомісце",
+      "fr": "Emplacement de stationnement",
+      "category": "grundaufgaben",
+      "tags": [],
+      "tr": "Park yeri"
+    },
+    {
+      "id": "parkbox",
+      "de": "Die Parkbox",
+      "article": "die",
+      "de_base": "Parkbox",
+      "ru": "Парковочная ниша",
+      "en": "Marked parking bay",
+      "uk": "Парковочна ніша",
+      "fr": "Emplacement de stationnement balisé",
+      "category": "grundaufgaben",
+      "tags": [],
+      "tr": "İşaretli park yeri"
+    },
+    {
+      "id": "30cm_bordstein",
+      "de": "Nicht weiter als 30 cm vom Bordstein",
+      "article": null,
+      "de_base": "nicht weiter als 30 cm vom Bordstein",
+      "ru": "Расстояние до бордюра не более 30 см",
+      "en": "No more than 30 cm from the kerb",
+      "uk": "Відстань до бордюра не більше 30 см",
+      "fr": "Distance au trottoir : maximum 30 cm",
+      "category": "grundaufgaben",
+      "tags": [
+        "phrase"
+      ],
+      "tr": "Kaldırıma en fazla 30 cm mesafe"
+    },
+    {
+      "id": "fertig_sagen",
+      "de": "So, fertig.",
+      "article": null,
+      "de_base": "So, fertig.",
+      "ru": "Сообщить экзаменатору о завершении манёвра",
+      "en": "Inform the examiner that the manoeuvre is complete",
+      "uk": "Повідомити екзаменатора про завершення маневру",
+      "fr": "Signaler à l'examinateur la fin de la manœuvre",
+      "category": "grundaufgaben",
+      "tags": [
+        "phrase"
+      ],
+      "tr": "Manevranın bittiğini sınav görevlisine bildirmek"
+    },
+    {
+      "id": "ampel",
+      "de": "Die Ampel",
+      "article": "die",
+      "de_base": "Ampel",
+      "ru": "Светофор",
+      "en": "Traffic lights",
+      "uk": "Світлофор",
+      "fr": "Feux tricolores",
+      "category": "traffic",
+      "tags": [
+        "core"
+      ],
+      "tr": "Trafik ışığı"
+    },
+    {
+      "id": "vorfahrt",
+      "de": "Die Vorfahrt",
+      "article": "die",
+      "de_base": "Vorfahrt",
+      "ru": "Преимущество в движении",
+      "en": "Right of way",
+      "uk": "Перевага в русі",
+      "fr": "Priorité de passage",
+      "category": "traffic",
+      "tags": [
+        "core"
+      ],
+      "tr": "Geçiş üstünlüğü"
+    },
+    {
+      "id": "vorfahrtstrasse",
+      "de": "Die Vorfahrtstraße",
+      "article": "die",
+      "de_base": "Vorfahrtstraße",
+      "ru": "Дорога с преимущественным правом проезда",
+      "en": "Priority road",
+      "uk": "Дорога з переважним правом проїзду",
+      "fr": "Route prioritaire",
+      "category": "traffic",
+      "tags": [
+        "core"
+      ],
+      "tr": "Öncelikli yol"
+    },
+    {
+      "id": "rechts_vor_links",
+      "de": "Rechts vor links",
+      "article": null,
+      "de_base": "rechts vor links",
+      "ru": "Правило «помеха справа»",
+      "en": "Priority to the right",
+      "uk": "Правило «перешкода справа»",
+      "fr": "Priorité à droite",
+      "category": "traffic",
+      "tags": [
+        "core",
+        "phrase"
+      ],
+      "tr": "Sağdan gelene yol verme kuralı"
+    },
+    {
+      "id": "einbahnstrasse",
+      "de": "Die Einbahnstraße",
+      "article": "die",
+      "de_base": "Einbahnstraße",
+      "ru": "Улица с односторонним движением",
+      "en": "One-way street",
+      "uk": "Вулиця з одностороннім рухом",
+      "fr": "Rue à sens unique",
+      "category": "traffic",
+      "tags": [],
+      "tr": "Tek yönlü cadde"
+    },
+    {
+      "id": "hindernis",
+      "de": "Das Hindernis",
+      "article": "das",
+      "de_base": "Hindernis",
+      "ru": "Препятствие на проезжей части",
+      "en": "Obstruction on the carriageway",
+      "uk": "Перешкода на проїзній частині",
+      "fr": "Obstacle sur la chaussée",
+      "category": "traffic",
+      "tags": [
+        "core"
+      ],
+      "tr": "Yol üzerinde engel"
+    },
+    {
+      "id": "gegenverkehr",
+      "de": "Der Gegenverkehr",
+      "article": "der",
+      "de_base": "Gegenverkehr",
+      "ru": "Встречное движение",
+      "en": "Oncoming traffic",
+      "uk": "Зустрічний рух",
+      "fr": "Circulation en sens inverse",
+      "category": "traffic",
+      "tags": [
+        "core"
+      ],
+      "tr": "Karşı yönden gelen trafik"
+    },
+    {
+      "id": "freie_luecke",
+      "de": "Die freie Lücke",
+      "article": "die",
+      "de_base": "freie Lücke",
+      "ru": "Свободный интервал в транспортном потоке",
+      "en": "Gap in the traffic flow",
+      "uk": "Вільний інтервал у транспортному потоці",
+      "fr": "Intervalle libre dans la circulation",
+      "category": "traffic",
+      "tags": [],
+      "tr": "Trafik akışındaki boşluk"
+    },
+    {
+      "id": "verkehrszeichen",
+      "de": "Das Verkehrszeichen",
+      "article": "das",
+      "de_base": "Verkehrszeichen",
+      "ru": "Дорожный знак",
+      "en": "Traffic sign",
+      "uk": "Дорожній знак",
+      "fr": "Signalisation routière",
+      "category": "traffic",
+      "tags": [
+        "core"
+      ],
+      "tr": "Trafik işareti"
+    },
+    {
+      "id": "gefahrenzeichen",
+      "de": "Das Gefahrenzeichen",
+      "article": "das",
+      "de_base": "Gefahrenzeichen",
+      "ru": "Предупреждающий дорожный знак",
+      "en": "Warning traffic sign",
+      "uk": "Попереджувальний дорожній знак",
+      "fr": "Panneau de danger",
+      "category": "traffic",
+      "tags": [],
+      "tr": "Tehlike uyarı işareti"
+    },
+    {
+      "id": "stoppschild",
+      "de": "Das Stoppschild",
+      "article": "das",
+      "de_base": "Stoppschild",
+      "ru": "Дорожный знак «Stop» (обязанность остановиться)",
+      "en": "Stop sign (mandatory stop)",
+      "uk": "Дорожній знак «Stop» (обов'язок зупинитися)",
+      "fr": "Panneau Stop (arrêt obligatoire)",
+      "category": "traffic",
+      "tags": [],
+      "tr": "Dur işareti (zorunlu durma)"
+    },
+    {
+      "id": "haltverbot",
+      "de": "Das Haltverbot",
+      "article": "das",
+      "de_base": "Haltverbot",
+      "ru": "Запрет остановки",
+      "en": "No stopping",
+      "uk": "Заборона зупинки",
+      "fr": "Arrêt interdit",
+      "category": "traffic",
+      "tags": [],
+      "tr": "Duraklama yasağı"
+    },
+    {
+      "id": "parkverbot",
+      "de": "Das Parkverbot",
+      "article": "das",
+      "de_base": "Parkverbot",
+      "ru": "Запрет стоянки",
+      "en": "No parking",
+      "uk": "Заборона стоянки",
+      "fr": "Stationnement interdit",
+      "category": "traffic",
+      "tags": [],
+      "tr": "Park yasağı"
+    },
+    {
+      "id": "kreuzung",
+      "de": "Die Kreuzung",
+      "article": "die",
+      "de_base": "Kreuzung",
+      "ru": "Перекрёсток",
+      "en": "Junction / intersection",
+      "uk": "Перехрестя",
+      "fr": "Carrefour",
+      "category": "traffic",
+      "tags": [
+        "core"
+      ],
+      "tr": "Kavşak"
+    },
+    {
+      "id": "richtlinie",
+      "de": "Die Richtlinie",
+      "article": "die",
+      "de_base": "Richtlinie",
+      "ru": "Линия дорожной разметки",
+      "en": "Road marking line",
+      "uk": "Лінія дорожньої розмітки",
+      "fr": "Ligne de marquage routier",
+      "category": "traffic",
+      "tags": [],
+      "tr": "Yol çizgisi"
+    },
+    {
+      "id": "kreisverkehr",
+      "de": "Der Kreisverkehr",
+      "article": "der",
+      "de_base": "Kreisverkehr",
+      "ru": "Круговое движение",
+      "en": "Roundabout",
+      "uk": "Кільцевий рух",
+      "fr": "Carrefour giratoire",
+      "category": "traffic",
+      "tags": [],
+      "tr": "Dönel kavşak"
+    },
+    {
+      "id": "kreisel",
+      "de": "Der Kreisel",
+      "article": "der",
+      "de_base": "Kreisel",
+      "ru": "Круговое движение (кольцо)",
+      "en": "Roundabout (ring)",
+      "uk": "Кільцевий рух (кільце)",
+      "fr": "Rond-point",
+      "category": "traffic",
+      "tags": [],
+      "tr": "Dönel kavşak"
+    },
+    {
+      "id": "autobahn",
+      "de": "Die Autobahn",
+      "article": "die",
+      "de_base": "Autobahn",
+      "ru": "Автомагистраль (Autobahn)",
+      "en": "Motorway (Autobahn)",
+      "uk": "Автомагістраль (Autobahn)",
+      "fr": "Autoroute (Autobahn)",
+      "category": "traffic",
+      "tags": [],
+      "tr": "Otoyol (Autobahn)"
+    },
+    {
+      "id": "kraftfahrstrasse",
+      "de": "Die Kraftfahrstraße",
+      "article": "die",
+      "de_base": "Kraftfahrstraße",
+      "ru": "Дорога для автомобильного движения",
+      "en": "Motor road (Kraftfahrstraße)",
+      "uk": "Дорога для автомобільного руху",
+      "fr": "Voie réservée aux automobiles",
+      "category": "traffic",
+      "tags": [],
+      "tr": "Motorlu taşıt yolu"
+    },
+    {
+      "id": "geschlossene_ortschaft",
+      "de": "Die geschlossene Ortschaft",
+      "article": "die",
+      "de_base": "geschlossene Ortschaft",
+      "ru": "Населённый пункт (зона ограничения скорости)",
+      "en": "Built-up area (speed limit zone)",
+      "uk": "Населений пункт (зона обмеження швидкості)",
+      "fr": "Agglomération (zone à limitation)",
+      "category": "traffic",
+      "tags": [
+        "core"
+      ],
+      "tr": "Yerleşim yeri (hız sınırı bölgesi)"
+    },
+    {
+      "id": "ortseingangstafel",
+      "de": "Die Ortseingangstafel",
+      "article": "die",
+      "de_base": "Ortseingangstafel",
+      "ru": "Знак «Начало населённого пункта»",
+      "en": "Town name / built-up area entry sign",
+      "uk": "Знак «Початок населеного пункту»",
+      "fr": "Panneau d'entrée d'agglomération",
+      "category": "traffic",
+      "tags": [],
+      "tr": "Yerleşim yeri giriş levhası"
+    },
+    {
+      "id": "hoechstgeschwindigkeit",
+      "de": "Die Höchstgeschwindigkeit",
+      "article": "die",
+      "de_base": "Höchstgeschwindigkeit",
+      "ru": "Максимально допустимая скорость",
+      "en": "Maximum permitted speed",
+      "uk": "Максимально допустима швидкість",
+      "fr": "Vitesse maximale autorisée",
+      "category": "traffic",
+      "tags": [],
+      "tr": "Azami izin verilen hız"
+    },
+    {
+      "id": "tempolimit",
+      "de": "Das Tempolimit",
+      "article": "das",
+      "de_base": "Tempolimit",
+      "ru": "Ограничение скорости",
+      "en": "Speed limit",
+      "uk": "Обмеження швидкості",
+      "fr": "Limitation de vitesse",
+      "category": "traffic",
+      "tags": [],
+      "tr": "Hız sınırı"
+    },
+    {
+      "id": "rechtsfahrgebot",
+      "de": "Das Rechtsfahrgebot",
+      "article": "das",
+      "de_base": "Rechtsfahrgebot",
+      "ru": "Обязанность держаться правой стороны проезжей части",
+      "en": "Obligation to keep to the right",
+      "uk": "Обов'язок триматися правої сторони проїзної частини",
+      "fr": "Obligation de circuler à droite",
+      "category": "traffic",
+      "tags": [
+        "core"
+      ],
+      "tr": "Sağdan gitme zorunluluğu"
+    },
+    {
+      "id": "fahrstreifen",
+      "de": "Der Fahrstreifen",
+      "article": "der",
+      "de_base": "Fahrstreifen",
+      "ru": "Полоса движения",
+      "en": "Traffic lane",
+      "uk": "Смуга руху",
+      "fr": "Voie de circulation",
+      "category": "traffic",
+      "tags": [],
+      "tr": "Taşıt yolu şeridi"
+    },
+    {
+      "id": "fussgaenger",
+      "de": "Der Fußgänger",
+      "article": "der",
+      "de_base": "Fußgänger",
+      "ru": "Пешеход",
+      "en": "Pedestrian",
+      "uk": "Пішохід",
+      "fr": "Piéton",
+      "category": "traffic",
+      "tags": [
+        "core"
+      ],
+      "tr": "Yaya"
+    },
+    {
+      "id": "fussgaengerueberweg",
+      "de": "Der Fußgängerüberweg",
+      "article": "der",
+      "de_base": "Fußgängerüberweg",
+      "ru": "Пешеходный переход",
+      "en": "Pedestrian crossing",
+      "uk": "Пішохідний перехід",
+      "fr": "Passage pour piétons",
+      "category": "traffic",
+      "tags": [
+        "core"
+      ],
+      "tr": "Yaya geçidi"
+    },
+    {
+      "id": "zebrastreifen",
+      "de": "Der Zebrastreifen",
+      "article": "der",
+      "de_base": "Zebrastreifen",
+      "ru": "Пешеходный переход (разметка «зебра»)",
+      "en": "Zebra crossing",
+      "uk": "Пішохідний перехід (розмітка «зебра»)",
+      "fr": "Passage piéton (passage clouté)",
+      "category": "traffic",
+      "tags": [],
+      "tr": "Yaya geçidi (zebra çizgili)"
+    },
+    {
+      "id": "radfahrer",
+      "de": "Der Radfahrer",
+      "article": "der",
+      "de_base": "Radfahrer",
+      "ru": "Велосипедист",
+      "en": "Cyclist",
+      "uk": "Велосипедист",
+      "fr": "Cycliste",
+      "category": "traffic",
+      "tags": [
+        "core"
+      ],
+      "tr": "Bisiklet sürücüsü"
+    },
+    {
+      "id": "radweg",
+      "de": "Der Radweg",
+      "article": "der",
+      "de_base": "Radweg",
+      "ru": "Велосипедная дорожка",
+      "en": "Cycle path",
+      "uk": "Велосипедна доріжка",
+      "fr": "Piste cyclable",
+      "category": "traffic",
+      "tags": [],
+      "tr": "Bisiklet yolu"
+    },
+    {
+      "id": "seitenabstand",
+      "de": "Der Seitenabstand",
+      "article": "der",
+      "de_base": "Seitenabstand",
+      "ru": "Боковой интервал (дистанция)",
+      "en": "Lateral clearance",
+      "uk": "Боковий інтервал (дистанція)",
+      "fr": "Distance latérale de sécurité",
+      "category": "traffic",
+      "tags": [
+        "core"
+      ],
+      "tr": "Yan mesafe"
+    },
+    {
+      "id": "sicherheitsabstand",
+      "de": "Der Sicherheitsabstand",
+      "article": "der",
+      "de_base": "Sicherheitsabstand",
+      "ru": "Безопасная дистанция",
+      "en": "Safe following distance",
+      "uk": "Безпечна дистанція",
+      "fr": "Distance de sécurité",
+      "category": "traffic",
+      "tags": [],
+      "tr": "Güvenli takip mesafesi"
+    },
+    {
+      "id": "verkehrsbehinderung",
+      "de": "Die Verkehrsbehinderung",
+      "article": "die",
+      "de_base": "Verkehrsbehinderung",
+      "ru": "Создание помехи дорожному движению",
+      "en": "Obstruction of traffic",
+      "uk": "Створення перешкоди дорожньому руху",
+      "fr": "Gêne à la circulation",
+      "category": "traffic",
+      "tags": [],
+      "tr": "Trafik akışını engelleme"
+    },
+    {
+      "id": "bahnuebergang",
+      "de": "Der Bahnübergang",
+      "article": "der",
+      "de_base": "Bahnübergang",
+      "ru": "Железнодорожный переезд",
+      "en": "Level crossing",
+      "uk": "Залізничний переїзд",
+      "fr": "Passage à niveau",
+      "category": "traffic",
+      "tags": [],
+      "tr": "Demiryolu geçidi"
+    },
+    {
+      "id": "andreaskreuz",
+      "de": "Das Andreaskreuz",
+      "article": "das",
+      "de_base": "Andreaskreuz",
+      "ru": "Знак «Железнодорожный переезд» (Андреевский крест)",
+      "en": "Level crossing warning sign (St Andrew's cross)",
+      "uk": "Знак «Залізничний переїзд» (Андріївський хрест)",
+      "fr": "Panneau de passage à niveau (croix de Saint-André)",
+      "category": "traffic",
+      "tags": [],
+      "tr": "Demiryolu geçidi uyarı işareti (Andre haçı)"
+    },
+    {
+      "id": "baustelle",
+      "de": "Die Baustelle",
+      "article": "die",
+      "de_base": "Baustelle",
+      "ru": "Дорожные работы",
+      "en": "Road works",
+      "uk": "Дорожні роботи",
+      "fr": "Travaux sur la chaussée",
+      "category": "traffic",
+      "tags": [],
+      "tr": "Yol çalışması"
+    },
+    {
+      "id": "gefahrenstelle",
+      "de": "Die Gefahrenstelle",
+      "article": "die",
+      "de_base": "Gefahrenstelle",
+      "ru": "Место повышенной опасности",
+      "en": "Hazard location",
+      "uk": "Місце підвищеної небезпеки",
+      "fr": "Point de danger",
+      "category": "traffic",
+      "tags": [],
+      "tr": "Tehlikeli bölge"
+    },
+    {
+      "id": "rettungsgasse",
+      "de": "Die Rettungsgasse",
+      "article": "die",
+      "de_base": "Rettungsgasse",
+      "ru": "Коридор для транспорта экстренных служб",
+      "en": "Emergency vehicle corridor (Rettungsgasse)",
+      "uk": "Коридор для транспорту екстрених служб",
+      "fr": "Couloir de secours (Rettungsgasse)",
+      "category": "traffic",
+      "tags": [],
+      "tr": "Kurtarma şeridi (Rettungsgasse)"
+    },
+    {
+      "id": "busspur",
+      "de": "Die Busspur",
+      "article": "die",
+      "de_base": "Busspur",
+      "ru": "Полоса для автобусов",
+      "en": "Bus lane",
+      "uk": "Смуга для автобусів",
+      "fr": "Voie réservée aux bus",
+      "category": "traffic",
+      "tags": [],
+      "tr": "Otobüs şeridi"
+    },
+    {
+      "id": "vordermann",
+      "de": "Der Vordermann",
+      "article": "der",
+      "de_base": "Vordermann",
+      "ru": "Предшествующий участник движения",
+      "en": "Preceding vehicle / driver ahead",
+      "uk": "Попередній учасник руху",
+      "fr": "Véhicule précédent",
+      "category": "traffic",
+      "tags": [],
+      "tr": "Öndeki araç"
+    },
+    {
+      "id": "fahrbahn",
+      "de": "Die Fahrbahn",
+      "article": "die",
+      "de_base": "Fahrbahn",
+      "ru": "Проезжая часть",
+      "en": "Carriageway",
+      "uk": "Проїзна частина",
+      "fr": "Chaussée",
+      "category": "traffic",
+      "tags": [],
+      "tr": "Taşıt yolu"
+    },
+    {
+      "id": "fahrbahnueberquerung",
+      "de": "Die Fahrbahnüberquerung",
+      "article": "die",
+      "de_base": "Fahrbahnüberquerung",
+      "ru": "Пересечение проезжей части",
+      "en": "Crossing the carriageway",
+      "uk": "Перетин проїзної частини",
+      "fr": "Traversée de la chaussée",
+      "category": "traffic",
+      "tags": [],
+      "tr": "Taşıt yolunu geçme"
+    },
+    {
+      "id": "unbegrenzt",
+      "de": "Unbegrenzt",
+      "article": null,
+      "de_base": "unbegrenzt",
+      "ru": "Без ограничения скорости (на данном участке)",
+      "en": "No speed limit (on this section)",
+      "uk": "Без обмеження швидкості (на ділянці)",
+      "fr": "Sans limitation de vitesse (sur ce tronçon)",
+      "category": "traffic",
+      "tags": [],
+      "tr": "Hız sınırı yok (bu bölümde)"
+    },
+    {
+      "id": "gelbphase",
+      "de": "Die Gelbphase",
+      "article": "die",
+      "de_base": "Gelbphase",
+      "ru": "Жёлтый сигнал светофора",
+      "en": "Amber traffic light phase",
+      "uk": "Жовтий сигнал світлофора",
+      "fr": "Feu orange",
+      "category": "traffic",
+      "tags": [],
+      "tr": "Sarı trafik ışığı fazı"
+    },
+    {
+      "id": "phrase_ausweis",
+      "de": "Zeigen Sie mir bitte Ihren Ausweis.",
+      "article": null,
+      "de_base": "Zeigen Sie mir bitte Ihren Ausweis.",
+      "ru": "Предъявите документ, удостоверяющий личность.",
+      "en": "Please show me your ID.",
+      "uk": "Пред'явіть документ, що посвідчує особу.",
+      "fr": "Veuillez me montrer votre pièce d'identité.",
+      "category": "phrases",
+      "tags": [
+        "examiner",
+        "start"
+      ],
+      "exam_phrase_de": "Zeigen Sie mir bitte Ihren Ausweis.",
+      "tr": "Lütfen kimlik belgenizi gösteriniz"
+    },
+    {
+      "id": "phrase_bereit",
+      "de": "Fühlen Sie sich in der Lage, eine Prüfung zu fahren?",
+      "article": null,
+      "de_base": "Fühlen Sie sich in der Lage, eine Prüfung zu fahren?",
+      "ru": "Считаете ли Вы себя способным сдать экзамен?",
+      "en": "Do you feel fit to take the test?",
+      "uk": "Чи почуваєте себе готовим до іспиту?",
+      "fr": "Vous sentez-vous en mesure de passer l'examen?",
+      "category": "phrases",
+      "tags": [
+        "examiner",
+        "start"
+      ],
+      "tr": "Sınava girme konusunda kendinizi yeterli hissediyor musunuz?"
+    },
+    {
+      "id": "phrase_weg",
+      "de": "Ich sage Ihnen heute den Weg an.",
+      "article": null,
+      "de_base": "Ich sage Ihnen heute den Weg an.",
+      "ru": "Сегодня я буду указывать маршрут.",
+      "en": "I will give you directions today.",
+      "uk": "Сьогодні я вказуватиму маршрут.",
+      "fr": "Je vous indiquerai le chemin aujourd'hui.",
+      "category": "phrases",
+      "tags": [
+        "examiner",
+        "start"
+      ],
+      "tr": "Bugün güzergâhı size bildireceğim"
+    },
+    {
+      "id": "phrase_geradeaus",
+      "de": "Wenn nichts gesagt wird, geradeaus.",
+      "article": null,
+      "de_base": "Wenn nichts gesagt wird, geradeaus.",
+      "ru": "Если ничего не сказано — прямо.",
+      "en": "If nothing is said, go straight.",
+      "uk": "Якщо нічого не сказано — прямо.",
+      "fr": "Si rien n'est dit, tout droit.",
+      "category": "phrases",
+      "tags": [
+        "examiner",
+        "start"
+      ],
+      "tr": "Hiçbir şey söylenmezse, doğrudan devam edin"
+    },
+    {
+      "id": "phrase_fernlicht",
+      "de": "Zeigen Sie mal die Kontrollleuchte fürs Fernlicht.",
+      "article": null,
+      "de_base": "Zeigen Sie mal die Kontrollleuchte fürs Fernlicht.",
+      "ru": "Покажите лампу дальнего света.",
+      "en": "Please show the main beam warning light.",
+      "uk": "Покажіть лампу дальнього світла.",
+      "fr": "Montrez le voyant des feux de route.",
+      "category": "phrases",
+      "tags": [
+        "examiner",
+        "safety"
+      ],
+      "exam_phrase_de": "Zeigen Sie mal die Kontrollleuchte fürs Fernlicht.",
+      "tr": "Bana uzun far gösterge ışığını göster"
+    },
+    {
+      "id": "phrase_acc",
+      "de": "Benutzen Sie den ACC.",
+      "article": null,
+      "de_base": "Benutzen Sie den ACC.",
+      "ru": "Включите ACC.",
+      "en": "Use the ACC.",
+      "uk": "Увімкніть ACC.",
+      "fr": "Utilisez l'ACC.",
+      "category": "phrases",
+      "tags": [
+        "examiner",
+        "safety"
+      ],
+      "tr": "ACC'yi kullanın"
+    },
+    {
+      "id": "phrase_einparken",
+      "de": "Packen Sie hier irgendwo ein.",
+      "article": null,
+      "de_base": "Packen Sie hier irgendwo ein.",
+      "ru": "Припаркуйтесь где-нибудь.",
+      "en": "Park somewhere here.",
+      "uk": "Припаркуйтеся десь тут.",
+      "fr": "Garez-vous quelque part ici.",
+      "category": "phrases",
+      "tags": [
+        "examiner",
+        "maneuver"
+      ],
+      "tr": "Burada bir yere park edin."
+    },
+    {
+      "id": "phrase_gefahrenbremse",
+      "de": "Bitte einmal eine Gefahrenbremse.",
+      "article": null,
+      "de_base": "Bitte einmal eine Gefahrenbremse.",
+      "ru": "Раз — экстренное торможение.",
+      "en": "Please do an emergency stop.",
+      "uk": "Будь ласка, екстрене гальмування.",
+      "fr": "Veuillez faites un freinage d'urgence.",
+      "category": "phrases",
+      "tags": [
+        "examiner",
+        "maneuver"
+      ],
+      "tr": "Tehlike freni lütfen"
+    },
+    {
+      "id": "phrase_umkehren",
+      "de": "Ich will umkehren, ja sofort.",
+      "article": null,
+      "de_base": "Ich will umkehren, ja sofort.",
+      "ru": "Развернитесь прямо сейчас.",
+      "en": "Turn around right now.",
+      "uk": "Розверніться прямо зараз.",
+      "fr": "Faites demi-tour tout de suite.",
+      "category": "phrases",
+      "tags": [
+        "examiner",
+        "maneuver"
+      ],
+      "tr": "Geri dönmek istiyorum, evet hemen"
+    },
+    {
+      "id": "phrase_aussteigen",
+      "de": "Steigen Sie mal bitte aus.",
+      "article": null,
+      "de_base": "Steigen Sie mal bitte aus.",
+      "ru": "Выйдите, пожалуйста.",
+      "en": "Please get out.",
+      "uk": "Вийдіть, будь ласка.",
+      "fr": "Descendez du véhicule, s'il vous plaît.",
+      "category": "phrases",
+      "tags": [
+        "examiner",
+        "start"
+      ],
+      "tr": "Lütfen dışarı çıkın"
+    },
+    {
+      "id": "phrase_bestanden",
+      "de": "Sie haben bestanden.",
+      "article": null,
+      "de_base": "Sie haben bestanden.",
+      "ru": "Экзамен сдан.",
+      "en": "You have passed the examination.",
+      "uk": "Іспит складено.",
+      "fr": "Vous avez réussi.",
+      "category": "phrases",
+      "tags": [
+        "examiner",
+        "result"
+      ],
+      "tr": "Sınavı geçtiniz"
+    },
+    {
+      "id": "phrase_gut_gemacht",
+      "de": "Sie haben gut gemacht.",
+      "article": null,
+      "de_base": "Sie haben gut gemacht.",
+      "ru": "Экзамен сдан успешно.",
+      "en": "Examination passed successfully.",
+      "uk": "Іспит складено успішно.",
+      "fr": "Bien joué.",
+      "category": "phrases",
+      "tags": [
+        "examiner",
+        "result"
+      ],
+      "tr": "Başarılı bir performans sergilediniz"
+    },
+    {
+      "id": "phrase_kein_durchfall",
+      "de": "Das ist kein Durchfallgrund.",
+      "article": null,
+      "de_base": "Das ist kein Durchfallgrund.",
+      "ru": "Это не повод для провала.",
+      "en": "That is not a reason to fail.",
+      "uk": "Це не привід для провалу.",
+      "fr": "Ce n'est pas un motif d'échec.",
+      "category": "phrases",
+      "tags": [
+        "examiner",
+        "result"
+      ],
+      "tr": "Bu, kalma sebebi değil."
+    },
+    {
+      "id": "phrase_links_kreuzung",
+      "de": "Bitte biegen Sie an der nächsten Kreuzung links ab.",
+      "article": null,
+      "de_base": "Bitte biegen Sie an der nächsten Kreuzung links ab.",
+      "ru": "Поверните налево на следующем перекрёстке.",
+      "en": "Please turn left at the next junction.",
+      "uk": "Поверніть ліворуч на наступному перехресті.",
+      "fr": "Veuillez tourner à gauche au prochain carrefour.",
+      "tr": "Lütfen bir sonraki kavşakta sola dönün.",
+      "category": "phrases",
+      "tags": [
+        "examiner",
+        "direction"
+      ],
+      "exam_phrase_de": "Bitte biegen Sie an der nächsten Kreuzung links ab."
+    },
+    {
+      "id": "phrase_rechts_kreuzung",
+      "de": "Bitte biegen Sie an der nächsten Kreuzung rechts ab.",
+      "article": null,
+      "de_base": "Bitte biegen Sie an der nächsten Kreuzung rechts ab.",
+      "ru": "Поверните направо на следующем перекрёстке.",
+      "en": "Please turn right at the next junction.",
+      "uk": "Поверніть праворуч на наступному перехресті.",
+      "fr": "Veuillez tourner à droite au prochain carrefour.",
+      "tr": "Lütfen bir sonraki kavşakta sağa dönün.",
+      "category": "phrases",
+      "tags": [
+        "examiner",
+        "direction"
+      ],
+      "exam_phrase_de": "Bitte biegen Sie an der nächsten Kreuzung rechts ab."
+    },
+    {
+      "id": "phrase_links_moeglichkeit",
+      "de": "Bei der nächsten Möglichkeit links abbiegen.",
+      "article": null,
+      "de_base": "Bei der nächsten Möglichkeit links abbiegen.",
+      "ru": "Поверните налево при первой возможности.",
+      "en": "Turn left at the next opportunity.",
+      "uk": "Поверніть ліворуч при першій нагоді.",
+      "fr": "Tournez à gauche à la prochaine occasion.",
+      "tr": "Bir sonraki fırsatta sola dönün.",
+      "category": "phrases",
+      "tags": [
+        "examiner",
+        "direction"
+      ],
+      "exam_phrase_de": "Bei der nächsten Möglichkeit links abbiegen."
+    },
+    {
+      "id": "phrase_rechts_moeglichkeit",
+      "de": "Bei der nächsten Möglichkeit rechts abbiegen.",
+      "article": null,
+      "de_base": "Bei der nächsten Möglichkeit rechts abbiegen.",
+      "ru": "Поверните направо при первой возможности.",
+      "en": "Turn right at the next opportunity.",
+      "uk": "Поверніть праворуч при першій нагоді.",
+      "fr": "Tournez à droite à la prochaine occasion.",
+      "tr": "Bir sonraki fırsatta sağa dönün.",
+      "category": "phrases",
+      "tags": [
+        "examiner",
+        "direction"
+      ],
+      "exam_phrase_de": "Bei der nächsten Möglichkeit rechts abbiegen."
+    },
+    {
+      "id": "phrase_halb_links",
+      "de": "Bitte halb links abbiegen.",
+      "article": null,
+      "de_base": "Bitte halb links abbiegen.",
+      "ru": "Поверните слегка налево.",
+      "en": "Please bear left.",
+      "uk": "Поверніть трохи ліворуч.",
+      "fr": "Veuillez bifurquer légèrement à gauche.",
+      "tr": "Lütfen hafif sola dönün.",
+      "category": "phrases",
+      "tags": [
+        "examiner",
+        "direction"
+      ],
+      "exam_phrase_de": "Bitte halb links abbiegen."
+    },
+    {
+      "id": "phrase_halb_rechts",
+      "de": "Bitte halb rechts abbiegen.",
+      "article": null,
+      "de_base": "Bitte halb rechts abbiegen.",
+      "ru": "Поверните слегка направо.",
+      "en": "Please bear right.",
+      "uk": "Поверніть трохи праворуч.",
+      "fr": "Veuillez bifurquer légèrement à droite.",
+      "tr": "Lütfen hafif sağa dönün.",
+      "category": "phrases",
+      "tags": [
+        "examiner",
+        "direction"
+      ],
+      "exam_phrase_de": "Bitte halb rechts abbiegen."
+    },
+    {
+      "id": "phrase_erste_ausfahrt",
+      "de": "Nehmen Sie die erste Ausfahrt.",
+      "article": null,
+      "de_base": "Nehmen Sie die erste Ausfahrt.",
+      "ru": "Сверните на первый съезд.",
+      "en": "Take the first exit.",
+      "uk": "Зверніть на перший з'їзд.",
+      "fr": "Prenez la première sortie.",
+      "tr": "İlk çıkışı alın.",
+      "category": "phrases",
+      "tags": [
+        "examiner",
+        "direction"
+      ],
+      "exam_phrase_de": "Nehmen Sie die erste Ausfahrt."
+    },
+    {
+      "id": "phrase_zweite_ausfahrt",
+      "de": "Nehmen Sie die zweite Ausfahrt.",
+      "article": null,
+      "de_base": "Nehmen Sie die zweite Ausfahrt.",
+      "ru": "Сверните на второй съезд.",
+      "en": "Take the second exit.",
+      "uk": "Зверніть на другий з'їзд.",
+      "fr": "Prenez la deuxième sortie.",
+      "tr": "İkinci çıkışı alın.",
+      "category": "phrases",
+      "tags": [
+        "examiner",
+        "direction"
+      ],
+      "exam_phrase_de": "Nehmen Sie die zweite Ausfahrt."
+    },
+    {
+      "id": "phrase_dritte_ausfahrt",
+      "de": "Nehmen Sie die dritte Ausfahrt.",
+      "article": null,
+      "de_base": "Nehmen Sie die dritte Ausfahrt.",
+      "ru": "Сверните на третий съезд.",
+      "en": "Take the third exit.",
+      "uk": "Зверніть на третій з'їзд.",
+      "fr": "Prenez la troisième sortie.",
+      "tr": "Üçüncü çıkışı alın.",
+      "category": "phrases",
+      "tags": [
+        "examiner",
+        "direction"
+      ],
+      "exam_phrase_de": "Nehmen Sie die dritte Ausfahrt."
+    },
+    {
+      "id": "phrase_kreisverkehr_zweite",
+      "de": "Beim nächsten Kreisverkehr nehmen Sie die zweite Ausfahrt.",
+      "article": null,
+      "de_base": "Beim nächsten Kreisverkehr nehmen Sie die zweite Ausfahrt.",
+      "ru": "На следующем кольце сверните на второй съезд.",
+      "en": "At the next roundabout, take the second exit.",
+      "uk": "На наступному колі зверніть на другий з'їзд.",
+      "fr": "Au prochain rond-point, prenez la deuxième sortie.",
+      "tr": "Bir sonraki dönel kavşakta ikinci çıkışı alın.",
+      "category": "phrases",
+      "tags": [
+        "examiner",
+        "direction"
+      ],
+      "exam_phrase_de": "Beim nächsten Kreisverkehr nehmen Sie die zweite Ausfahrt."
+    },
+    {
+      "id": "phrase_vorfahrtsstrasse",
+      "de": "Folgen Sie der Vorfahrtsstraße.",
+      "article": null,
+      "de_base": "Folgen Sie der Vorfahrtsstraße.",
+      "ru": "Следуйте по дороге с преимущественным правом проезда.",
+      "en": "Please follow the priority road.",
+      "uk": "Рухайтеся дорогою з переважним правом проїзду.",
+      "fr": "Veuillez suivre la route prioritaire.",
+      "tr": "Lütfen öncelikli yoldan devam ediniz.",
+      "category": "phrases",
+      "tags": [
+        "examiner",
+        "direction"
+      ],
+      "exam_phrase_de": "Folgen Sie der Vorfahrtsstraße."
+    },
+    {
+      "id": "phrase_richtung_autobahn",
+      "de": "Fahren Sie Richtung Autobahn.",
+      "article": null,
+      "de_base": "Fahren Sie Richtung Autobahn.",
+      "ru": "Двигайтесь в направлении автобана.",
+      "en": "Head towards the motorway.",
+      "uk": "Рухайтеся в напрямку автобану.",
+      "fr": "Roulez en direction de l'autoroute.",
+      "tr": "Otoyol yönünde gidin.",
+      "category": "phrases",
+      "tags": [
+        "examiner",
+        "direction"
+      ],
+      "exam_phrase_de": "Fahren Sie Richtung Autobahn."
+    },
+    {
+      "id": "phrase_richtung_kraftfahrstrasse",
+      "de": "Fahren Sie Richtung Kraftfahrstraße.",
+      "article": null,
+      "de_base": "Fahren Sie Richtung Kraftfahrstraße.",
+      "ru": "Двигайтесь в направлении скоростной дороги.",
+      "en": "Head towards the dual carriageway.",
+      "uk": "Рухайтеся в напрямку швидкісної дороги.",
+      "fr": "Roulez en direction de la voie rapide.",
+      "tr": "Otoyol benzeri yol yönünde gidin.",
+      "category": "phrases",
+      "tags": [
+        "examiner",
+        "direction"
+      ],
+      "exam_phrase_de": "Fahren Sie Richtung Kraftfahrstraße."
+    },
+    {
+      "id": "phrase_richtung_stadt",
+      "de": "Fahren Sie Richtung Stadtzentrum.",
+      "article": null,
+      "de_base": "Fahren Sie Richtung Stadtzentrum.",
+      "ru": "Двигайтесь в направлении центра города.",
+      "en": "Head towards the city centre.",
+      "uk": "Рухайтеся в напрямку центру міста.",
+      "fr": "Roulez en direction du centre-ville.",
+      "tr": "Şehir merkezi yönünde gidin.",
+      "category": "phrases",
+      "tags": [
+        "examiner",
+        "direction"
+      ],
+      "exam_phrase_de": "Fahren Sie Richtung Stadtzentrum."
+    },
+    {
+      "id": "phrase_weiterfahren",
+      "de": "Fahren Sie bitte weiter.",
+      "article": null,
+      "de_base": "Fahren Sie bitte weiter.",
+      "ru": "Продолжайте движение.",
+      "en": "Please continue driving.",
+      "uk": "Будь ласка, продовжуйте рух.",
+      "fr": "Veuillez continuer à rouler.",
+      "tr": "Lütfen devam edin.",
+      "category": "phrases",
+      "tags": [
+        "examiner",
+        "direction"
+      ],
+      "exam_phrase_de": "Fahren Sie bitte weiter."
+    },
+    {
+      "id": "phrase_anhalten",
+      "de": "Bitte halten Sie an.",
+      "article": null,
+      "de_base": "Bitte halten Sie an.",
+      "ru": "Остановитесь, пожалуйста.",
+      "en": "Please stop.",
+      "uk": "Будь ласка, зупиніться.",
+      "fr": "Veuillez vous arrêter.",
+      "tr": "Lütfen durun.",
+      "category": "phrases",
+      "tags": [
+        "examiner",
+        "maneuver"
+      ],
+      "exam_phrase_de": "Bitte halten Sie an."
+    },
+    {
+      "id": "phrase_rueckwaerts_links",
+      "de": "Bitte rückwärts links einparken.",
+      "article": null,
+      "de_base": "Bitte rückwärts links einparken.",
+      "ru": "Припаркуйтесь задним ходом налево.",
+      "en": "Please reverse park to the left.",
+      "uk": "Припаркуйтеся заднім ходом ліворуч.",
+      "fr": "Veuillez vous garer en marche arrière à gauche.",
+      "tr": "Lütfen geri geri sola park edin.",
+      "category": "phrases",
+      "tags": [
+        "examiner",
+        "maneuver"
+      ],
+      "exam_phrase_de": "Bitte rückwärts links einparken."
+    },
+    {
+      "id": "phrase_rueckwaerts_rechts",
+      "de": "Bitte rückwärts rechts einparken.",
+      "article": null,
+      "de_base": "Bitte rückwärts rechts einparken.",
+      "ru": "Припаркуйтесь задним ходом направо.",
+      "en": "Please reverse park to the right.",
+      "uk": "Припаркуйтеся заднім ходом праворуч.",
+      "fr": "Veuillez vous garer en marche arrière à droite.",
+      "tr": "Lütfen geri geri sağa park edin.",
+      "category": "phrases",
+      "tags": [
+        "examiner",
+        "maneuver"
+      ],
+      "exam_phrase_de": "Bitte rückwärts rechts einparken."
+    },
+    {
+      "id": "phrase_vorwaerts_links",
+      "de": "Bitte vorwärts links einparken.",
+      "article": null,
+      "de_base": "Bitte vorwärts links einparken.",
+      "ru": "Припаркуйтесь передом налево.",
+      "en": "Please forward park to the left.",
+      "uk": "Припаркуйтеся передом ліворуч.",
+      "fr": "Veuillez vous garer en marche avant à gauche.",
+      "tr": "Lütfen ileri doğru sola park edin.",
+      "category": "phrases",
+      "tags": [
+        "examiner",
+        "maneuver"
+      ],
+      "exam_phrase_de": "Bitte vorwärts links einparken."
+    },
+    {
+      "id": "phrase_vorwaerts_rechts",
+      "de": "Bitte vorwärts rechts einparken.",
+      "article": null,
+      "de_base": "Bitte vorwärts rechts einparken.",
+      "ru": "Припаркуйтесь передом направо.",
+      "en": "Please forward park to the right.",
+      "uk": "Припаркуйтеся передом праворуч.",
+      "fr": "Veuillez vous garer en marche avant à droite.",
+      "tr": "Lütfen ileri doğru sağa park edin.",
+      "category": "phrases",
+      "tags": [
+        "examiner",
+        "maneuver"
+      ],
+      "exam_phrase_de": "Bitte vorwärts rechts einparken."
+    },
+    {
+      "id": "phrase_laengs_einparken",
+      "de": "Parken Sie längs ein.",
+      "article": null,
+      "de_base": "Parken Sie längs ein.",
+      "ru": "Припаркуйтесь параллельно.",
+      "en": "Parallel park.",
+      "uk": "Припаркуйтеся паралельно.",
+      "fr": "Garez-vous en créneau parallèle.",
+      "tr": "Paralel park yapın.",
+      "category": "phrases",
+      "tags": [
+        "examiner",
+        "maneuver"
+      ],
+      "exam_phrase_de": "Parken Sie längs ein."
+    },
+    {
+      "id": "phrase_quer_vorwaerts",
+      "de": "Parken Sie quer vorwärts ein.",
+      "article": null,
+      "de_base": "Parken Sie quer vorwärts ein.",
+      "ru": "Припаркуйтесь перпендикулярно передом.",
+      "en": "Bay park forwards.",
+      "uk": "Припаркуйтеся поперек передом.",
+      "fr": "Garez-vous en bataille en marche avant.",
+      "tr": "Öne doğru dik park yapın.",
+      "category": "phrases",
+      "tags": [
+        "examiner",
+        "maneuver"
+      ],
+      "exam_phrase_de": "Parken Sie quer vorwärts ein."
+    },
+    {
+      "id": "phrase_quer_rueckwaerts",
+      "de": "Parken Sie quer rückwärts ein.",
+      "article": null,
+      "de_base": "Parken Sie quer rückwärts ein.",
+      "ru": "Припаркуйтесь перпендикулярно задним ходом.",
+      "en": "Bay park in reverse.",
+      "uk": "Припаркуйтеся поперек заднім ходом.",
+      "fr": "Garez-vous en bataille en marche arrière.",
+      "tr": "Geri geri dik park yapın.",
+      "category": "phrases",
+      "tags": [
+        "examiner",
+        "maneuver"
+      ],
+      "exam_phrase_de": "Parken Sie quer rückwärts ein."
+    },
+    {
+      "id": "phrase_wenden",
+      "de": "Bitte wenden Sie.",
+      "article": null,
+      "de_base": "Bitte wenden Sie.",
+      "ru": "Развернитесь, пожалуйста.",
+      "en": "Please turn around.",
+      "uk": "Будь ласка, розверніться.",
+      "fr": "Veuillez faire demi-tour.",
+      "tr": "Lütfen U dönüşü yapın.",
+      "category": "phrases",
+      "tags": [
+        "examiner",
+        "maneuver"
+      ],
+      "exam_phrase_de": "Bitte wenden Sie."
+    },
+    {
+      "id": "phrase_hinter_fahrzeug",
+      "de": "Parken Sie hinter dem Fahrzeug.",
+      "article": null,
+      "de_base": "Parken Sie hinter dem Fahrzeug.",
+      "ru": "Припаркуйтесь за автомобилем.",
+      "en": "Park behind the vehicle.",
+      "uk": "Припаркуйтеся за автомобілем.",
+      "fr": "Garez-vous derrière le véhicule.",
+      "tr": "Aracın arkasına park edin.",
+      "category": "phrases",
+      "tags": [
+        "examiner",
+        "maneuver"
+      ],
+      "exam_phrase_de": "Parken Sie hinter dem Fahrzeug."
+    },
+    {
+      "id": "phrase_zwischen_fahrzeugen",
+      "de": "Parken Sie zwischen den Fahrzeugen.",
+      "article": null,
+      "de_base": "Parken Sie zwischen den Fahrzeugen.",
+      "ru": "Припаркуйтесь между автомобилями.",
+      "en": "Park between the vehicles.",
+      "uk": "Припаркуйтеся між автомобілями.",
+      "fr": "Garez-vous entre les véhicules.",
+      "tr": "Araçların arasına park edin.",
+      "category": "phrases",
+      "tags": [
+        "examiner",
+        "maneuver"
+      ],
+      "exam_phrase_de": "Parken Sie zwischen den Fahrzeugen."
+    },
+    {
+      "id": "phrase_parkluecke",
+      "de": "Finden Sie hier eine geeignete Parklücke und parken Sie seitwärts rückwärts ein.",
+      "article": null,
+      "de_base": "Finden Sie hier eine geeignete Parklücke und parken Sie seitwärts rückwärts ein.",
+      "ru": "Найдите подходящее место и припаркуйтесь параллельно задним ходом.",
+      "en": "Find a suitable parking space and parallel park in reverse.",
+      "uk": "Знайдіть відповідне місце і припаркуйтеся паралельно заднім ходом.",
+      "fr": "Trouvez une place adaptée et garez-vous en créneau en marche arrière.",
+      "tr": "Uygun bir park yeri bulun ve geri geri paralel park yapın.",
+      "category": "phrases",
+      "tags": [
+        "examiner",
+        "maneuver"
+      ],
+      "exam_phrase_de": "Finden Sie hier eine geeignete Parklücke und parken Sie seitwärts rückwärts ein."
+    },
+    {
+      "id": "phrase_abblendlicht_wo",
+      "de": "Wo am Fahrzeug schaltet man das Abblendlicht ein?",
+      "article": null,
+      "de_base": "Wo am Fahrzeug schaltet man das Abblendlicht ein?",
+      "ru": "Где на автомобиле включается ближний свет?",
+      "en": "Where do you switch on the dipped headlights?",
+      "uk": "Де на автомобілі вмикається ближнє світло?",
+      "fr": "Où allume-t-on les feux de croisement sur le véhicule ?",
+      "tr": "Araçta kısa farlar nereden açılır?",
+      "category": "phrases",
+      "tags": [
+        "examiner",
+        "safety"
+      ],
+      "exam_phrase_de": "Wo am Fahrzeug schaltet man das Abblendlicht ein?"
+    },
+    {
+      "id": "phrase_standlicht_pruefen",
+      "de": "Wie können Sie prüfen, ob das Standlicht funktioniert?",
+      "article": null,
+      "de_base": "Wie können Sie prüfen, ob das Standlicht funktioniert?",
+      "ru": "Как проверить, работает ли габаритный свет?",
+      "en": "How can you check if the sidelights work?",
+      "uk": "Як перевірити, чи працює габаритне світло?",
+      "fr": "Comment vérifier si les feux de position fonctionnent ?",
+      "tr": "Park lambalarının çalışıp çalışmadığını nasıl kontrol edersiniz?",
+      "category": "phrases",
+      "tags": [
+        "examiner",
+        "safety"
+      ],
+      "exam_phrase_de": "Wie können Sie prüfen, ob das Standlicht funktioniert?"
+    },
+    {
+      "id": "phrase_warnblinkanlage",
+      "de": "Bitte betätigen Sie die Warnblinkanlage!",
+      "article": null,
+      "de_base": "Bitte betätigen Sie die Warnblinkanlage!",
+      "ru": "Включите аварийную сигнализацию!",
+      "en": "Please switch on the hazard warning lights!",
+      "uk": "Увімкніть аварійну сигналізацію!",
+      "fr": "Veuillez actionner les feux de détresse !",
+      "tr": "Lütfen dörtlü flaşörleri açın!",
+      "category": "phrases",
+      "tags": [
+        "examiner",
+        "safety"
+      ],
+      "exam_phrase_de": "Bitte betätigen Sie die Warnblinkanlage!"
+    },
+    {
+      "id": "phrase_hupen",
+      "de": "Bitte hupen!",
+      "article": null,
+      "de_base": "Bitte hupen!",
+      "ru": "Пожалуйста, подайте звуковой сигнал!",
+      "en": "Please sound the horn!",
+      "uk": "Будь ласка, подайте звуковий сигнал!",
+      "fr": "Veuillez klaxonner !",
+      "tr": "Lütfen korna çalın!",
+      "category": "phrases",
+      "tags": [
+        "examiner",
+        "safety"
+      ],
+      "exam_phrase_de": "Bitte hupen!"
+    },
+    {
+      "id": "phrase_parkfertig",
+      "de": "Stellen Sie das Fahrzeug parkfertig ab.",
+      "article": null,
+      "de_base": "Stellen Sie das Fahrzeug parkfertig ab.",
+      "ru": "Заглушите автомобиль и поставьте на стоянку.",
+      "en": "Park the vehicle properly (engine off, secured).",
+      "uk": "Заглушіть автомобіль і поставте на стоянку.",
+      "fr": "Garez le véhicule correctement (moteur coupé, sécurisé).",
+      "tr": "Aracı park haline getirin (motor kapalı, güvenli).",
+      "category": "phrases",
+      "tags": [
+        "examiner",
+        "safety"
+      ],
+      "exam_phrase_de": "Stellen Sie das Fahrzeug parkfertig ab."
+    },
+    {
+      "id": "phrase_standlicht_ein",
+      "de": "Bitte schalten Sie das Standlicht ein.",
+      "article": null,
+      "de_base": "Bitte schalten Sie das Standlicht ein.",
+      "ru": "Включите габаритные огни.",
+      "en": "Please switch on the sidelights.",
+      "uk": "Увімкніть габаритні вогні.",
+      "fr": "Veuillez allumer les feux de position.",
+      "tr": "Lütfen park lambalarını açın.",
+      "category": "phrases",
+      "tags": [
+        "examiner",
+        "safety"
+      ],
+      "exam_phrase_de": "Bitte schalten Sie das Standlicht ein."
+    },
+    {
+      "id": "phrase_abblendlicht_ein",
+      "de": "Bitte schalten Sie das Abblendlicht ein.",
+      "article": null,
+      "de_base": "Bitte schalten Sie das Abblendlicht ein.",
+      "ru": "Включите ближний свет фар.",
+      "en": "Please switch on the dipped headlights.",
+      "uk": "Увімкніть ближнє світло фар.",
+      "fr": "Veuillez allumer les feux de croisement.",
+      "tr": "Lütfen kısa farları açın.",
+      "category": "phrases",
+      "tags": [
+        "examiner",
+        "safety"
+      ],
+      "exam_phrase_de": "Bitte schalten Sie das Abblendlicht ein."
+    },
+    {
+      "id": "phrase_blinker_links",
+      "de": "Bitte schalten Sie den Blinker links ein.",
+      "article": null,
+      "de_base": "Bitte schalten Sie den Blinker links ein.",
+      "ru": "Включите левый поворотник.",
+      "en": "Please switch on the left indicator.",
+      "uk": "Увімкніть лівий поворотник.",
+      "fr": "Veuillez actionner le clignotant gauche.",
+      "tr": "Lütfen sol sinyali açın.",
+      "category": "phrases",
+      "tags": [
+        "examiner",
+        "safety"
+      ],
+      "exam_phrase_de": "Bitte schalten Sie den Blinker links ein."
+    },
+    {
+      "id": "phrase_blinker_rechts",
+      "de": "Bitte schalten Sie den Blinker rechts ein.",
+      "article": null,
+      "de_base": "Bitte schalten Sie den Blinker rechts ein.",
+      "ru": "Включите правый поворотник.",
+      "en": "Please switch on the right indicator.",
+      "uk": "Увімкніть правий поворотник.",
+      "fr": "Veuillez actionner le clignotant droit.",
+      "tr": "Lütfen sağ sinyali açın.",
+      "category": "phrases",
+      "tags": [
+        "examiner",
+        "safety"
+      ],
+      "exam_phrase_de": "Bitte schalten Sie den Blinker rechts ein."
+    },
+    {
+      "id": "phrase_bremslichter",
+      "de": "Zeigen Sie mir, ob die Bremslichter funktionieren.",
+      "article": null,
+      "de_base": "Zeigen Sie mir, ob die Bremslichter funktionieren.",
+      "ru": "Покажите, работают ли стоп-сигналы.",
+      "en": "Please show me whether the brake lights work.",
+      "uk": "Покажіть, чи працюють стоп-сигнали.",
+      "fr": "Montrez-moi si les feux stop fonctionnent.",
+      "tr": "Fren lambalarının çalışıp çalışmadığını gösterin.",
+      "category": "phrases",
+      "tags": [
+        "examiner",
+        "safety"
+      ],
+      "exam_phrase_de": "Zeigen Sie mir, ob die Bremslichter funktionieren."
+    },
+    {
+      "id": "phrase_motorhaube",
+      "de": "Bitte öffnen Sie die Motorhaube.",
+      "article": null,
+      "de_base": "Bitte öffnen Sie die Motorhaube.",
+      "ru": "Откройте капот, пожалуйста.",
+      "en": "Please open the bonnet.",
+      "uk": "Відкрийте капот, будь ласка.",
+      "fr": "Veuillez ouvrir le capot.",
+      "tr": "Lütfen motor kaputunu açın.",
+      "category": "phrases",
+      "tags": [
+        "examiner",
+        "safety"
+      ],
+      "exam_phrase_de": "Bitte öffnen Sie die Motorhaube."
+    },
+    {
+      "id": "phrase_profiltiefe",
+      "de": "Bitte prüfen Sie die Profiltiefe am Reifen.",
+      "article": null,
+      "de_base": "Bitte prüfen Sie die Profiltiefe am Reifen.",
+      "ru": "Проверьте глубину протектора шины.",
+      "en": "Please check the tyre tread depth.",
+      "uk": "Перевірте глибину протектора шини.",
+      "fr": "Veuillez vérifier la profondeur de la sculpture du pneu.",
+      "tr": "Lütfen lastik diş derinliğini kontrol edin.",
+      "category": "phrases",
+      "tags": [
+        "examiner",
+        "safety"
+      ],
+      "exam_phrase_de": "Bitte prüfen Sie die Profiltiefe am Reifen."
+    },
+    {
+      "id": "phrase_reifendruck",
+      "de": "Wie kontrollieren Sie den Reifendruck?",
+      "article": null,
+      "de_base": "Wie kontrollieren Sie den Reifendruck?",
+      "ru": "Как проверить давление в шинах?",
+      "en": "How do you check tyre pressure?",
+      "uk": "Як перевірити тиск у шинах?",
+      "fr": "Comment contrôlez-vous la pression des pneus ?",
+      "tr": "Lastik basıncını nasıl kontrol edersiniz?",
+      "category": "phrases",
+      "tags": [
+        "examiner",
+        "safety"
+      ],
+      "exam_phrase_de": "Wie kontrollieren Sie den Reifendruck?"
+    },
+    {
+      "id": "phrase_fluessigkeiten",
+      "de": "Was für Flüssigkeiten finden Sie unter der Motorhaube?",
+      "article": null,
+      "de_base": "Was für Flüssigkeiten finden Sie unter der Motorhaube?",
+      "ru": "Какие жидкости находятся под капотом?",
+      "en": "What fluids are found under the bonnet?",
+      "uk": "Які рідини знаходяться під капотом?",
+      "fr": "Quels liquides trouve-t-on sous le capot ?",
+      "tr": "Motor kaputunun altında hangi sıvıları bulursunuz?",
+      "category": "phrases",
+      "tags": [
+        "examiner",
+        "safety"
+      ],
+      "exam_phrase_de": "Was für Flüssigkeiten finden Sie unter der Motorhaube?"
+    },
+    {
+      "id": "phrase_kontrollleuchten",
+      "de": "Bitte benennen Sie die Kontrollleuchten im Armaturenbrett.",
+      "article": null,
+      "de_base": "Bitte benennen Sie die Kontrollleuchten im Armaturenbrett.",
+      "ru": "Назовите контрольные лампы на приборной панели.",
+      "en": "Please name the warning lights on the dashboard.",
+      "uk": "Назвіть контрольні лампи на приладовій панелі.",
+      "fr": "Veuillez nommer les voyants du tableau de bord.",
+      "tr": "Lütfen gösterge panelindeki uyarı ışıklarını adlandırın.",
+      "category": "phrases",
+      "tags": [
+        "examiner",
+        "safety"
+      ],
+      "exam_phrase_de": "Bitte benennen Sie die Kontrollleuchten im Armaturenbrett."
+    },
+    {
+      "id": "phrase_wegrollen",
+      "de": "Bitte sichern Sie das Fahrzeug gegen Wegrollen.",
+      "article": null,
+      "de_base": "Bitte sichern Sie das Fahrzeug gegen Wegrollen.",
+      "ru": "Зафиксируйте автомобиль от скатывания.",
+      "en": "Please secure the vehicle against rolling.",
+      "uk": "Зафіксуйте автомобіль від скочування.",
+      "fr": "Veuillez sécuriser le véhicule contre le roulement.",
+      "tr": "Lütfen aracı yuvarlanmaya karşı güvence altına alın.",
+      "category": "phrases",
+      "tags": [
+        "examiner",
+        "safety"
+      ],
+      "exam_phrase_de": "Bitte sichern Sie das Fahrzeug gegen Wegrollen."
+    },
+    {
+      "id": "phrase_schneller",
+      "de": "Bitte etwas schneller fahren.",
+      "article": null,
+      "de_base": "Bitte etwas schneller fahren.",
+      "ru": "Езжайте чуть быстрее.",
+      "en": "Please drive a bit faster.",
+      "uk": "Їдьте трохи швидше.",
+      "fr": "Veuillez rouler un peu plus vite.",
+      "tr": "Lütfen biraz daha hızlı gidin.",
+      "category": "phrases",
+      "tags": [
+        "examiner",
+        "hint"
+      ],
+      "exam_phrase_de": "Bitte etwas schneller fahren."
+    },
+    {
+      "id": "phrase_einordnen",
+      "de": "Bitte ordnen Sie sich rechts ein.",
+      "article": null,
+      "de_base": "Bitte ordnen Sie sich rechts ein.",
+      "ru": "Выстроитесь правее, пожалуйста.",
+      "en": "Please move to the right lane.",
+      "uk": "Будь ласка, вибудуйтеся праворуч.",
+      "fr": "Veuillez vous placer à droite.",
+      "tr": "Lütfen sağa yanaşın.",
+      "category": "phrases",
+      "tags": [
+        "examiner",
+        "hint"
+      ],
+      "exam_phrase_de": "Bitte ordnen Sie sich rechts ein."
+    },
+    {
+      "id": "phrase_radfahrer",
+      "de": "Achten Sie auf die Radfahrer.",
+      "article": null,
+      "de_base": "Achten Sie auf die Radfahrer.",
+      "ru": "Следите за велосипедистами.",
+      "en": "Watch out for cyclists.",
+      "uk": "Стежте за велосипедистами.",
+      "fr": "Faites attention aux cyclistes.",
+      "tr": "Bisikletlilere dikkat edin.",
+      "category": "phrases",
+      "tags": [
+        "examiner",
+        "hint"
+      ],
+      "exam_phrase_de": "Achten Sie auf die Radfahrer."
+    },
+    {
+      "id": "phrase_parkende_autos",
+      "de": "Achten Sie auf parkende Fahrzeuge.",
+      "article": null,
+      "de_base": "Achten Sie auf parkende Fahrzeuge.",
+      "ru": "Следите за припаркованными автомобилями.",
+      "en": "Watch out for parked vehicles.",
+      "uk": "Стежте за припаркованими автомобілями.",
+      "fr": "Faites attention aux véhicules stationnés.",
+      "tr": "Park halindeki araçlara dikkat edin.",
+      "category": "phrases",
+      "tags": [
+        "examiner",
+        "hint"
+      ],
+      "exam_phrase_de": "Achten Sie auf parkende Fahrzeuge."
+    },
+    {
+      "id": "phrase_spiegel_beobachten",
+      "de": "Beobachten Sie bitte die Spiegel.",
+      "article": null,
+      "de_base": "Beobachten Sie bitte die Spiegel.",
+      "ru": "Следите за зеркалами.",
+      "en": "Please check your mirrors.",
+      "uk": "Стежте за дзеркалами.",
+      "fr": "Veuillez observer vos rétroviseurs.",
+      "tr": "Lütfen aynaları kontrol edin.",
+      "category": "phrases",
+      "tags": [
+        "examiner",
+        "hint"
+      ],
+      "exam_phrase_de": "Beobachten Sie bitte die Spiegel."
+    },
+    {
+      "id": "phrase_wiederholen",
+      "de": "Können Sie das bitte wiederholen?",
+      "article": null,
+      "de_base": "Können Sie das bitte wiederholen?",
+      "ru": "Можете повторить, пожалуйста?",
+      "en": "Please can you please repeat that?",
+      "uk": "Чи можете повторити, будь ласка?",
+      "fr": "Pouvez-vous répéter, s'il vous plaît ?",
+      "tr": "Bunu tekrar eder misiniz?",
+      "category": "phrases",
+      "tags": [
+        "examiner",
+        "hint"
+      ],
+      "exam_phrase_de": "Können Sie das bitte wiederholen?"
+    },
+    {
+      "id": "phrase_nicht_bestanden",
+      "de": "Sie haben leider nicht bestanden.",
+      "article": null,
+      "de_base": "Sie haben leider nicht bestanden.",
+      "ru": "К сожалению, экзамен не сдан.",
+      "en": "Unfortunately, you have not passed the examination.",
+      "uk": "На жаль, іспит не складено.",
+      "fr": "Malheureusement, vous n'avez pas réussi.",
+      "tr": "Maalesef sınavı geçemediniz.",
+      "category": "phrases",
+      "tags": [
+        "examiner",
+        "result"
+      ],
+      "exam_phrase_de": "Sie haben leider nicht bestanden."
+    },
+    {
+      "id": "phrase_grundfahraufgaben",
+      "de": "Die Grundfahraufgaben waren fehlerhaft.",
+      "article": null,
+      "de_base": "Die Grundfahraufgaben waren fehlerhaft.",
+      "ru": "Основные маневровые задания выполнены с нарушениями.",
+      "en": "The basic manoeuvre tasks were not performed correctly.",
+      "uk": "Основні маневрові завдання виконано з порушеннями.",
+      "fr": "Les manœuvres de base n'ont pas été exécutées correctement.",
+      "tr": "Temel sürüş manevraları usulüne uygun yapılmamıştır.",
+      "category": "phrases",
+      "tags": [
+        "examiner",
+        "result"
+      ],
+      "exam_phrase_de": "Die Grundfahraufgaben waren fehlerhaft."
+    },
+    {
+      "id": "phrase_vorfahrt_missachtet",
+      "de": "Sie haben die Vorfahrt missachtet.",
+      "article": null,
+      "de_base": "Sie haben die Vorfahrt missachtet.",
+      "ru": "Не предоставлено преимущество в движении.",
+      "en": "You failed to yield right of way.",
+      "uk": "Не надано перевагу в русі.",
+      "fr": "Vous n'avez pas respecté la priorité.",
+      "tr": "Geçiş üstünlüğüne uymadınız.",
+      "category": "phrases",
+      "tags": [
+        "examiner",
+        "result"
+      ],
+      "exam_phrase_de": "Sie haben die Vorfahrt missachtet."
+    },
+    {
+      "id": "phrase_spiegel_blinker_schulter",
+      "de": "Spiegel, Blinker, Schulterblick.",
+      "article": null,
+      "de_base": "Spiegel, Blinker, Schulterblick.",
+      "ru": "Зеркало — указатель поворота — контрольный обзор через плечо.",
+      "en": "Mirror — indicator — shoulder check.",
+      "uk": "Дзеркало — вказівник повороту — контрольний огляд через плече.",
+      "fr": "Rétroviseur — clignotant — contrôle de l'angle mort.",
+      "category": "phrases",
+      "tags": [
+        "core"
+      ],
+      "tr": "Ayna — sinyal — omuz üzerinden kontrol."
+    },
+    {
+      "id": "fahrerlaubnis",
+      "de": "Die Fahrerlaubnis",
+      "article": "die",
+      "de_base": "Fahrerlaubnis",
+      "ru": "Право на управление транспортным средством (официальное наименование)",
+      "en": "Driving authorization (legal entitlement)",
+      "uk": "Право на керування транспортним засобом (офіційний термін)",
+      "fr": "Autorisation de conduire (statut juridique)",
+      "category": "documents",
+      "tags": [],
+      "tr": "Sürüş yetkisi (yasal statü)"
+    },
+    {
+      "id": "fuehrerschein_probe",
+      "de": "Der Führerschein auf Probe",
+      "article": "der",
+      "de_base": "Führerschein auf Probe",
+      "ru": "Водительское удостоверение на испытательный срок",
+      "en": "Probationary driving licence",
+      "uk": "Водійське посвідчення на випробувальний строк",
+      "fr": "Permis de conduire probatoire",
+      "category": "documents",
+      "tags": [],
+      "tr": "Deneme süreli sürücü belgesi"
+    },
+    {
+      "id": "fahrzeugschein",
+      "de": "Der Fahrzeugschein",
+      "article": "der",
+      "de_base": "Fahrzeugschein",
+      "ru": "Свидетельство о регистрации транспортного средства (часть I)",
+      "en": "Vehicle registration certificate (part I)",
+      "uk": "Свідоцтво про реєстрацію транспортного засобу (частина I)",
+      "fr": "Certificat d'immatriculation (partie I)",
+      "category": "documents",
+      "tags": [],
+      "tr": "Araç tescil belgesi (I. bölüm)"
+    },
+    {
+      "id": "kennzeichen",
+      "de": "Das Kennzeichen",
+      "article": "das",
+      "de_base": "Kennzeichen",
+      "ru": "Регистрационный знак транспортного средства",
+      "en": "Vehicle registration plate",
+      "uk": "Реєстраційний знак транспортного засобу",
+      "fr": "Plaque d'immatriculation",
+      "category": "documents",
+      "tags": [],
+      "tr": "Araç plakası"
+    },
+    {
+      "id": "versicherung",
+      "de": "Die Versicherung",
+      "article": "die",
+      "de_base": "Versicherung",
+      "ru": "Страхование транспортного средства",
+      "en": "Motor vehicle insurance",
+      "uk": "Страхування транспортного засобу",
+      "fr": "Assurance du véhicule",
+      "category": "documents",
+      "tags": [],
+      "tr": "Araç sigortası"
+    },
+    {
+      "id": "tuev",
+      "de": "Der TÜV",
+      "article": "der",
+      "de_base": "TÜV",
+      "ru": "Технический осмотр (организация TÜV)",
+      "en": "Technical inspection authority (TÜV)",
+      "uk": "Технічний огляд (організація TÜV)",
+      "fr": "Organisme de contrôle technique (TÜV)",
+      "category": "documents",
+      "tags": [],
+      "tr": "Teknik muayene kurumu (TÜV)"
+    },
+    {
+      "id": "hauptuntersuchung",
+      "de": "Die Hauptuntersuchung (HU)",
+      "article": "die",
+      "de_base": "Hauptuntersuchung (HU)",
+      "ru": "Периодический технический осмотр (HU)",
+      "en": "Main periodic inspection (HU)",
+      "uk": "Періодичний технічний огляд (HU)",
+      "fr": "Contrôle technique périodique (HU)",
+      "category": "documents",
+      "tags": [],
+      "tr": "Periyodik teknik muayene (HU)"
+    },
+    {
+      "id": "panne",
+      "de": "Die Panne",
+      "article": "die",
+      "de_base": "Panne",
+      "ru": "Техническая неисправность транспортного средства",
+      "en": "Vehicle breakdown",
+      "uk": "Технічна несправність транспортного засобу",
+      "fr": "Panne de véhicule",
+      "category": "emergency",
+      "tags": [],
+      "tr": "Araç arızası"
+    },
+    {
+      "id": "unfall",
+      "de": "Der Unfall",
+      "article": "der",
+      "de_base": "Unfall",
+      "ru": "Дорожно-транспортное происшествие",
+      "en": "Road traffic accident",
+      "uk": "Дорожньо-транспортна пригода",
+      "fr": "Accident de la route",
+      "category": "emergency",
+      "tags": [],
+      "tr": "Trafik kazası"
+    },
+    {
+      "id": "verkehrsunfall",
+      "de": "Der Verkehrsunfall",
+      "article": "der",
+      "de_base": "Verkehrsunfall",
+      "ru": "Дорожно-транспортное происшествие",
+      "en": "Traffic accident",
+      "uk": "Дорожньо-транспортна пригода",
+      "fr": "Accident de la circulation",
+      "category": "emergency",
+      "tags": [],
+      "tr": "Trafik kazası"
+    },
+    {
+      "id": "standstreifen",
+      "de": "Der Standstreifen",
+      "article": "der",
+      "de_base": "Standstreifen",
+      "ru": "Запасная полоса / обочина",
+      "en": "Hard shoulder / emergency lane",
+      "uk": "Запасна смуга / узбіччя",
+      "fr": "Bande d'arrêt d'urgence",
+      "category": "emergency",
+      "tags": [],
+      "tr": "Acil şerit / banket"
+    },
+    {
+      "id": "gefahrenstelle_absichern",
+      "de": "Die Gefahrenstelle absichern",
+      "article": "die",
+      "de_base": "Gefahrenstelle absichern",
+      "ru": "Обозначить место возникновения опасности",
+      "en": "Secure the hazard scene",
+      "uk": "Позначити місце виникнення небезпеки",
+      "fr": "Sécuriser la zone de danger",
+      "category": "emergency",
+      "tags": [
+        "phrase"
+      ],
+      "tr": "Tehlike yerini güvene almak"
+    },
+    {
+      "id": "warndreieck_aufstellen",
+      "de": "Das Warndreieck aufstellen",
+      "article": "das",
+      "de_base": "Warndreieck aufstellen",
+      "ru": "Установить знак аварийной остановки",
+      "en": "Place the warning triangle",
+      "uk": "Встановити знак аварійної зупинки",
+      "fr": "Placer le triangle de pré-signalisation",
+      "category": "emergency",
+      "tags": [
+        "phrase"
+      ],
+      "tr": "Uyarı üçgenini yerleştirmek"
+    },
+    {
+      "id": "warnweste_anziehen",
+      "de": "Die Warnweste anziehen",
+      "article": "die",
+      "de_base": "Warnweste anziehen",
+      "ru": "Надеть световозвращающий жилет",
+      "en": "Put on the high-visibility vest",
+      "uk": "Одягнути світловідбивний жилет",
+      "fr": "Enfiler le gilet haute visibilité",
+      "category": "emergency",
+      "tags": [
+        "phrase"
+      ],
+      "tr": "Uyarı yeleğini giymek"
+    },
+    {
+      "id": "polizei_rufen",
+      "de": "Die Polizei rufen",
+      "article": "die",
+      "de_base": "Polizei rufen",
+      "ru": "Вызвать полицию",
+      "en": "Call the police",
+      "uk": "Викликати поліцію",
+      "fr": "Appeler la police",
+      "category": "emergency",
+      "tags": [
+        "phrase"
+      ],
+      "tr": "Polisi aramak"
+    },
+    {
+      "id": "abschleppdienst",
+      "de": "Der Abschleppdienst",
+      "article": "der",
+      "de_base": "Abschleppdienst",
+      "ru": "Услуга эвакуации транспортного средства",
+      "en": "Vehicle recovery service",
+      "uk": "Послуга евакуації транспортного засобу",
+      "fr": "Service de dépannage et remorquage",
+      "category": "emergency",
+      "tags": [],
+      "tr": "Çekici / kurtarma hizmeti"
+    },
+    {
+      "id": "reifenpanne",
+      "de": "Die Reifenpanne",
+      "article": "die",
+      "de_base": "Reifenpanne",
+      "ru": "Повреждение шины (прокол)",
+      "en": "Tyre puncture",
+      "uk": "Пошкодження шини (прокол)",
+      "fr": "Crevaison de pneu",
+      "category": "emergency",
+      "tags": [],
+      "tr": "Lastik patlaması"
+    },
+    {
+      "id": "phrase_motor_starten",
+      "de": "Starten Sie den Motor.",
+      "article": null,
+      "de_base": "Starten Sie den Motor.",
+      "ru": "Запустите двигатель.",
+      "en": "Start the engine.",
+      "uk": "Запустіть двигун.",
+      "fr": "Démarrez le moteur.",
+      "tr": "Motoru çalıştırın.",
+      "category": "phrases",
+      "tags": [
+        "examiner",
+        "start"
+      ],
+      "exam_phrase_de": "Starten Sie den Motor."
+    },
+    {
+      "id": "phrase_fahren_los",
+      "de": "Fahren Sie los.",
+      "article": null,
+      "de_base": "Fahren Sie los.",
+      "ru": "Начинайте движение.",
+      "en": "Start driving.",
+      "uk": "Починайте рух.",
+      "fr": "Partez.",
+      "tr": "Harekete geçin.",
+      "category": "phrases",
+      "tags": [
+        "examiner",
+        "start"
+      ],
+      "exam_phrase_de": "Fahren Sie los."
+    },
+    {
+      "id": "phrase_bitte_geradeaus",
+      "de": "Bitte geradeaus fahren.",
+      "article": null,
+      "de_base": "Bitte geradeaus fahren.",
+      "ru": "Пожалуйста, езжайте прямо.",
+      "en": "Please drive straight ahead.",
+      "uk": "Будь ласка, їдьте прямо.",
+      "fr": "Veuillez aller tout droit.",
+      "tr": "Lütfen düz gidin.",
+      "category": "phrases",
+      "tags": [
+        "examiner",
+        "direction"
+      ],
+      "exam_phrase_de": "Bitte geradeaus fahren."
+    },
+    {
+      "id": "phrase_auf_autobahn",
+      "de": "Fahren Sie auf die Autobahn.",
+      "article": null,
+      "de_base": "Fahren Sie auf die Autobahn.",
+      "ru": "Выезжайте на автобан.",
+      "en": "Drive onto the motorway.",
+      "uk": "Виїжджайте на автобан.",
+      "fr": "Roulez sur l'autoroute.",
+      "tr": "Otoyola çıkın.",
+      "category": "phrases",
+      "tags": [
+        "examiner",
+        "direction"
+      ],
+      "exam_phrase_de": "Fahren Sie auf die Autobahn."
+    },
+    {
+      "id": "phrase_naechste_strasse_rechts",
+      "de": "Nehmen Sie die nächste Straße rechts.",
+      "article": null,
+      "de_base": "Nehmen Sie die nächste Straße rechts.",
+      "ru": "Поверните на следующую улицу направо.",
+      "en": "Take the next street on the right.",
+      "uk": "Поверніть на наступну вулицю праворуч.",
+      "fr": "Prenez la prochaine rue à droite.",
+      "tr": "Bir sonraki sokaktan sağa dönün.",
+      "category": "phrases",
+      "tags": [
+        "examiner",
+        "direction"
+      ],
+      "exam_phrase_de": "Nehmen Sie die nächste Straße rechts."
+    },
+    {
+      "id": "phrase_naechste_strasse_links",
+      "de": "Nehmen Sie die nächste Straße links.",
+      "article": null,
+      "de_base": "Nehmen Sie die nächste Straße links.",
+      "ru": "Поверните на следующую улицу налево.",
+      "en": "Take the next street on the left.",
+      "uk": "Поверніть на наступну вулицю ліворуч.",
+      "fr": "Prenez la prochaine rue à gauche.",
+      "tr": "Bir sonraki sokaktan sola dönün.",
+      "category": "phrases",
+      "tags": [
+        "examiner",
+        "direction"
+      ],
+      "exam_phrase_de": "Nehmen Sie die nächste Straße links."
+    },
+    {
+      "id": "phrase_kreuzung_geradeaus",
+      "de": "Fahren Sie an der Kreuzung geradeaus.",
+      "article": null,
+      "de_base": "Fahren Sie an der Kreuzung geradeaus.",
+      "ru": "На перекрёстке езжайте прямо.",
+      "en": "Go straight ahead at the junction.",
+      "uk": "На перехресті їдьте прямо.",
+      "fr": "Allez tout droit au carrefour.",
+      "tr": "Kavşakta düz gidin.",
+      "category": "phrases",
+      "tags": [
+        "examiner",
+        "direction"
+      ],
+      "exam_phrase_de": "Fahren Sie an der Kreuzung geradeaus."
+    },
+    {
+      "id": "phrase_bis_naechste_ampel",
+      "de": "Fahren Sie bis zur nächsten Ampel.",
+      "article": null,
+      "de_base": "Fahren Sie bis zur nächsten Ampel.",
+      "ru": "Езжайте до следующего светофора.",
+      "en": "Drive to the next traffic lights.",
+      "uk": "Їдьте до наступного світлофора.",
+      "fr": "Roulez jusqu'au prochain feu.",
+      "tr": "Bir sonraki trafik ışığına kadar gidin.",
+      "category": "phrases",
+      "tags": [
+        "examiner",
+        "direction"
+      ],
+      "exam_phrase_de": "Fahren Sie bis zur nächsten Ampel."
+    },
+    {
+      "id": "phrase_kreisverkehr_rechts",
+      "de": "Fahren Sie im Kreisverkehr rechts.",
+      "article": null,
+      "de_base": "Fahren Sie im Kreisverkehr rechts.",
+      "ru": "На круговом движении держитесь правее.",
+      "en": "Keep right in the roundabout.",
+      "uk": "На колі тримайтеся праворуч.",
+      "fr": "Restez à droite sur le rond-point.",
+      "tr": "Dönel kavşakta sağdan gidin.",
+      "category": "phrases",
+      "tags": [
+        "examiner",
+        "direction"
+      ],
+      "exam_phrase_de": "Fahren Sie im Kreisverkehr rechts."
+    },
+    {
+      "id": "phrase_einbahnstrasse",
+      "de": "Fahren Sie durch die Einbahnstraße.",
+      "article": null,
+      "de_base": "Fahren Sie durch die Einbahnstraße.",
+      "ru": "Езжайте по улице с односторонним движением.",
+      "en": "Drive through the one-way street.",
+      "uk": "Їдьте вулицею з одностороннім рухом.",
+      "fr": "Roulez dans la rue à sens unique.",
+      "tr": "Tek yönlü caddeden gidin.",
+      "category": "phrases",
+      "tags": [
+        "examiner",
+        "direction"
+      ],
+      "exam_phrase_de": "Fahren Sie durch die Einbahnstraße."
+    },
+    {
+      "id": "phrase_halten_hier",
+      "de": "Halten Sie bitte hier an.",
+      "article": null,
+      "de_base": "Halten Sie bitte hier an.",
+      "ru": "Остановитесь здесь, пожалуйста.",
+      "en": "Please stop here.",
+      "uk": "Зупиніться тут, будь ласка.",
+      "fr": "Veuillez arrêtez-vous ici, s'il vous plaît.",
+      "tr": "Lütfen burada durun.",
+      "category": "phrases",
+      "tags": [
+        "examiner",
+        "maneuver"
+      ],
+      "exam_phrase_de": "Halten Sie bitte hier an."
+    },
+    {
+      "id": "phrase_halten_ampel",
+      "de": "Halten Sie an der Ampel an.",
+      "article": null,
+      "de_base": "Halten Sie an der Ampel an.",
+      "ru": "Остановитесь на светофоре.",
+      "en": "Stop at the traffic lights.",
+      "uk": "Зупиніться на світлофорі.",
+      "fr": "Arrêtez-vous au feu.",
+      "tr": "Trafik ışığında durun.",
+      "category": "phrases",
+      "tags": [
+        "examiner",
+        "maneuver"
+      ],
+      "exam_phrase_de": "Halten Sie an der Ampel an."
+    },
+    {
+      "id": "phrase_wenden_wenn_sicher",
+      "de": "Wenden Sie bitte, wenn es sicher ist.",
+      "article": null,
+      "de_base": "Wenden Sie bitte, wenn es sicher ist.",
+      "ru": "Развернитесь, когда это будет безопасно.",
+      "en": "Please turn around when it is safe.",
+      "uk": "Розверніться, коли це буде безпечно.",
+      "fr": "Veuillez faites demi-tour quand c'est sûr.",
+      "tr": "Güvenli olduğunda lütfen U dönüşü yapın.",
+      "category": "phrases",
+      "tags": [
+        "examiner",
+        "maneuver"
+      ],
+      "exam_phrase_de": "Wenden Sie bitte, wenn es sicher ist."
+    },
+    {
+      "id": "phrase_wenden_moeglichkeit",
+      "de": "Suchen Sie eine geeignete Möglichkeit zum Wenden.",
+      "article": null,
+      "de_base": "Suchen Sie eine geeignete Möglichkeit zum Wenden.",
+      "ru": "Найдите подходящую возможность для разворота.",
+      "en": "Find a suitable place to turn around.",
+      "uk": "Знайдіть відповідну можливість для розвороту.",
+      "fr": "Trouvez un endroit adapté pour faire demi-tour.",
+      "tr": "U dönüşü için uygun bir yer bulun.",
+      "category": "phrases",
+      "tags": [
+        "examiner",
+        "maneuver"
+      ],
+      "exam_phrase_de": "Suchen Sie eine geeignete Möglichkeit zum Wenden."
+    },
+    {
+      "id": "phrase_auf_parkplatz",
+      "de": "Fahren Sie auf den Parkplatz.",
+      "article": null,
+      "de_base": "Fahren Sie auf den Parkplatz.",
+      "ru": "Заезжайте на парковку.",
+      "en": "Drive onto the car park.",
+      "uk": "Заїжджайте на парковку.",
+      "fr": "Roulez sur le parking.",
+      "tr": "Otoparka girin.",
+      "category": "phrases",
+      "tags": [
+        "examiner",
+        "maneuver"
+      ],
+      "exam_phrase_de": "Fahren Sie auf den Parkplatz."
+    },
+    {
+      "id": "phrase_halten_fahrbahnrand",
+      "de": "Halten Sie am rechten Fahrbahnrand an.",
+      "article": null,
+      "de_base": "Halten Sie am rechten Fahrbahnrand an.",
+      "ru": "Остановитесь у правого края дороги.",
+      "en": "Stop at the right edge of the road.",
+      "uk": "Зупиніться біля правого краю дороги.",
+      "fr": "Arrêtez-vous au bord droit de la chaussée.",
+      "tr": "Yolun sağ kenarında durun.",
+      "category": "phrases",
+      "tags": [
+        "examiner",
+        "maneuver"
+      ],
+      "exam_phrase_de": "Halten Sie am rechten Fahrbahnrand an."
+    },
+    {
+      "id": "phrase_sicherer_halt",
+      "de": "Machen Sie einen sicheren Halt.",
+      "article": null,
+      "de_base": "Machen Sie einen sicheren Halt.",
+      "ru": "Выполните безопасную остановку.",
+      "en": "Make a safe stop.",
+      "uk": "Зробіть безпечну зупинку.",
+      "fr": "Effectuez un arrêt en toute sécurité.",
+      "tr": "Güvenli bir duruş yapın.",
+      "category": "phrases",
+      "tags": [
+        "examiner",
+        "maneuver"
+      ],
+      "exam_phrase_de": "Machen Sie einen sicheren Halt."
+    },
+    {
+      "id": "phrase_anhalten_warten",
+      "de": "Halten Sie an und warten Sie.",
+      "article": null,
+      "de_base": "Halten Sie an und warten Sie.",
+      "ru": "Остановитесь и подождите.",
+      "en": "Stop and wait.",
+      "uk": "Зупиніться і зачекайте.",
+      "fr": "Arrêtez-vous et attendez.",
+      "tr": "Durun ve bekleyin.",
+      "category": "phrases",
+      "tags": [
+        "examiner",
+        "maneuver"
+      ],
+      "exam_phrase_de": "Halten Sie an und warten Sie."
+    },
+    {
+      "id": "phrase_warten_bahnuebergang",
+      "de": "Warten Sie am Bahnübergang.",
+      "article": null,
+      "de_base": "Warten Sie am Bahnübergang.",
+      "ru": "Подождите на железнодорожном переезде.",
+      "en": "Wait at the level crossing.",
+      "uk": "Зачекайте на залізничному переїзді.",
+      "fr": "Attendez au passage à niveau.",
+      "tr": "Demiryolu geçidinde bekleyin.",
+      "category": "phrases",
+      "tags": [
+        "examiner",
+        "maneuver"
+      ],
+      "exam_phrase_de": "Warten Sie am Bahnübergang."
+    },
+    {
+      "id": "phrase_geschwindigkeit_reduzieren",
+      "de": "Reduzieren Sie die Geschwindigkeit.",
+      "article": null,
+      "de_base": "Reduzieren Sie die Geschwindigkeit.",
+      "ru": "Снизьте скорость.",
+      "en": "Reduce your speed.",
+      "uk": "Зменшіть швидкість.",
+      "fr": "Réduisez votre vitesse.",
+      "tr": "Hızınızı azaltın.",
+      "category": "phrases",
+      "tags": [
+        "examiner",
+        "hint"
+      ],
+      "exam_phrase_de": "Reduzieren Sie die Geschwindigkeit."
+    },
+    {
+      "id": "phrase_beschleunigen",
+      "de": "Beschleunigen Sie bitte.",
+      "article": null,
+      "de_base": "Beschleunigen Sie bitte.",
+      "ru": "Ускорьтесь, пожалуйста.",
+      "en": "Please speed up.",
+      "uk": "Прискоріться, будь ласка.",
+      "fr": "Veuillez accélérez, s'il vous plaît.",
+      "tr": "Lütfen hızlanın.",
+      "category": "phrases",
+      "tags": [
+        "examiner",
+        "hint"
+      ],
+      "exam_phrase_de": "Beschleunigen Sie bitte."
+    },
+    {
+      "id": "phrase_rueckspiegel",
+      "de": "Schauen Sie in den Rückspiegel.",
+      "article": null,
+      "de_base": "Schauen Sie in den Rückspiegel.",
+      "ru": "Посмотрите в зеркало заднего вида.",
+      "en": "Look in the rear-view mirror.",
+      "uk": "Подивіться в дзеркало заднього виду.",
+      "fr": "Regardez dans le rétroviseur.",
+      "tr": "Dikiz aynasına bakın.",
+      "category": "phrases",
+      "tags": [
+        "examiner",
+        "hint"
+      ],
+      "exam_phrase_de": "Schauen Sie in den Rückspiegel."
+    },
+    {
+      "id": "phrase_schulterblick_machen",
+      "de": "Machen Sie einen Schulterblick.",
+      "article": null,
+      "de_base": "Machen Sie einen Schulterblick.",
+      "ru": "Сделайте контрольный взгляд через плечо.",
+      "en": "Do a shoulder check.",
+      "uk": "Зробіть контрольний погляд через плече.",
+      "fr": "Faites un contrôle de l'angle mort.",
+      "tr": "Omuz üzerinden kontrol yapın.",
+      "category": "phrases",
+      "tags": [
+        "examiner",
+        "hint"
+      ],
+      "exam_phrase_de": "Machen Sie einen Schulterblick."
+    },
+    {
+      "id": "phrase_achten_verkehr",
+      "de": "Achten Sie auf den Verkehr.",
+      "article": null,
+      "de_base": "Achten Sie auf den Verkehr.",
+      "ru": "Следите за движением.",
+      "en": "Watch the traffic.",
+      "uk": "Стежте за рухом.",
+      "fr": "Faites attention à la circulation.",
+      "tr": "Trafiğe dikkat edin.",
+      "category": "phrases",
+      "tags": [
+        "examiner",
+        "hint"
+      ],
+      "exam_phrase_de": "Achten Sie auf den Verkehr."
+    },
+    {
+      "id": "phrase_achten_vorfahrt",
+      "de": "Achten Sie auf die Vorfahrt.",
+      "article": null,
+      "de_base": "Achten Sie auf die Vorfahrt.",
+      "ru": "Соблюдайте преимущество в движении.",
+      "en": "Observe right of way.",
+      "uk": "Дотримуйтесь переваги в русі.",
+      "fr": "Faites attention à la priorité.",
+      "tr": "Geçiş hakkına dikkat edin.",
+      "category": "phrases",
+      "tags": [
+        "examiner",
+        "hint"
+      ],
+      "exam_phrase_de": "Achten Sie auf die Vorfahrt."
+    },
+    {
+      "id": "phrase_bleiben_ruhig",
+      "de": "Bleiben Sie ruhig.",
+      "article": null,
+      "de_base": "Bleiben Sie ruhig.",
+      "ru": "Сохраняйте спокойствие.",
+      "en": "Stay calm.",
+      "uk": "Зберігайте спокій.",
+      "fr": "Restez calme.",
+      "tr": "Sakin kalın.",
+      "category": "phrases",
+      "tags": [
+        "examiner",
+        "hint"
+      ],
+      "exam_phrase_de": "Bleiben Sie ruhig."
+    },
+    {
+      "id": "phrase_tempolimit",
+      "de": "Achten Sie auf die Geschwindigkeitsbegrenzung.",
+      "article": null,
+      "de_base": "Achten Sie auf die Geschwindigkeitsbegrenzung.",
+      "ru": "Соблюдайте ограничение скорости.",
+      "en": "Observe the speed limit.",
+      "uk": "Дотримуйтесь обмеження швидкості.",
+      "fr": "Respectez la limitation de vitesse.",
+      "tr": "Hız sınırına dikkat edin.",
+      "category": "phrases",
+      "tags": [
+        "examiner",
+        "hint"
+      ],
+      "exam_phrase_de": "Achten Sie auf die Geschwindigkeitsbegrenzung."
+    },
+    {
+      "id": "phrase_fussgaenger_passieren",
+      "de": "Lassen Sie die Fußgänger passieren.",
+      "article": null,
+      "de_base": "Lassen Sie die Fußgänger passieren.",
+      "ru": "Пропустите пешеходов.",
+      "en": "Let the pedestrians pass.",
+      "uk": "Пропустіть пішоходів.",
+      "fr": "Laissez passer les piétons.",
+      "tr": "Yayalara yol verin.",
+      "category": "phrases",
+      "tags": [
+        "examiner",
+        "hint"
+      ],
+      "exam_phrase_de": "Lassen Sie die Fußgänger passieren."
+    },
+    {
+      "id": "parkplatz",
+      "de": "Der Parkplatz",
+      "article": "der",
+      "de_base": "Parkplatz",
+      "ru": "Стоянка транспортных средств (парковка)",
+      "en": "Vehicle parking area",
+      "uk": "Стоянка транспортних засобів (парковка)",
+      "fr": "Aire de stationnement",
+      "tr": "Araç park alanı",
+      "category": "traffic",
+      "tags": [
+        "core"
+      ]
+    },
+    {
+      "id": "motorradfahrer",
+      "de": "Der Motorradfahrer",
+      "article": "der",
+      "de_base": "Motorradfahrer",
+      "ru": "Мотоциклист",
+      "en": "Motorcyclist",
+      "uk": "Мотоцикліст",
+      "fr": "Motocycliste",
+      "tr": "Motosiklet sürücüsü",
+      "category": "traffic",
+      "tags": [
+        "core"
+      ]
+    },
+    {
+      "id": "lkw",
+      "de": "Der Lkw (Lastkraftwagen)",
+      "article": "der",
+      "de_base": "Lkw",
+      "ru": "Грузовой автомобиль (Lkw)",
+      "en": "Heavy goods vehicle (lorry / truck)",
+      "uk": "Вантажний автомобіль (Lkw)",
+      "fr": "Poids lourd (camion)",
+      "tr": "Kamyon (ağır vasıta)",
+      "category": "traffic",
+      "tags": [
+        "core"
+      ]
+    },
+    {
+      "id": "strassenbahn",
+      "de": "Die Straßenbahn",
+      "article": "die",
+      "de_base": "Straßenbahn",
+      "ru": "Трамвай",
+      "en": "Tram (streetcar)",
+      "uk": "Трамвай",
+      "fr": "Tramway",
+      "tr": "Tramvay",
+      "category": "traffic",
+      "tags": [
+        "core"
+      ]
+    },
+    {
+      "id": "verkehrsverbot",
+      "de": "Das Verkehrsverbot",
+      "article": "das",
+      "de_base": "Verkehrsverbot",
+      "ru": "Запрет движения транспортных средств",
+      "en": "General traffic prohibition",
+      "uk": "Заборона руху транспортних засобів",
+      "fr": "Interdiction de circuler",
+      "tr": "Trafik yasağı",
+      "category": "traffic",
+      "tags": []
+    },
+    {
+      "id": "verbot_der_einfahrt",
+      "de": "Das Verbot der Einfahrt",
+      "article": "das",
+      "de_base": "Verbot der Einfahrt",
+      "ru": "Запрет въезда",
+      "en": "No entry",
+      "uk": "Заборона в'їзду",
+      "fr": "Sens interdit / entrée interdite",
+      "tr": "Giriş yasağı",
+      "category": "traffic",
+      "tags": [
+        "core"
+      ]
+    },
+    {
+      "id": "ueberholverbot",
+      "de": "Das Überholverbot",
+      "article": "das",
+      "de_base": "Überholverbot",
+      "ru": "Запрет обгона",
+      "en": "No overtaking",
+      "uk": "Заборона обгону",
+      "fr": "Interdiction de dépasser",
+      "tr": "Sollama yasağı",
+      "category": "traffic",
+      "tags": [
+        "core"
+      ]
+    },
+    {
+      "id": "rechtsabbiegepfeil",
+      "de": "Der Rechtsabbiegepfeil (Linksabbiegepfeil)",
+      "article": "der",
+      "de_base": "Rechtsabbiegepfeil",
+      "ru": "Указатель обязательного поворота направо (налево)",
+      "en": "Mandatory turn arrow (right / left)",
+      "uk": "Вказівник обов'язкового повороту праворуч (ліворуч)",
+      "fr": "Flèche de direction obligatoire (droite / gauche)",
+      "tr": "Zorunlu dönüş oku (sağ / sol)",
+      "category": "traffic",
+      "tags": []
+    },
+    {
+      "id": "ampel_rot_gelb_gruen",
+      "de": "Ampel rot (gelb, grün)",
+      "article": null,
+      "de_base": "Ampel rot (gelb, grün)",
+      "ru": "Светофор: красный (жёлтый, зелёный) сигнал",
+      "en": "Traffic lights: red (amber, green)",
+      "uk": "Світлофор: червоний (жовтий, зелений) сигнал",
+      "fr": "Feu tricolore : rouge (orange, vert)",
+      "tr": "Trafik lambası: kırmızı (sarı, yeşil)",
+      "category": "traffic",
+      "tags": [
+        "core"
+      ]
+    },
+    {
+      "id": "fehler_zu_wenig_abstand",
+      "de": "Zu wenig Abstand beim Vorbeifahren (Überholen) von …",
+      "article": null,
+      "de_base": "Zu wenig Abstand beim Vorbeifahren (Überholen) von …",
+      "ru": "Недостаточный боковой интервал при обгоне (опережении) …",
+      "en": "Insufficient lateral clearance when overtaking …",
+      "uk": "Недостатній боковий інтервал під час обгону (випередження) …",
+      "fr": "Distance latérale insuffisante lors du dépassement de …",
+      "tr": "Sollama (geçme) sırasında yetersiz yan mesafe: …",
+      "category": "exam",
+      "tags": [
+        "core"
+      ]
+    },
+    {
+      "id": "fehler_vorfahrt_nicht_beachtet",
+      "de": "Vorfahrt (Vorrang) nicht beachtet bei …",
+      "article": null,
+      "de_base": "Vorfahrt (Vorrang) nicht beachtet bei …",
+      "ru": "Не предоставлено преимущество в движении при …",
+      "en": "Failure to yield right of way when …",
+      "uk": "Не надано перевагу в русі при …",
+      "fr": "Priorité non respectée lors de …",
+      "tr": "Geçiş üstünlüğüne uyulmadı: …",
+      "category": "exam",
+      "tags": [
+        "core"
+      ]
+    },
+    {
+      "id": "vorrang_fussgaenger",
+      "de": "Der Vorrang der Fußgänger",
+      "article": "der",
+      "de_base": "Vorrang der Fußgänger",
+      "ru": "Преимущество (приоритет) пешеходов",
+      "en": "Pedestrian right of way",
+      "uk": "Перевага (пріоритет) пішоходів",
+      "fr": "Priorité des piétons",
+      "tr": "Yayaların geçiş üstünlüğü",
+      "category": "traffic",
+      "tags": [
+        "core"
+      ]
+    },
+    {
+      "id": "fehler_verkehrszeichen",
+      "de": "Nichtbeachten von Verkehrszeichen",
+      "article": null,
+      "de_base": "Nichtbeachten von Verkehrszeichen",
+      "ru": "Несоблюдение дорожных знаков",
+      "en": "Failure to observe traffic signs",
+      "uk": "Недотримання дорожніх знаків",
+      "fr": "Non-respect des panneaux de signalisation",
+      "tr": "Trafik işaretlerine uyulmaması",
+      "category": "exam",
+      "tags": [
+        "core"
+      ]
+    },
+    {
+      "id": "fehler_bus_vorbeifahren",
+      "de": "Zu schnell an Bus vorbeigefahren",
+      "article": null,
+      "de_base": "Zu schnell an Bus vorbeigefahren",
+      "ru": "Обгон автобуса с превышением допустимой скорости",
+      "en": "Overtook a bus at excessive speed",
+      "uk": "Обгін автобуса з перевищенням допустимої швидкості",
+      "fr": "Dépassement d'un bus à vitesse excessive",
+      "tr": "Otobüsü izin verilenden yüksek hızla sollama",
+      "category": "exam",
+      "tags": []
+    },
+    {
+      "id": "erhebliches_fehlverhalten",
+      "de": "Erhebliches Fehlverhalten",
+      "article": null,
+      "de_base": "Erhebliches Fehlverhalten",
+      "ru": "Существенное нарушение (основание для неудовлетворительной оценки)",
+      "en": "Serious fault (substantial misconduct)",
+      "uk": "Істотне порушення (підстава для незадовільної оцінки)",
+      "fr": "Faute grave (manquement important)",
+      "tr": "Ciddi kusur (önemli ihlal)",
+      "category": "exam",
+      "tags": [
+        "core"
+      ]
+    },
+    {
+      "id": "haeufung_fehler",
+      "de": "Häufung oder Wiederholung von Fehlern",
+      "article": null,
+      "de_base": "Häufung oder Wiederholung von Fehlern",
+      "ru": "Многократные или повторяющиеся ошибки",
+      "en": "Accumulation or repetition of faults",
+      "uk": "Множинні або повторювані помилки",
+      "fr": "Accumulation ou répétition de fautes",
+      "tr": "Hataların birikimi veya tekrarı",
+      "category": "exam",
+      "tags": [
+        "core"
+      ]
+    },
+    {
+      "id": "grundfahraufgabe_wiederholt_fehlerhaft",
+      "de": "Grundfahraufgabe wiederholt fehlerhaft",
+      "article": null,
+      "de_base": "Grundfahraufgabe wiederholt fehlerhaft",
+      "ru": "Основное маневровое задание повторно выполнено с нарушениями",
+      "en": "Basic manoeuvre task repeatedly performed incorrectly",
+      "uk": "Основне маневрове завдання повторно виконано з порушеннями",
+      "fr": "Manœuvre de base à nouveau exécutée de manière incorrecte",
+      "tr": "Temel sürüş manevrası tekrar hatalı yapıldı",
+      "category": "exam",
+      "tags": [
+        "core"
+      ]
+    },
+    {
+      "id": "gefaehrdung",
+      "de": "Die Gefährdung",
+      "article": "die",
+      "de_base": "Gefährdung",
+      "ru": "Создание опасности для участников дорожного движения",
+      "en": "Endangering other road users",
+      "uk": "Створення небезпеки для учасників дорожнього руху",
+      "fr": "Mise en danger d'autres usagers de la route",
+      "tr": "Diğer yol kullanıcılarını tehlikeye atma",
+      "category": "exam",
+      "tags": [
+        "core"
+      ]
+    },
+    {
+      "id": "fehler_zu_langsam_schnell",
+      "de": "Zu langsam / schnell",
+      "article": null,
+      "de_base": "Zu langsam / schnell",
+      "ru": "Слишком медленно / быстро",
+      "en": "Too slow / too fast",
+      "uk": "Занадто повільно / швидко",
+      "fr": "Trop lent / trop rapide",
+      "tr": "Çok yavaş / çok hızlı",
+      "category": "exam",
+      "tags": []
+    },
+    {
+      "id": "unsicher_fahren",
+      "de": "Unsicher",
+      "article": null,
+      "de_base": "Unsicher",
+      "ru": "Неуверенное вождение",
+      "en": "Uncertain / insecure driving",
+      "uk": "Невпевнене водіння",
+      "fr": "Conduite hésitante / peu sûre",
+      "tr": "Güvensiz / kararsız sürüş",
+      "category": "exam",
+      "tags": []
+    },
+    {
+      "id": "fehlende_verkehrsbeobachtung",
+      "de": "Fehlende Verkehrsbeobachtung bei …",
+      "article": null,
+      "de_base": "Fehlende Verkehrsbeobachtung bei …",
+      "ru": "Отсутствие наблюдения за дорожной обстановкой при …",
+      "en": "Failure to observe traffic when …",
+      "uk": "Відсутність спостереження за дорожньою обстановкою при …",
+      "fr": "Absence d'observation de la circulation lors de …",
+      "tr": "Trafik gözlemi yapılmadı: …",
+      "category": "exam",
+      "tags": [
+        "core"
+      ]
+    },
+    {
+      "id": "fehlende_spiegelbeobachtung",
+      "de": "Fehlende oder ungenügende Spiegelbeobachtung",
+      "article": null,
+      "de_base": "Fehlende oder ungenügende Spiegelbeobachtung",
+      "ru": "Отсутствие или недостаточный контроль в зеркалах",
+      "en": "Missing or inadequate mirror checks",
+      "uk": "Відсутність або недостатній контроль у дзеркалах",
+      "fr": "Contrôle des rétroviseurs absent ou insuffisant",
+      "tr": "Ayna kontrolü yapılmadı veya yetersiz",
+      "category": "exam",
+      "tags": [
+        "core"
+      ]
+    },
+    {
+      "id": "fehlendes_vorausschauendes_fahren",
+      "de": "Fehlendes vorausschauendes Fahren",
+      "article": null,
+      "de_base": "Fehlendes vorausschauendes Fahren",
+      "ru": "Отсутствие упреждающего вождения",
+      "en": "Lack of anticipatory driving",
+      "uk": "Відсутність упреждаючого водіння",
+      "fr": "Absence de conduite anticipée",
+      "tr": "Öngörülü sürüş eksikliği",
+      "category": "exam",
+      "tags": [
+        "core"
+      ]
+    },
+    {
+      "id": "fahrtechnischer_abschluss",
+      "de": "Der Fahrtechnische Abschluss",
+      "article": "der",
+      "de_base": "Fahrtechnischer Abschluss",
+      "ru": "Аттестация практических навыков вождения",
+      "en": "Practical driving skills assessment",
+      "uk": "Атестація практичних навичок водіння",
+      "fr": "Épreuve pratique de conduite (bilan technique)",
+      "tr": "Pratik sürüş becerileri değerlendirmesi",
+      "category": "exam",
+      "tags": []
+    },
+    {
+      "id": "abschluss_der_pruefung",
+      "de": "Der Abschluss der Prüfung",
+      "article": "der",
+      "de_base": "Abschluss der Prüfung",
+      "ru": "Завершение экзамена",
+      "en": "Conclusion of the examination",
+      "uk": "Завершення іспиту",
+      "fr": "Clôture de l'examen",
+      "tr": "Sınavın sona ermesi",
+      "category": "exam",
+      "tags": []
+    },
+    {
+      "id": "pruefung_nicht_bestanden",
+      "de": "Prüfung [nicht] bestanden",
+      "article": null,
+      "de_base": "Prüfung [nicht] bestanden",
+      "ru": "Экзамен [не] сдан",
+      "en": "Examination [not] passed",
+      "uk": "Іспит [не] складено",
+      "fr": "Examen [non] réussi",
+      "tr": "Sınav [geçilemedi / geçildi]",
+      "category": "exam",
+      "tags": [
+        "core"
+      ]
+    },
+    {
+      "id": "sicherung_gegen",
+      "de": "Sicherung (Sichern) gegen …",
+      "article": null,
+      "de_base": "Sicherung (Sichern) gegen …",
+      "ru": "Предохранение (закрепление) от …",
+      "en": "Securing (safeguarding) against …",
+      "uk": "Запобігання (закріплення) від …",
+      "fr": "Sécurisation contre …",
+      "tr": "… karşı güvence (sabitleme)",
+      "category": "safety",
+      "tags": []
+    },
+    {
+      "id": "unbefugte_benutzung",
+      "de": "Die unbefugte Benutzung",
+      "article": "die",
+      "de_base": "unbefugte Benutzung",
+      "ru": "Несанкционированное использование транспортного средства",
+      "en": "Unauthorised use (of the vehicle)",
+      "uk": "Несанкціоноване використання транспортного засобу",
+      "fr": "Utilisation non autorisée (du véhicule)",
+      "tr": "İzinsiz kullanım",
+      "category": "safety",
+      "tags": []
+    },
+    {
+      "id": "umschau_beim_aussteigen",
+      "de": "Umschau (Umsicht) beim Aussteigen",
+      "article": null,
+      "de_base": "Umschau (Umsicht) beim Aussteigen",
+      "ru": "Осмотр (оглядка) при выходе из транспортного средства",
+      "en": "Look around (check surroundings) when exiting the vehicle",
+      "uk": "Огляд (оглядання) при виході з транспортного засобу",
+      "fr": "Contrôle visuel en sortant du véhicule",
+      "tr": "Araçtan inerken etrafı kontrol etme",
+      "category": "safety",
+      "tags": [
+        "core"
+      ]
+    },
+    {
+      "id": "wegrollen",
+      "de": "Das Wegrollen",
+      "article": "das",
+      "de_base": "Wegrollen",
+      "ru": "Самопроизвольное движение (откат) транспортного средства",
+      "en": "Unintended rolling of the vehicle",
+      "uk": "Самовільний рух (відкат) транспортного засобу",
+      "fr": "Roulage involontaire du véhicule",
+      "tr": "Aracın istenmeden hareket etmesi (yuvarlanma)",
+      "category": "safety",
+      "tags": []
+    },
+    {
+      "id": "sicherheitskontrolle",
+      "de": "Die Sicherheitskontrolle",
+      "article": "die",
+      "de_base": "Sicherheitskontrolle",
+      "ru": "Проверка технического состояния и безопасности (Sicherheitskontrolle)",
+      "en": "Pre-drive safety inspection",
+      "uk": "Перевірка технічного стану та безпеки (Sicherheitskontrolle)",
+      "fr": "Contrôle de sécurité du véhicule",
+      "tr": "Güvenlik kontrolü (araç kontrolü)",
+      "category": "technik",
+      "tags": [
+        "core",
+        "exam"
+      ],
+      "exam_phrase_de": "Bitte führen Sie die Sicherheitskontrolle durch."
+    },
+    {
+      "id": "fluessigkeitsstaende_pruefen",
+      "de": "Flüssigkeitsstände prüfen",
+      "article": null,
+      "de_base": "Flüssigkeitsstände prüfen",
+      "ru": "Проверить уровни эксплуатационных жидкостей",
+      "en": "Check fluid levels",
+      "uk": "Перевірити рівні експлуатаційних рідин",
+      "fr": "Contrôler les niveaux de liquides",
+      "tr": "Sıvı seviyelerini kontrol etmek",
+      "category": "fluids",
+      "tags": [
+        "core",
+        "exam"
+      ]
+    },
+    {
+      "id": "reifen_kontrollieren",
+      "de": "Reifen kontrollieren",
+      "article": null,
+      "de_base": "Reifen kontrollieren",
+      "ru": "Проверить состояние шин",
+      "en": "Check the tyres",
+      "uk": "Перевірити стан шин",
+      "fr": "Contrôler les pneus",
+      "tr": "Lastikleri kontrol etmek",
+      "category": "car",
+      "tags": [
+        "core",
+        "exam"
+      ]
+    },
+    {
+      "id": "raeder_kontrollieren",
+      "de": "Räder kontrollieren",
+      "article": null,
+      "de_base": "Räder kontrollieren",
+      "ru": "Проверить колёса",
+      "en": "Check the wheels",
+      "uk": "Перевірити колеса",
+      "fr": "Contrôler les roues",
+      "tr": "Tekerlekleri kontrol etmek",
+      "category": "car",
+      "tags": []
+    },
+    {
+      "id": "beschaedigung",
+      "de": "Die Beschädigung",
+      "article": "die",
+      "de_base": "Beschädigung",
+      "ru": "Повреждение (дефект)",
+      "en": "Damage (defect)",
+      "uk": "Пошкодження (дефект)",
+      "fr": "Dommage (défaut)",
+      "tr": "Hasar (arıza)",
+      "category": "technik",
+      "tags": []
+    },
+    {
+      "id": "beschaedigungen",
+      "de": "Die Beschädigungen",
+      "article": "die",
+      "de_base": "Beschädigungen",
+      "ru": "Повреждения",
+      "en": "Damage (defects)",
+      "uk": "Пошкодження",
+      "fr": "Dommages",
+      "tr": "Hasarlar",
+      "category": "technik",
+      "tags": []
+    },
+    {
+      "id": "vorhanden_sein",
+      "de": "Vorhanden sein",
+      "article": null,
+      "de_base": "Vorhanden sein",
+      "ru": "Наличие (присутствие) в исправном состоянии",
+      "en": "To be present and intact",
+      "uk": "Наявність (присутність) у справному стані",
+      "fr": "Être présent et en bon état",
+      "tr": "Mevcut ve sağlam olmak",
+      "category": "technik",
+      "tags": []
+    },
+    {
+      "id": "funktion_pruefen",
+      "de": "Funktion von … prüfen",
+      "article": null,
+      "de_base": "Funktion von … prüfen",
+      "ru": "Проверить работоспособность …",
+      "en": "Check the function of …",
+      "uk": "Перевірити працездатність …",
+      "fr": "Vérifier le fonctionnement de …",
+      "tr": "… işlevini kontrol etmek",
+      "category": "technik",
+      "tags": [
+        "core",
+        "exam"
+      ]
+    },
+    {
+      "id": "ein_ausschalten_von",
+      "de": "Ein- und Ausschalten von …",
+      "article": null,
+      "de_base": "Ein- und Ausschalten von …",
+      "ru": "Включение и выключение …",
+      "en": "Switching on and off …",
+      "uk": "Увімкнення та вимкнення …",
+      "fr": "Mise en marche et arrêt de …",
+      "tr": "… açma ve kapatma",
+      "category": "technik",
+      "tags": [
+        "exam"
+      ]
+    },
+    {
+      "id": "zeigen_von",
+      "de": "Zeigen von …",
+      "article": null,
+      "de_base": "Zeigen von …",
+      "ru": "Показать … (продемонстрировать)",
+      "en": "Show / demonstrate …",
+      "uk": "Показати … (продемонструвати)",
+      "fr": "Montrer / faire la démonstration de …",
+      "tr": "… göstermek",
+      "category": "technik",
+      "tags": [
+        "exam"
+      ]
+    },
+    {
+      "id": "kontrollleuchten_benennen",
+      "de": "Kontrollleuchten benennen",
+      "article": null,
+      "de_base": "Kontrollleuchten benennen",
+      "ru": "Назвать контрольные индикаторы (на панели приборов)",
+      "en": "Name the warning / indicator lights",
+      "uk": "Назвати контрольні індикатори (на панелі приладів)",
+      "fr": "Nommer les témoins lumineux",
+      "tr": "Uyarı / kontrol lambalarını adlandırmak",
+      "category": "technik",
+      "tags": [
+        "exam"
+      ]
+    },
+    {
+      "id": "fahrzeugbegriffe",
+      "de": "Die Fahrzeugbegriffe",
+      "article": "die",
+      "de_base": "Fahrzeugbegriffe",
+      "ru": "Терминология устройства автомобиля",
+      "en": "Vehicle terminology",
+      "uk": "Термінологія пристрою автомобіля",
+      "fr": "Terminologie du véhicule",
+      "tr": "Araç terimleri",
+      "category": "car",
+      "tags": []
+    },
+    {
+      "id": "bremse",
+      "de": "Die Bremse",
+      "article": "die",
+      "de_base": "Bremse",
+      "ru": "Тормоз (тормозная система)",
+      "en": "Brake (braking system)",
+      "uk": "Гальмо (гальмівна система)",
+      "fr": "Frein (système de freinage)",
+      "tr": "Fren (fren sistemi)",
+      "category": "brakes",
+      "tags": []
+    },
+    {
+      "id": "fussbremse",
+      "de": "Die Fußbremse",
+      "article": "die",
+      "de_base": "Fußbremse",
+      "ru": "Ножной (рабочий) тормоз",
+      "en": "Foot brake (service brake)",
+      "uk": "Ножне (робоче) гальмо",
+      "fr": "Frein à pied (frein de service)",
+      "tr": "Ayak freni (hizmet freni)",
+      "category": "brakes",
+      "tags": []
+    },
+    {
+      "id": "schalthebel",
+      "de": "Der Schalthebel",
+      "article": "der",
+      "de_base": "Schalthebel",
+      "ru": "Рычаг переключения передач",
+      "en": "Gear lever",
+      "uk": "Важіль перемикання передач",
+      "fr": "Levier de vitesses",
+      "tr": "Vites kolu",
+      "category": "car",
+      "tags": [
+        "core"
+      ]
+    },
+    {
+      "id": "zweiter_gang",
+      "de": "Der zweite Gang",
+      "article": "der",
+      "de_base": "zweiter Gang",
+      "ru": "Вторая передача",
+      "en": "Second gear",
+      "uk": "Друга передача",
+      "fr": "Deuxième vitesse",
+      "tr": "İkinci vites",
+      "category": "car",
+      "tags": []
+    },
+    {
+      "id": "dritter_gang",
+      "de": "Der dritte Gang",
+      "article": "der",
+      "de_base": "dritter Gang",
+      "ru": "Третья передача",
+      "en": "Third gear",
+      "uk": "Третя передача",
+      "fr": "Troisième vitesse",
+      "tr": "Üçüncü vites",
+      "category": "car",
+      "tags": []
+    },
+    {
+      "id": "vierter_gang",
+      "de": "Der vierte Gang",
+      "article": "der",
+      "de_base": "vierter Gang",
+      "ru": "Четвёртая передача",
+      "en": "Fourth gear",
+      "uk": "Четверта передача",
+      "fr": "Quatrième vitesse",
+      "tr": "Dördüncü vites",
+      "category": "car",
+      "tags": []
+    },
+    {
+      "id": "fuenfter_gang",
+      "de": "Der fünfte Gang",
+      "article": "der",
+      "de_base": "fünfter Gang",
+      "ru": "Пятая передача",
+      "en": "Fifth gear",
+      "uk": "П'ята передача",
+      "fr": "Cinquième vitesse",
+      "tr": "Beşinci vites",
+      "category": "car",
+      "tags": []
+    },
+    {
+      "id": "lichtschalter",
+      "de": "Der Lichtschalter",
+      "article": "der",
+      "de_base": "Lichtschalter",
+      "ru": "Переключатель света",
+      "en": "Light switch",
+      "uk": "Перемикач світла",
+      "fr": "Commutateur d'éclairage",
+      "tr": "Işık anahtarı",
+      "category": "car",
+      "tags": []
+    },
+    {
+      "id": "heizung",
+      "de": "Die Heizung",
+      "article": "die",
+      "de_base": "Heizung",
+      "ru": "Отопление (система обогрева салона)",
+      "en": "Heating (cabin heater)",
+      "uk": "Опалення (система обігріву салону)",
+      "fr": "Chauffage (habitacle)",
+      "tr": "Isıtma (kabin ısıtıcısı)",
+      "category": "car",
+      "tags": []
+    },
+    {
+      "id": "geblaese",
+      "de": "Das Gebläse",
+      "article": "das",
+      "de_base": "Gebläse",
+      "ru": "Вентилятор-нагнетатель (обдува)",
+      "en": "Blower (ventilation fan)",
+      "uk": "Вентилятор-нагнітач (обдуву)",
+      "fr": "Soufflerie (ventilation)",
+      "tr": "Üfleyici (havalandırma fanı)",
+      "category": "car",
+      "tags": []
+    },
+    {
+      "id": "fenster_oeffnen_schliessen",
+      "de": "Fenster öffnen (schließen)",
+      "article": null,
+      "de_base": "Fenster öffnen (schließen)",
+      "ru": "Открыть (закрыть) окно",
+      "en": "Open (close) the window",
+      "uk": "Відкрити (закрити) вікно",
+      "fr": "Ouvrir (fermer) la vitre",
+      "tr": "Camı açmak (kapatmak)",
+      "category": "car",
+      "tags": []
+    },
+    {
+      "id": "spiegel_einstellen",
+      "de": "Spiegel [einstellen]",
+      "article": null,
+      "de_base": "Spiegel einstellen",
+      "ru": "Настроить зеркало",
+      "en": "Adjust the mirror",
+      "uk": "Налаштувати дзеркало",
+      "fr": "Régler le rétroviseur",
+      "tr": "Aynayı ayarlamak",
+      "category": "car",
+      "tags": []
+    },
+    {
+      "id": "aussenspiegel_einstellen",
+      "de": "Außenspiegel [einstellen]",
+      "article": null,
+      "de_base": "Außenspiegel einstellen",
+      "ru": "Настроить наружное зеркало",
+      "en": "Adjust the exterior mirror",
+      "uk": "Налаштувати зовнішнє дзеркало",
+      "fr": "Régler le rétroviseur extérieur",
+      "tr": "Dış aynayı ayarlamak",
+      "category": "car",
+      "tags": []
+    },
+    {
+      "id": "heckscheibenheizung_einschalten",
+      "de": "Heckscheibenheizung einschalten",
+      "article": null,
+      "de_base": "Heckscheibenheizung einschalten",
+      "ru": "Включить обогрев заднего стекла",
+      "en": "Switch on the rear window defroster",
+      "uk": "Увімкнути обігрів заднього скла",
+      "fr": "Activer le dégivrage de la lunette arrière",
+      "tr": "Arka cam buz çözücüyü açmak",
+      "category": "car",
+      "tags": []
+    },
+    {
+      "id": "lenkung",
+      "de": "Die Lenkung",
+      "article": "die",
+      "de_base": "Lenkung",
+      "ru": "Рулевое управление",
+      "en": "Steering system",
+      "uk": "Рульове керування",
+      "fr": "Direction (système de direction)",
+      "tr": "Direksiyon sistemi",
+      "category": "car",
+      "tags": []
+    },
+    {
+      "id": "lenkschloss_entriegeln",
+      "de": "Lenkschloss entriegeln",
+      "article": null,
+      "de_base": "Lenkschloss entriegeln",
+      "ru": "Разблокировать замок рулевого управления",
+      "en": "Unlock the steering lock",
+      "uk": "Розблокувати замок рульового керування",
+      "fr": "Déverrouiller le verrou de direction",
+      "tr": "Direksiyon kilidini açmak",
+      "category": "car",
+      "tags": [
+        "exam"
+      ]
+    },
+    {
+      "id": "schlussleuchte_kennzeichen",
+      "de": "Schlussleuchten mit Kennzeichenbeleuchtung",
+      "article": null,
+      "de_base": "Schlussleuchten mit Kennzeichenbeleuchtung",
+      "ru": "Задние габаритные огни с подсветкой номерного знака",
+      "en": "Rear lights with number plate illumination",
+      "uk": "Задні габаритні вогні з підсвіткою номерного знака",
+      "fr": "Feux arrière avec éclairage de plaque",
+      "tr": "Plaka aydınlatmalı arka lambalar",
+      "category": "lights",
+      "tags": [
+        "core",
+        "exam"
+      ]
+    },
+    {
+      "id": "bremsleuchte",
+      "de": "Die Bremsleuchte(n)",
+      "article": "die",
+      "de_base": "Bremsleuchte",
+      "ru": "Фонарь (фонари) сигнала торможения",
+      "en": "Brake light(s)",
+      "uk": "Ліхтар (ліхтарі) сигналу гальмування",
+      "fr": "Feu(x) stop",
+      "tr": "Fren lambası / fren lambaları",
+      "category": "lights",
+      "tags": [
+        "core",
+        "exam"
+      ]
+    },
+    {
+      "id": "rueckstrahler",
+      "de": "Der Rückstrahler",
+      "article": "der",
+      "de_base": "Rückstrahler",
+      "ru": "Световозвращатель (катафот)",
+      "en": "Rear reflector",
+      "uk": "Світловідбивач (катафот)",
+      "fr": "Catadioptre arrière",
+      "tr": "Arka reflektör",
+      "category": "lights",
+      "tags": []
+    },
+    {
+      "id": "phrase_angabe_pruefungsfahrt",
+      "de": "Angabe während der Prüfungsfahrt",
+      "article": null,
+      "de_base": "Angabe während der Prüfungsfahrt",
+      "ru": "Указания во время практического экзамена",
+      "en": "Instructions during the practical test drive",
+      "uk": "Вказівки під час практичного іспиту",
+      "fr": "Consignes pendant l'épreuve pratique",
+      "tr": "Uygulamalı sınav sırasında talimatlar",
+      "category": "phrases",
+      "tags": [
+        "examiner",
+        "direction"
+      ],
+      "exam_phrase_de": "Angabe während der Prüfungsfahrt"
+    },
+    {
+      "id": "phrase_links",
+      "de": "Links.",
+      "article": null,
+      "de_base": "Links",
+      "ru": "Налево.",
+      "en": "Left.",
+      "uk": "Ліворуч.",
+      "fr": "À gauche.",
+      "tr": "Sola.",
+      "category": "phrases",
+      "tags": [
+        "examiner",
+        "direction"
+      ],
+      "exam_phrase_de": "Links."
+    },
+    {
+      "id": "phrase_rechts",
+      "de": "Rechts.",
+      "article": null,
+      "de_base": "Rechts",
+      "ru": "Направо.",
+      "en": "Right.",
+      "uk": "Праворуч.",
+      "fr": "À droite.",
+      "tr": "Sağa.",
+      "category": "phrases",
+      "tags": [
+        "examiner",
+        "direction"
+      ],
+      "exam_phrase_de": "Rechts."
+    },
+    {
+      "id": "manoeverangaben",
+      "de": "Die Manöverangaben",
+      "article": "die",
+      "de_base": "Manöverangaben",
+      "ru": "Указания для выполнения манёвров",
+      "en": "Manoeuvre instructions",
+      "uk": "Вказівки для виконання маневрів",
+      "fr": "Consignes de manœuvre",
+      "tr": "Manevra talimatları",
+      "category": "maneuvers",
+      "tags": [
+        "core"
+      ]
+    },
+    {
+      "id": "phrase_strasse_rechts_nummer",
+      "de": "Erste (zweite, dritte, vierte) Straße rechts",
+      "article": null,
+      "de_base": "Erste (zweite, dritte, vierte) Straße rechts",
+      "ru": "Первая (вторая, третья, четвёртая) улица направо",
+      "en": "First (second, third, fourth) street on the right",
+      "uk": "Перша (друга, третя, четверта) вулиця праворуч",
+      "fr": "Première (deuxième, troisième, quatrième) rue à droite",
+      "tr": "Sağdaki birinci (ikinci, üçüncü, dördüncü) sokak",
+      "category": "phrases",
+      "tags": [
+        "examiner",
+        "direction"
+      ],
+      "exam_phrase_de": "Nehmen Sie die erste Straße rechts."
+    },
+    {
+      "id": "phrase_in_richtung_fahren",
+      "de": "In Richtung … fahren",
+      "article": null,
+      "de_base": "In Richtung … fahren",
+      "ru": "Двигаться в направлении …",
+      "en": "Drive in the direction of …",
+      "uk": "Рухатися в напрямку …",
+      "fr": "Rouler en direction de …",
+      "tr": "… yönünde gitmek",
+      "category": "phrases",
+      "tags": [
+        "examiner",
+        "direction"
+      ],
+      "exam_phrase_de": "Fahren Sie in Richtung Stadtzentrum."
+    }
+  ],
+  "meta": {
+    "term_count": 386,
+    "category_count": 14
+  }
+}

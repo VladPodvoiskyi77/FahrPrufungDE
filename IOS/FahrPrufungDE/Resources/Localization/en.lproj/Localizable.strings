@@ -1,0 +1,154 @@
+/* Common */
+"common.next" = "Next";
+"common.skip" = "Skip";
+"common.all" = "All";
+"common.continue" = "Continue";
+"common.retry" = "Try again";
+"common.loading" = "Loading…";
+"common.listen" = "Listen";
+
+/* Tabs */
+"tab.learn" = "Learn";
+"tab.signs" = "Signs";
+"tab.progress" = "Progress";
+"tab.settings" = "Settings";
+
+/* Errors */
+"error.loadTitle" = "Loading failed";
+
+/* Home */
+"home.badge" = "Germany · Führerschein";
+"home.title" = "Fahrprufung DE";
+"home.subtitle" = "German for the practical driving test";
+"home.terms" = "Terms";
+"home.quickStart" = "Quick start";
+"home.topTerms.title" = "Top terms";
+"home.topTerms.subtitle" = "The most important words for the exam";
+"home.examinerPhrases.title" = "Examiner phrases";
+"home.examinerPhrases.subtitle" = "What the examiner says — and what to do";
+"home.quiz.title" = "Quiz";
+"home.quiz.subtitle" = "All terms — multiple choice";
+"home.learnSection" = "Learning";
+"home.allCategories.title" = "All categories";
+"home.allCategories.subtitle" = "All topics — from car parts to traffic";
+"home.signsSection" = "Traffic signs";
+"home.signs.subtitle" = "Official StVO signs — %d total";
+"home.categoriesTitle" = "Categories";
+
+/* Flashcards */
+"flashcards.counter" = "%d of %d";
+"flashcards.empty" = "No terms";
+"flashcards.tapToFlip" = "Tap to flip";
+"flashcards.examinerSays" = "Examiner says:";
+"flashcards.cards" = "Cards";
+
+/* Quiz */
+"quiz.question" = "Question %d / %d";
+"quiz.whatMeans" = "What does it mean:";
+"quiz.tooFew" = "Not enough terms";
+"quiz.correct" = "correct";
+"quiz.result.perfect" = "Perfect! Ready for the exam!";
+"quiz.result.great" = "Very good! Keep practicing.";
+"quiz.result.good" = "Good! A bit more practice.";
+"quiz.result.keepGoing" = "Keep learning — you can do it!";
+"quiz.reviewAnswers" = "Review answers";
+"quiz.reviewTitle" = "Quiz review";
+"quiz.reviewQuestion" = "Question %d";
+"quiz.yourAnswer" = "Your answer";
+"quiz.correctAnswer" = "Correct answer";
+
+/* Signs */
+"signs.title" = "Traffic signs";
+"signs.count" = "%d signs";
+"signs.heroSubtitle" = "Official German road signs";
+"signs.searchPlaceholder" = "Search sign…";
+"signs.section" = "Signs (%d)";
+"signs.empty.title" = "No results";
+"signs.empty.subtitle" = "Try a different search";
+"signs.explanation" = "Explanation";
+"signs.inGerman" = "In German";
+
+/* Settings */
+"settings.title" = "Settings";
+"settings.language" = "Your language";
+"settings.statistics" = "Statistics";
+"settings.terms" = "Terms";
+"settings.categories" = "Categories";
+"settings.signs" = "Traffic signs";
+"settings.replayOnboarding" = "Show welcome again";
+"settings.about" = "For people who are new to Germany and preparing for the practical driving test — without perfect German.";
+"settings.disclaimerTitle" = "Important";
+"settings.disclaimer" = "Unofficial self-study app. Does not replace driving lessons or official StVO/TÜV materials.";
+"settings.contactDeveloper" = "Contact the developer";
+"settings.privacyPolicy" = "Privacy Policy";
+"settings.otherProjects" = "Our other projects";
+"settings.prapodeTitle" = "PrapoDe: German Prepositions";
+"settings.prapodeSubtitle" = "Master prepositions — A1 to C1";
+"settings.viewProgress" = "My progress";
+"settings.analytics" = "Anonymous analytics";
+"settings.analyticsSubtitle" = "Helps improve the app. No personal data.";
+
+/* Progress */
+"progress.title" = "My progress";
+"progress.overall" = "Overall progress";
+"progress.terms" = "Terms";
+"progress.signs" = "Signs";
+"progress.byCategory" = "By category";
+"progress.recentQuizzes" = "Recent quizzes";
+"progress.noQuizzesYet" = "Complete a quiz — your results will appear here";
+"progress.streak" = "Streak";
+"progress.streakDays" = "%d days in a row";
+"progress.learnedCount" = "%d of %d";
+"progress.quizScore" = "%d / %d";
+"progress.homeSummary" = "Learned %d of %d terms";
+"progress.homeSignsSummary" = "Signs: %d of %d";
+"progress.homeTapHint" = "Tap for details";
+
+/* Category */
+"category.termCount" = "%d terms";
+"category.cards" = "Cards";
+"category.quiz" = "Quiz";
+"category.terms" = "Terms";
+
+/* Examiner phrases */
+"examinerPhrases.listTitle" = "All phrases & questions";
+"examinerPhrases.listMode" = "List";
+"examinerPhrases.group.start" = "Before the drive";
+"examinerPhrases.group.direction" = "Direction";
+"examinerPhrases.group.maneuver" = "Maneuvers";
+"examinerPhrases.group.safety" = "Safety check";
+"examinerPhrases.group.hint" = "Hints";
+"examinerPhrases.group.result" = "Result";
+
+/* Known items */
+"known.markTitle" = "I already know this";
+"known.markSubtitle" = "Hide from cards & quiz";
+"known.unmarkTitle" = "Learn again";
+"known.settingsSection" = "My progress";
+"known.termsMarked" = "terms marked as known";
+"known.signsMarked" = "signs marked as known";
+"known.listHiddenCount" = "%d marked as known";
+"known.resetTitle" = "Reset all to learning";
+"known.resetConfirmTitle" = "Reset?";
+"known.resetConfirmMessage" = "All terms and signs will appear in cards and quiz again.";
+"known.resetConfirm" = "Reset";
+"known.cancel" = "Cancel";
+"known.allKnownFlashcards" = "All terms marked as known. Reset in Settings.";
+"known.allKnownQuiz" = "Not enough terms to practice. Reset marked items in Settings.";
+"known.undoMessage" = "Hidden from practice";
+"known.undoAction" = "Undo";
+
+/* Core term badge */
+"coreTerm.hintTitle" = "Important for the exam";
+"coreTerm.hintMessage" = "This term is core vocabulary for the practical driving test — especially likely to come up.";
+
+/* Onboarding */
+"onboarding.welcomeTitle" = "Welcome!";
+"onboarding.welcomeSubtitle" = "Learn German driving terms for your practical test — in your language.";
+"onboarding.featuresTitle" = "How to learn";
+"onboarding.featureCards" = "Flashcards — German term and translation";
+"onboarding.featureQuiz" = "Quiz — test yourself";
+"onboarding.featureExaminer" = "Examiner phrases — what they say";
+"onboarding.featureSigns" = "Traffic signs — with explanations";
+"onboarding.languageTitle" = "Choose your language";
+"onboarding.start" = "Start learning";

@@ -1,0 +1,154 @@
+/* Common */
+"common.next" = "İleri";
+"common.skip" = "Atla";
+"common.all" = "Tümü";
+"common.continue" = "Devam";
+"common.retry" = "Tekrar dene";
+"common.loading" = "Yükleniyor…";
+"common.listen" = "Dinle";
+
+/* Tabs */
+"tab.learn" = "Öğren";
+"tab.signs" = "İşaretler";
+"tab.progress" = "İlerleme";
+"tab.settings" = "Ayarlar";
+
+/* Errors */
+"error.loadTitle" = "Yükleme hatası";
+
+/* Home */
+"home.badge" = "Almanya · Führerschein";
+"home.title" = "Fahrprufung DE";
+"home.subtitle" = "Pratik sınav için Almanca";
+"home.terms" = "Kelime";
+"home.quickStart" = "Hızlı başlangıç";
+"home.topTerms.title" = "En önemli kelimeler";
+"home.topTerms.subtitle" = "Sınav için en önemli kelimeler";
+"home.examinerPhrases.title" = "Sınav görevlisi ifadeleri";
+"home.examinerPhrases.subtitle" = "Görevli ne der — ne yapmalısınız";
+"home.quiz.title" = "Quiz";
+"home.quiz.subtitle" = "Tüm kelimeler — çoktan seçmeli";
+"home.learnSection" = "Öğrenme";
+"home.allCategories.title" = "Tüm kategoriler";
+"home.allCategories.subtitle" = "Tüm konular — teknikten trafiğe";
+"home.signsSection" = "Trafik işaretleri";
+"home.signs.subtitle" = "Resmi StVO işaretleri — %d adet";
+"home.categoriesTitle" = "Kategoriler";
+
+/* Flashcards */
+"flashcards.counter" = "%d / %d";
+"flashcards.empty" = "Kelime yok";
+"flashcards.tapToFlip" = "Çevirmek için dokunun";
+"flashcards.examinerSays" = "Görevli der ki:";
+"flashcards.cards" = "Kartlar";
+
+/* Quiz */
+"quiz.question" = "Soru %d / %d";
+"quiz.whatMeans" = "Ne anlama gelir:";
+"quiz.tooFew" = "Yeterli kelime yok";
+"quiz.correct" = "doğru";
+"quiz.result.perfect" = "Mükemmel! Sınava hazırsınız!";
+"quiz.result.great" = "Çok iyi! Pratik yapmaya devam edin.";
+"quiz.result.good" = "İyi! Biraz daha pratik.";
+"quiz.result.keepGoing" = "Öğrenmeye devam edin — başaracaksınız!";
+"quiz.reviewAnswers" = "Cevapları incele";
+"quiz.reviewTitle" = "Quiz incelemesi";
+"quiz.reviewQuestion" = "Soru %d";
+"quiz.yourAnswer" = "Cevabınız";
+"quiz.correctAnswer" = "Doğru cevap";
+
+/* Signs */
+"signs.title" = "Trafik işaretleri";
+"signs.count" = "%d işaret";
+"signs.heroSubtitle" = "Resmi Alman trafik işaretleri";
+"signs.searchPlaceholder" = "İşaret ara…";
+"signs.section" = "İşaretler (%d)";
+"signs.empty.title" = "Sonuç bulunamadı";
+"signs.empty.subtitle" = "Başka bir arama deneyin";
+"signs.explanation" = "Açıklama";
+"signs.inGerman" = "Almanca";
+
+/* Settings */
+"settings.title" = "Ayarlar";
+"settings.language" = "Diliniz";
+"settings.statistics" = "İstatistikler";
+"settings.terms" = "Kelimeler";
+"settings.categories" = "Kategoriler";
+"settings.signs" = "Trafik işaretleri";
+"settings.replayOnboarding" = "Karşılama ekranını tekrar göster";
+"settings.about" = "Almanya'ya yeni gelen ve mükemmel Almanca olmadan pratik sürüş sınavına hazırlananlar için.";
+"settings.disclaimerTitle" = "Önemli";
+"settings.disclaimer" = "Resmi olmayan bir hazırlık uygulamasıdır. Sürüş derslerinin ve resmi StVO/TÜV materyallerinin yerini tutmaz.";
+"settings.contactDeveloper" = "Geliştiriciyle iletişim";
+"settings.privacyPolicy" = "Gizlilik Politikası";
+"settings.otherProjects" = "Diğer projelerimiz";
+"settings.prapodeTitle" = "PrapoDe: Almanca Edatlar";
+"settings.prapodeSubtitle" = "Edatları öğrenin — A1–C1";
+"settings.viewProgress" = "İlerlemem";
+"settings.analytics" = "Anonim analitik";
+"settings.analyticsSubtitle" = "Uygulamayı geliştirmeye yardımcı olur. Kişisel veri yok.";
+
+/* Progress */
+"progress.title" = "İlerlemem";
+"progress.overall" = "Genel ilerleme";
+"progress.terms" = "Terimler";
+"progress.signs" = "Levhalar";
+"progress.byCategory" = "Kategoriye göre";
+"progress.recentQuizzes" = "Son quizler";
+"progress.noQuizzesYet" = "Quiz yapın — sonuçlar burada görünecek";
+"progress.streak" = "Seri";
+"progress.streakDays" = "%d gün üst üste";
+"progress.learnedCount" = "%d / %d";
+"progress.quizScore" = "%d / %d";
+"progress.homeSummary" = "%d / %d terim öğrenildi";
+"progress.homeSignsSummary" = "Levha: %d / %d";
+"progress.homeTapHint" = "Ayrıntılar için dokunun";
+
+/* Category */
+"category.termCount" = "%d kelime";
+"category.cards" = "Kartlar";
+"category.quiz" = "Quiz";
+"category.terms" = "Kelimeler";
+
+/* Examiner phrases */
+"examinerPhrases.listTitle" = "Tüm ifadeler ve sorular";
+"examinerPhrases.listMode" = "Liste";
+"examinerPhrases.group.start" = "Sürüşten önce";
+"examinerPhrases.group.direction" = "Yön";
+"examinerPhrases.group.maneuver" = "Manevralar";
+"examinerPhrases.group.safety" = "Güvenlik kontrolü";
+"examinerPhrases.group.hint" = "İpuçları";
+"examinerPhrases.group.result" = "Sonuç";
+
+/* Known items */
+"known.markTitle" = "Bunu zaten biliyorum";
+"known.markSubtitle" = "Kartlarda ve quizde gösterme";
+"known.unmarkTitle" = "Tekrar öğren";
+"known.settingsSection" = "İlerlemem";
+"known.termsMarked" = "kelime «biliyorum» olarak işaretlendi";
+"known.signsMarked" = "işaret «biliyorum» olarak işaretlendi";
+"known.listHiddenCount" = "%d «biliyorum» olarak işaretlendi";
+"known.resetTitle" = "Hepsini tekrar öğren";
+"known.resetConfirmTitle" = "Sıfırlansın mı?";
+"known.resetConfirmMessage" = "Tüm kelimeler ve işaretler kartlarda ve quizde tekrar görünür.";
+"known.resetConfirm" = "Sıfırla";
+"known.cancel" = "İptal";
+"known.allKnownFlashcards" = "Tüm kelimeler «biliyorum» olarak işaretlendi. Ayarlardan sıfırlayın.";
+"known.allKnownQuiz" = "Quiz için yeterli kelime yok. Ayarlardan sıfırlayın.";
+"known.undoMessage" = "Öğrenmeden gizlendi";
+"known.undoAction" = "Geri al";
+
+/* Core term badge */
+"coreTerm.hintTitle" = "Sınav için önemli";
+"coreTerm.hintMessage" = "Pratik sürüş sınavının temel kelimelerinden — sınavda sıkça sorulur.";
+
+/* Onboarding */
+"onboarding.welcomeTitle" = "Hoş geldiniz!";
+"onboarding.welcomeSubtitle" = "Pratik sınav için Almanca kelimeleri kendi dilinizde öğrenin.";
+"onboarding.featuresTitle" = "Nasıl öğrenilir";
+"onboarding.featureCards" = "Kartlar — Almanca kelime ve çeviri";
+"onboarding.featureQuiz" = "Quiz — kendinizi test edin";
+"onboarding.featureExaminer" = "Görevli ifadeleri — ne söyledikleri";
+"onboarding.featureSigns" = "Trafik işaretleri — açıklamalarla";
+"onboarding.languageTitle" = "Dilinizi seçin";
+"onboarding.start" = "Öğrenmeye başla";
