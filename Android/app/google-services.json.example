@@ -1,13 +1,13 @@
 {
   "project_info": {
-    "project_number": "935468171138",
+    "project_number": "YOUR_PROJECT_NUMBER",
     "project_id": "fahrprufung-de",
     "storage_bucket": "fahrprufung-de.firebasestorage.app"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:935468171138:android:9ecb51c1252495e03b999b",
+        "mobilesdk_app_id": "1:YOUR_PROJECT_NUMBER:android:YOUR_ANDROID_APP_ID",
         "android_client_info": {
           "package_name": "de.fahrprufung.app"
         }
@@ -15,7 +15,7 @@
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyAnu7EMygwS6-mPMG1S-Suv2Fn4xvvw8Fk"
+          "current_key": "YOUR_ANDROID_API_KEY"
         }
       ],
       "services": {

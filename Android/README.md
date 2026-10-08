@@ -38,7 +38,7 @@ adb shell am start -n de.fahrprufung.app/.MainActivity
 
 Firebase Analytics (тот же проект `fahrprufung-de`, что и iOS).
 
-- Конфиг: `app/google-services.json`
+- Конфиг: скачай `google-services.json` из Firebase Console → Project settings → Your apps → Android, положи в `app/google-services.json` (файл в git не коммитится; есть `google-services.json.example`)
 - События: `AnalyticsService` (экраны, квиз start/complete, карточки, онбординг, язык, «знаю», фон/foreground)
 - Opt-out: переключатель в Settings (`analyticsEnabled`)
 
