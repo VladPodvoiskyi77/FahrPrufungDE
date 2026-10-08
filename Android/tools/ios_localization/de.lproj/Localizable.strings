@@ -1,0 +1,154 @@
+/* Common */
+"common.next" = "Weiter";
+"common.skip" = "Überspringen";
+"common.all" = "Alle";
+"common.continue" = "Weiter";
+"common.retry" = "Nochmal";
+"common.loading" = "Wird geladen…";
+"common.listen" = "Anhören";
+
+/* Tabs */
+"tab.learn" = "Lernen";
+"tab.signs" = "Zeichen";
+"tab.progress" = "Fortschritt";
+"tab.settings" = "Einstellungen";
+
+/* Errors */
+"error.loadTitle" = "Fehler beim Laden";
+
+/* Home */
+"home.badge" = "Deutschland · Führerschein";
+"home.title" = "Fahrprufung DE";
+"home.subtitle" = "Deutsch für die praktische Prüfung";
+"home.terms" = "Begriffe";
+"home.quickStart" = "Schnellstart";
+"home.topTerms.title" = "Top-Begriffe";
+"home.topTerms.subtitle" = "Die wichtigsten Wörter für die Prüfung";
+"home.examinerPhrases.title" = "Prüfer-Phrasen";
+"home.examinerPhrases.subtitle" = "Was der Prüfer sagt — und was du tun musst";
+"home.quiz.title" = "Quiz";
+"home.quiz.subtitle" = "Alle Begriffe — Multiple Choice";
+"home.learnSection" = "Lernen";
+"home.allCategories.title" = "Alle Kategorien";
+"home.allCategories.subtitle" = "Alle Themen — von Technik bis Verkehr";
+"home.signsSection" = "Verkehrszeichen";
+"home.signs.subtitle" = "Offizielle StVO-Zeichen — %d Stück";
+"home.categoriesTitle" = "Kategorien";
+
+/* Flashcards */
+"flashcards.counter" = "%d von %d";
+"flashcards.empty" = "Keine Begriffe";
+"flashcards.tapToFlip" = "Tippen zum Umdrehen";
+"flashcards.examinerSays" = "Prüfer sagt:";
+"flashcards.cards" = "Karten";
+
+/* Quiz */
+"quiz.question" = "Frage %d / %d";
+"quiz.whatMeans" = "Was bedeutet:";
+"quiz.tooFew" = "Zu wenig Begriffe";
+"quiz.correct" = "richtig";
+"quiz.result.perfect" = "Perfekt! Bereit für die Prüfung!";
+"quiz.result.great" = "Sehr gut! Weiter üben.";
+"quiz.result.good" = "Gut! Noch ein bisschen üben.";
+"quiz.result.keepGoing" = "Weiter lernen — du schaffst das!";
+"quiz.reviewAnswers" = "Antworten ansehen";
+"quiz.reviewTitle" = "Quiz-Auswertung";
+"quiz.reviewQuestion" = "Frage %d";
+"quiz.yourAnswer" = "Deine Antwort";
+"quiz.correctAnswer" = "Richtige Antwort";
+
+/* Signs */
+"signs.title" = "Verkehrszeichen";
+"signs.count" = "%d Zeichen";
+"signs.heroSubtitle" = "Offizielle Zeichen Deutschlands";
+"signs.searchPlaceholder" = "Zeichen suchen…";
+"signs.section" = "Zeichen (%d)";
+"signs.empty.title" = "Nichts gefunden";
+"signs.empty.subtitle" = "Versuche eine andere Suche";
+"signs.explanation" = "Erklärung";
+"signs.inGerman" = "Auf Deutsch";
+
+/* Settings */
+"settings.title" = "Einstellungen";
+"settings.language" = "Ihre Sprache";
+"settings.statistics" = "Statistik";
+"settings.terms" = "Begriffe";
+"settings.categories" = "Kategorien";
+"settings.signs" = "Verkehrszeichen";
+"settings.replayOnboarding" = "Willkommen erneut anzeigen";
+"settings.about" = "Für Menschen, die neu in Deutschland sind und sich auf die praktische Fahrprüfung vorbereiten — ohne perfektes Deutsch.";
+"settings.disclaimerTitle" = "Hinweis";
+"settings.disclaimer" = "Inoffizielle App zur Selbstvorbereitung. Ersetzt keine Fahrstunden und keine offiziellen StVO-/TÜV-Materialien.";
+"settings.contactDeveloper" = "Entwickler kontaktieren";
+"settings.privacyPolicy" = "Datenschutzerklärung";
+"settings.otherProjects" = "Unsere anderen Projekte";
+"settings.prapodeTitle" = "PrapoDe: Deutsche Präpositionen";
+"settings.prapodeSubtitle" = "Präpositionen trainieren — A1 bis C1";
+"settings.viewProgress" = "Mein Fortschritt";
+"settings.analytics" = "Anonyme Analyse";
+"settings.analyticsSubtitle" = "Hilft, die App zu verbessern. Keine persönlichen Daten.";
+
+/* Progress */
+"progress.title" = "Mein Fortschritt";
+"progress.overall" = "Gesamtfortschritt";
+"progress.terms" = "Begriffe";
+"progress.signs" = "Zeichen";
+"progress.byCategory" = "Nach Kategorie";
+"progress.recentQuizzes" = "Letzte Quiz";
+"progress.noQuizzesYet" = "Quiz absolvieren — Ergebnisse erscheinen hier";
+"progress.streak" = "Serie";
+"progress.streakDays" = "%d Tage in Folge";
+"progress.learnedCount" = "%d von %d";
+"progress.quizScore" = "%d / %d";
+"progress.homeSummary" = "%d von %d Begriffen gelernt";
+"progress.homeSignsSummary" = "Zeichen: %d von %d";
+"progress.homeTapHint" = "Tippen für Details";
+
+/* Category */
+"category.termCount" = "%d Begriffe";
+"category.cards" = "Karten";
+"category.quiz" = "Quiz";
+"category.terms" = "Begriffe";
+
+/* Examiner phrases */
+"examinerPhrases.listTitle" = "Alle Phrasen & Fragen";
+"examinerPhrases.listMode" = "Liste";
+"examinerPhrases.group.start" = "Vor der Fahrt";
+"examinerPhrases.group.direction" = "Richtung";
+"examinerPhrases.group.maneuver" = "Manöver";
+"examinerPhrases.group.safety" = "Sicherheitskontrolle";
+"examinerPhrases.group.hint" = "Hinweise";
+"examinerPhrases.group.result" = "Ergebnis";
+
+/* Known items */
+"known.markTitle" = "Das kenne ich schon";
+"known.markSubtitle" = "Nicht mehr in Karten & Quiz anzeigen";
+"known.unmarkTitle" = "Wieder lernen";
+"known.settingsSection" = "Mein Lernfortschritt";
+"known.termsMarked" = "Begriffe als bekannt markiert";
+"known.signsMarked" = "Zeichen als bekannt markiert";
+"known.listHiddenCount" = "%d als bekannt markiert";
+"known.resetTitle" = "Alle wieder zum Lernen";
+"known.resetConfirmTitle" = "Zurücksetzen?";
+"known.resetConfirmMessage" = "Alle Begriffe und Zeichen werden wieder in Karten und Quiz angezeigt.";
+"known.resetConfirm" = "Zurücksetzen";
+"known.cancel" = "Abbrechen";
+"known.allKnownFlashcards" = "Alle Begriffe als bekannt markiert. In Einstellungen zurücksetzen.";
+"known.allKnownQuiz" = "Nicht genug Begriffe zum Üben. Markierte zurücksetzen in Einstellungen.";
+"known.undoMessage" = "Aus dem Lernen ausgeblendet";
+"known.undoAction" = "Rückgängig";
+
+/* Core term badge */
+"coreTerm.hintTitle" = "Wichtig für die Prüfung";
+"coreTerm.hintMessage" = "Dieser Begriff gehört zu den Kernbegriffen der praktischen Fahrprüfung — besonders oft gefragt.";
+
+/* Onboarding */
+"onboarding.welcomeTitle" = "Willkommen!";
+"onboarding.welcomeSubtitle" = "Lerne deutsche Begriffe für die praktische Prüfung — in deiner Sprache.";
+"onboarding.featuresTitle" = "So lernst du";
+"onboarding.featureCards" = "Karteikarten — deutsches Wort und Übersetzung";
+"onboarding.featureQuiz" = "Quiz — teste dich selbst";
+"onboarding.featureExaminer" = "Prüfer-Phrasen — was er sagt";
+"onboarding.featureSigns" = "Verkehrszeichen — mit Erklärungen";
+"onboarding.languageTitle" = "Wähle deine Sprache";
+"onboarding.start" = "Lernen beginnen";

@@ -3,9 +3,11 @@ import SwiftUI
 struct SettingsView: View {
     @StateObject var viewModel: SettingsViewModel
     @EnvironmentObject private var store: DataStore
+    @EnvironmentObject private var coordinator: AppCoordinator
     @State private var showResetKnownAlert = false
 
     var body: some View {
+        ScrollViewReader { proxy in
         ScrollView {
             VStack(alignment: .leading, spacing: 20) {
                 ZStack(alignment: .bottomLeading) {
@@ -173,6 +175,7 @@ struct SettingsView: View {
                         .padding(16)
                         .appCard(accent: AppTheme.roadNavy)
                     }
+                    .id("privacyPolicy")
                 }
 
                 VStack(alignment: .leading, spacing: 8) {
@@ -236,6 +239,10 @@ struct SettingsView: View {
         .navigationBarHidden(true)
         .onAppear {
             AnalyticsService.shared.logScreen("settings")
+            scrollToPrivacyIfNeeded(proxy: proxy)
+        }
+        .onChange(of: coordinator.scrollSettingsToPrivacy) { _, shouldScroll in
+            if shouldScroll { scrollToPrivacyIfNeeded(proxy: proxy) }
         }
         .alert(L10n.Known.resetConfirmTitle, isPresented: $showResetKnownAlert) {
             Button(L10n.Known.cancel, role: .cancel) {}
@@ -244,6 +251,17 @@ struct SettingsView: View {
             }
         } message: {
             Text(L10n.Known.resetConfirmMessage)
+        }
+        } // ScrollViewReader
+    }
+
+    private func scrollToPrivacyIfNeeded(proxy: ScrollViewProxy) {
+        guard coordinator.scrollSettingsToPrivacy else { return }
+        DispatchQueue.main.asyncAfter(deadline: .now() + 0.35) {
+            withAnimation {
+                proxy.scrollTo("privacyPolicy", anchor: .center)
+            }
+            coordinator.scrollSettingsToPrivacy = false
         }
     }
 

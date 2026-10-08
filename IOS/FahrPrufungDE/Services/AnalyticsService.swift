@@ -38,8 +38,9 @@ final class AnalyticsService {
         setUserProperty("true", forName: "onboarding_done")
     }
 
-    func logOnboardingSkipped() {
-        log("onboarding_skipped")
+    func logOnboardingSkipped(language: AppLanguage) {
+        log("onboarding_skipped", ["language": language.rawValue])
+        setUserProperty(language.rawValue, forName: "ui_language")
         setUserProperty("true", forName: "onboarding_done")
     }
 

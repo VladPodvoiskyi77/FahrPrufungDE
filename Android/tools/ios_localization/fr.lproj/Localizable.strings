@@ -1,0 +1,154 @@
+/* Common */
+"common.next" = "Suivant";
+"common.skip" = "Passer";
+"common.all" = "Tous";
+"common.continue" = "Continuer";
+"common.retry" = "Réessayer";
+"common.loading" = "Chargement…";
+"common.listen" = "Écouter";
+
+/* Tabs */
+"tab.learn" = "Apprendre";
+"tab.signs" = "Panneaux";
+"tab.progress" = "Progrès";
+"tab.settings" = "Réglages";
+
+/* Errors */
+"error.loadTitle" = "Erreur de chargement";
+
+/* Home */
+"home.badge" = "Allemagne · Führerschein";
+"home.title" = "Fahrprufung DE";
+"home.subtitle" = "L'allemand pour l'examen pratique";
+"home.terms" = "Termes";
+"home.quickStart" = "Démarrage rapide";
+"home.topTerms.title" = "Mots essentiels";
+"home.topTerms.subtitle" = "Les mots les plus importants pour l'examen";
+"home.examinerPhrases.title" = "Phrases de l'examinateur";
+"home.examinerPhrases.subtitle" = "Ce que dit l'examinateur — et quoi faire";
+"home.quiz.title" = "Quiz";
+"home.quiz.subtitle" = "Tous les termes — choix multiple";
+"home.learnSection" = "Apprentissage";
+"home.allCategories.title" = "Toutes les catégories";
+"home.allCategories.subtitle" = "Tous les thèmes — de la technique à la circulation";
+"home.signsSection" = "Panneaux routiers";
+"home.signs.subtitle" = "Panneaux officiels StVO — %d au total";
+"home.categoriesTitle" = "Catégories";
+
+/* Flashcards */
+"flashcards.counter" = "%d sur %d";
+"flashcards.empty" = "Aucun terme";
+"flashcards.tapToFlip" = "Touchez pour retourner";
+"flashcards.examinerSays" = "L'examinateur dit :";
+"flashcards.cards" = "Cartes";
+
+/* Quiz */
+"quiz.question" = "Question %d / %d";
+"quiz.whatMeans" = "Que signifie :";
+"quiz.tooFew" = "Pas assez de termes";
+"quiz.correct" = "correct";
+"quiz.result.perfect" = "Parfait ! Prêt pour l'examen !";
+"quiz.result.great" = "Très bien ! Continuez à pratiquer.";
+"quiz.result.good" = "Bien ! Encore un peu de pratique.";
+"quiz.result.keepGoing" = "Continuez à apprendre — vous y arriverez !";
+"quiz.reviewAnswers" = "Voir les réponses";
+"quiz.reviewTitle" = "Revue du quiz";
+"quiz.reviewQuestion" = "Question %d";
+"quiz.yourAnswer" = "Votre réponse";
+"quiz.correctAnswer" = "Bonne réponse";
+
+/* Signs */
+"signs.title" = "Panneaux routiers";
+"signs.count" = "%d panneaux";
+"signs.heroSubtitle" = "Panneaux officiels allemands";
+"signs.searchPlaceholder" = "Rechercher…";
+"signs.section" = "Panneaux (%d)";
+"signs.empty.title" = "Aucun résultat";
+"signs.empty.subtitle" = "Essayez une autre recherche";
+"signs.explanation" = "Explication";
+"signs.inGerman" = "En allemand";
+
+/* Settings */
+"settings.title" = "Réglages";
+"settings.language" = "Votre langue";
+"settings.statistics" = "Statistiques";
+"settings.terms" = "Termes";
+"settings.categories" = "Catégories";
+"settings.signs" = "Panneaux routiers";
+"settings.replayOnboarding" = "Revoir l'accueil";
+"settings.about" = "Pour ceux qui sont nouveaux en Allemagne et préparent l'examen pratique de conduite — sans allemand parfait.";
+"settings.disclaimerTitle" = "Important";
+"settings.disclaimer" = "Application non officielle pour s'entraîner seul. Ne remplace pas les leçons de conduite ni les documents officiels StVO/TÜV.";
+"settings.contactDeveloper" = "Contacter le développeur";
+"settings.privacyPolicy" = "Politique de confidentialité";
+"settings.otherProjects" = "Nos autres projets";
+"settings.prapodeTitle" = "PrapoDe : Prépositions allemandes";
+"settings.prapodeSubtitle" = "Maîtrisez les prépositions — A1 à C1";
+"settings.viewProgress" = "Ma progression";
+"settings.analytics" = "Analytique anonyme";
+"settings.analyticsSubtitle" = "Aide à améliorer l'app. Aucune donnée personnelle.";
+
+/* Progress */
+"progress.title" = "Ma progression";
+"progress.overall" = "Progression globale";
+"progress.terms" = "Termes";
+"progress.signs" = "Panneaux";
+"progress.byCategory" = "Par catégorie";
+"progress.recentQuizzes" = "Quiz récents";
+"progress.noQuizzesYet" = "Faites un quiz — les résultats apparaîtront ici";
+"progress.streak" = "Série";
+"progress.streakDays" = "%d jours d'affilée";
+"progress.learnedCount" = "%d sur %d";
+"progress.quizScore" = "%d / %d";
+"progress.homeSummary" = "%d termes appris sur %d";
+"progress.homeSignsSummary" = "Panneaux : %d sur %d";
+"progress.homeTapHint" = "Appuyez pour les détails";
+
+/* Category */
+"category.termCount" = "%d termes";
+"category.cards" = "Cartes";
+"category.quiz" = "Quiz";
+"category.terms" = "Termes";
+
+/* Examiner phrases */
+"examinerPhrases.listTitle" = "Toutes les phrases et questions";
+"examinerPhrases.listMode" = "Liste";
+"examinerPhrases.group.start" = "Avant la conduite";
+"examinerPhrases.group.direction" = "Direction";
+"examinerPhrases.group.maneuver" = "Manœuvres";
+"examinerPhrases.group.safety" = "Contrôle de sécurité";
+"examinerPhrases.group.hint" = "Indications";
+"examinerPhrases.group.result" = "Résultat";
+
+/* Known items */
+"known.markTitle" = "Je connais déjà";
+"known.markSubtitle" = "Ne plus afficher dans cartes & quiz";
+"known.unmarkTitle" = "Réapprendre";
+"known.settingsSection" = "Ma progression";
+"known.termsMarked" = "termes marqués comme connus";
+"known.signsMarked" = "panneaux marqués comme connus";
+"known.listHiddenCount" = "%d marqués comme connus";
+"known.resetTitle" = "Tout remettre à apprendre";
+"known.resetConfirmTitle" = "Réinitialiser ?";
+"known.resetConfirmMessage" = "Tous les termes et panneaux réapparaîtront dans les cartes et le quiz.";
+"known.resetConfirm" = "Réinitialiser";
+"known.cancel" = "Annuler";
+"known.allKnownFlashcards" = "Tous les termes sont marqués comme connus. Réinitialiser dans Réglages.";
+"known.allKnownQuiz" = "Pas assez de termes pour s'entraîner. Réinitialiser dans Réglages.";
+"known.undoMessage" = "Masqué de l'entraînement";
+"known.undoAction" = "Annuler";
+
+/* Core term badge */
+"coreTerm.hintTitle" = "Important pour l'examen";
+"coreTerm.hintMessage" = "Terme essentiel de l'examen pratique — souvent demandé à l'examen.";
+
+/* Onboarding */
+"onboarding.welcomeTitle" = "Bienvenue !";
+"onboarding.welcomeSubtitle" = "Apprenez l'allemand pour l'examen pratique — dans votre langue.";
+"onboarding.featuresTitle" = "Comment apprendre";
+"onboarding.featureCards" = "Cartes — mot allemand et traduction";
+"onboarding.featureQuiz" = "Quiz — testez-vous";
+"onboarding.featureExaminer" = "Phrases de l'examinateur";
+"onboarding.featureSigns" = "Panneaux — avec explications";
+"onboarding.languageTitle" = "Choisissez votre langue";
+"onboarding.start" = "Commencer";

@@ -28,8 +28,9 @@ final class OnboardingViewModel: ObservableObject {
     }
 
     func skip() {
+        // Keep current/system language; still record it so analytics has ui_language.
         markCompleted()
-        AnalyticsService.shared.logOnboardingSkipped()
+        AnalyticsService.shared.logOnboardingSkipped(language: store.nativeLanguage)
         syncEngagement()
     }
 

@@ -1,0 +1,154 @@
+/* Common */
+"common.next" = "Далі";
+"common.skip" = "Пропустити";
+"common.all" = "Усі";
+"common.continue" = "Далі";
+"common.retry" = "Ще раз";
+"common.loading" = "Завантаження…";
+"common.listen" = "Прослухати";
+
+/* Tabs */
+"tab.learn" = "Вчити";
+"tab.signs" = "Знаки";
+"tab.progress" = "Прогрес";
+"tab.settings" = "Налаштування";
+
+/* Errors */
+"error.loadTitle" = "Помилка завантаження";
+
+/* Home */
+"home.badge" = "Німеччина · Führerschein";
+"home.title" = "Fahrprufung DE";
+"home.subtitle" = "Німецька для практичного іспиту";
+"home.terms" = "Слова";
+"home.quickStart" = "Швидкий старт";
+"home.topTerms.title" = "Топ-слова";
+"home.topTerms.subtitle" = "Найважливіші слова для іспиту";
+"home.examinerPhrases.title" = "Фрази екзаменатора";
+"home.examinerPhrases.subtitle" = "Що каже екзаменатор — і що робити";
+"home.quiz.title" = "Вікторина";
+"home.quiz.subtitle" = "Усі слова — вибір з варіантів";
+"home.learnSection" = "Навчання";
+"home.allCategories.title" = "Усі категорії";
+"home.allCategories.subtitle" = "Усі теми — від техніки до руху";
+"home.signsSection" = "Дорожні знаки";
+"home.signs.subtitle" = "Офіційні знаки StVO — %d шт.";
+"home.categoriesTitle" = "Категорії";
+
+/* Flashcards */
+"flashcards.counter" = "%d з %d";
+"flashcards.empty" = "Немає слів";
+"flashcards.tapToFlip" = "Натисніть, щоб перевернути";
+"flashcards.examinerSays" = "Екзаменатор каже:";
+"flashcards.cards" = "Картки";
+
+/* Quiz */
+"quiz.question" = "Питання %d / %d";
+"quiz.whatMeans" = "Що означає:";
+"quiz.tooFew" = "Замало слів";
+"quiz.correct" = "правильно";
+"quiz.result.perfect" = "Чудово! Ви готові до іспиту!";
+"quiz.result.great" = "Дуже добре! Продовжуйте тренуватися.";
+"quiz.result.good" = "Добре! Ще трохи практики.";
+"quiz.result.keepGoing" = "Продовжуйте вчити — у вас вийде!";
+"quiz.reviewAnswers" = "Переглянути відповіді";
+"quiz.reviewTitle" = "Розбір вікторини";
+"quiz.reviewQuestion" = "Питання %d";
+"quiz.yourAnswer" = "Ваша відповідь";
+"quiz.correctAnswer" = "Правильна відповідь";
+
+/* Signs */
+"signs.title" = "Дорожні знаки";
+"signs.count" = "%d знаків";
+"signs.heroSubtitle" = "Офіційні знаки Німеччини";
+"signs.searchPlaceholder" = "Пошук знака…";
+"signs.section" = "Знаки (%d)";
+"signs.empty.title" = "Нічого не знайдено";
+"signs.empty.subtitle" = "Спробуйте інший запит";
+"signs.explanation" = "Пояснення";
+"signs.inGerman" = "Німецькою";
+
+/* Settings */
+"settings.title" = "Налаштування";
+"settings.language" = "Ваша мова";
+"settings.statistics" = "Статистика";
+"settings.terms" = "Слова";
+"settings.categories" = "Категорії";
+"settings.signs" = "Дорожні знаки";
+"settings.replayOnboarding" = "Показати привітання знову";
+"settings.about" = "Для тих, хто нещодавно в Німеччині та готується до практичного іспиту з водіння — без ідеальної німецької.";
+"settings.disclaimerTitle" = "Важливо";
+"settings.disclaimer" = "Неофіційний застосунок для самостійної підготовки. Не замінює заняття з інструктором та офіційні матеріали StVO/TÜV.";
+"settings.contactDeveloper" = "Зв'язатися з розробником";
+"settings.privacyPolicy" = "Політика конфіденційності";
+"settings.otherProjects" = "Наші інші проєкти";
+"settings.prapodeTitle" = "PrapoDe: Німецькі прийменники";
+"settings.prapodeSubtitle" = "Тренування прийменників — A1–C1";
+"settings.viewProgress" = "Мій прогрес";
+"settings.analytics" = "Анонімна аналітика";
+"settings.analyticsSubtitle" = "Допомагає покращувати застосунок. Без персональних даних.";
+
+/* Progress */
+"progress.title" = "Мій прогрес";
+"progress.overall" = "Загальний прогрес";
+"progress.terms" = "Слова";
+"progress.signs" = "Знаки";
+"progress.byCategory" = "За категоріями";
+"progress.recentQuizzes" = "Останні quiz";
+"progress.noQuizzesYet" = "Пройдіть quiz — результат з’явиться тут";
+"progress.streak" = "Серія";
+"progress.streakDays" = "%d дн. поспіль";
+"progress.learnedCount" = "%d з %d";
+"progress.quizScore" = "%d / %d";
+"progress.homeSummary" = "Вивчено %d з %d слів";
+"progress.homeSignsSummary" = "Знаків: %d з %d";
+"progress.homeTapHint" = "Натисніть для деталей";
+
+/* Category */
+"category.termCount" = "Слів: %d";
+"category.cards" = "Картки";
+"category.quiz" = "Вікторина";
+"category.terms" = "Слова";
+
+/* Examiner phrases */
+"examinerPhrases.listTitle" = "Усі фрази та питання";
+"examinerPhrases.listMode" = "Список";
+"examinerPhrases.group.start" = "Перед поїздкою";
+"examinerPhrases.group.direction" = "Напрямок";
+"examinerPhrases.group.maneuver" = "Маневри";
+"examinerPhrases.group.safety" = "Перевірка безпеки";
+"examinerPhrases.group.hint" = "Підказки";
+"examinerPhrases.group.result" = "Результат";
+
+/* Known items */
+"known.markTitle" = "Вже знаю";
+"known.markSubtitle" = "Не показувати в картках та вікторині";
+"known.unmarkTitle" = "Знову вчити";
+"known.settingsSection" = "Мій прогрес";
+"known.termsMarked" = "слів позначено як «знаю»";
+"known.signsMarked" = "знаків позначено як «знаю»";
+"known.listHiddenCount" = "%d позначено як «знаю»";
+"known.resetTitle" = "Скинути все — знову вчити";
+"known.resetConfirmTitle" = "Скинути?";
+"known.resetConfirmMessage" = "Усі слова та знаки знову з'являться в картках і вікторині.";
+"known.resetConfirm" = "Скинути";
+"known.cancel" = "Скасувати";
+"known.allKnownFlashcards" = "Усі слова позначені як «знаю». Скинути в налаштуваннях.";
+"known.allKnownQuiz" = "Недостатньо слів для вікторини. Скиньте позначки в налаштуваннях.";
+"known.undoMessage" = "Приховано з навчання";
+"known.undoAction" = "Скасувати";
+
+/* Core term badge */
+"coreTerm.hintTitle" = "Важливо для іспиту";
+"coreTerm.hintMessage" = "Ключовий термін для практичного іспиту — його особливо часто питають.";
+
+/* Onboarding */
+"onboarding.welcomeTitle" = "Ласкаво просимо!";
+"onboarding.welcomeSubtitle" = "Вивчайте німецькі слова для практичного іспиту — своєю мовою.";
+"onboarding.featuresTitle" = "Як вчитися";
+"onboarding.featureCards" = "Картки — німецьке слово та переклад";
+"onboarding.featureQuiz" = "Вікторина — перевірте себе";
+"onboarding.featureExaminer" = "Фрази екзаменатора — що він каже";
+"onboarding.featureSigns" = "Дорожні знаки — з поясненнями";
+"onboarding.languageTitle" = "Оберіть мову";
+"onboarding.start" = "Почати навчання";

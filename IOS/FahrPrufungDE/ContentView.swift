@@ -30,6 +30,14 @@ struct ContentView: View {
                 studyStreak: store.learningStats.studyStreak,
                 knownTermCount: store.knownItems.knownTermCount
             )
+            if !store.terms.isEmpty {
+                coordinator.applyLaunchRouteIfNeeded(store: store)
+            }
+        }
+        .onChange(of: store.terms.count) { _, count in
+            if count > 0 {
+                coordinator.applyLaunchRouteIfNeeded(store: store)
+            }
         }
         .onChange(of: hasCompletedOnboarding) { _, completed in
             if !completed { coordinator.isOnboardingPresented = true }

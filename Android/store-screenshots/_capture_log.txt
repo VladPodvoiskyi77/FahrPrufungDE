@@ -1,0 +1,134 @@
+device: emulator-5554
+
+=== en ===
+  ✓ 01-home.png (530 KB)
+  ✓ 02-flashcards.png (172 KB)
+  ✓ 03-quiz.png (185 KB)
+  ✓ 04-signs.png (301 KB)
+  ✓ 05-sign-detail.png (278 KB)
+  ✓ 06-progress.png (205 KB)
+  ✓ 07-examiner.png (530 KB)
+  ✓ 08-settings.png (313 KB)
+
+=== ru ===
+  ✓ 01-home.png (535 KB)
+  ✓ 02-flashcards.png (159 KB)
+  ✓ 03-quiz.png (216 KB)
+  ✓ 04-signs.png (296 KB)
+  ✓ 05-sign-detail.png (291 KB)
+  ✓ 06-progress.png (207 KB)
+  ✓ 07-examiner.png (536 KB)
+  ✓ 08-settings.png (315 KB)
+
+=== uk ===
+  ✓ 01-home.png (522 KB)
+  ✓ 02-flashcards.png (163 KB)
+  ✓ 03-quiz.png (227 KB)
+  ✓ 04-signs.png (295 KB)
+  ✓ 05-sign-detail.png (284 KB)
+  ✓ 06-progress.png (199 KB)
+  ✓ 07-examiner.png (349 KB)
+  ✓ 08-settings.png (313 KB)
+
+=== fr ===
+  ✓ 01-home.png (538 KB)
+  ✓ 02-flashcards.png (166 KB)
+  ✓ 03-quiz.png (199 KB)
+  ✓ 04-signs.png (296 KB)
+  ✓ 05-sign-detail.png (281 KB)
+  ✓ 06-progress.png (214 KB)
+  ✓ 07-examiner.png (349 KB)
+  ✓ 08-settings.png (320 KB)
+
+=== tr ===
+  ✓ 01-home.png (517 KB)
+  ✓ 02-flashcards.png (163 KB)
+  ✓ 03-quiz.png (179 KB)
+  ✓ 04-signs.png (288 KB)
+  ✓ 05-sign-detail.png (269 KB)
+  ✓ 06-progress.png (189 KB)
+  ✓ 07-examiner.png (517 KB)
+  ✓ 08-settings.png (303 KB)
+Saved: /Users/test/Developer/projects/FahrPrufungDE/Android/store-screenshots/ru/framed/01-home.png (1080x1920)
+framed ru/01-home.png
+Saved: /Users/test/Developer/projects/FahrPrufungDE/Android/store-screenshots/ru/framed/02-flashcards.png (1080x1920)
+framed ru/02-flashcards.png
+Saved: /Users/test/Developer/projects/FahrPrufungDE/Android/store-screenshots/ru/framed/03-quiz.png (1080x1920)
+framed ru/03-quiz.png
+Saved: /Users/test/Developer/projects/FahrPrufungDE/Android/store-screenshots/ru/framed/04-signs.png (1080x1920)
+framed ru/04-signs.png
+Saved: /Users/test/Developer/projects/FahrPrufungDE/Android/store-screenshots/ru/framed/05-sign-detail.png (1080x1920)
+framed ru/05-sign-detail.png
+Saved: /Users/test/Developer/projects/FahrPrufungDE/Android/store-screenshots/ru/framed/06-progress.png (1080x1920)
+framed ru/06-progress.png
+Saved: /Users/test/Developer/projects/FahrPrufungDE/Android/store-screenshots/ru/framed/07-examiner.png (1080x1920)
+framed ru/07-examiner.png
+Saved: /Users/test/Developer/projects/FahrPrufungDE/Android/store-screenshots/ru/framed/08-settings.png (1080x1920)
+framed ru/08-settings.png
+Saved: /Users/test/Developer/projects/FahrPrufungDE/Android/store-screenshots/en/framed/01-home.png (1080x1920)
+framed en/01-home.png
+Saved: /Users/test/Developer/projects/FahrPrufungDE/Android/store-screenshots/en/framed/02-flashcards.png (1080x1920)
+framed en/02-flashcards.png
+Saved: /Users/test/Developer/projects/FahrPrufungDE/Android/store-screenshots/en/framed/03-quiz.png (1080x1920)
+framed en/03-quiz.png
+Saved: /Users/test/Developer/projects/FahrPrufungDE/Android/store-screenshots/en/framed/04-signs.png (1080x1920)
+framed en/04-signs.png
+Saved: /Users/test/Developer/projects/FahrPrufungDE/Android/store-screenshots/en/framed/05-sign-detail.png (1080x1920)
+framed en/05-sign-detail.png
+Saved: /Users/test/Developer/projects/FahrPrufungDE/Android/store-screenshots/en/framed/06-progress.png (1080x1920)
+framed en/06-progress.png
+Saved: /Users/test/Developer/projects/FahrPrufungDE/Android/store-screenshots/en/framed/07-examiner.png (1080x1920)
+framed en/07-examiner.png
+Saved: /Users/test/Developer/projects/FahrPrufungDE/Android/store-screenshots/en/framed/08-settings.png (1080x1920)
+framed en/08-settings.png
+Saved: /Users/test/Developer/projects/FahrPrufungDE/Android/store-screenshots/uk/framed/01-home.png (1080x1920)
+framed uk/01-home.png
+Saved: /Users/test/Developer/projects/FahrPrufungDE/Android/store-screenshots/uk/framed/02-flashcards.png (1080x1920)
+framed uk/02-flashcards.png
+Saved: /Users/test/Developer/projects/FahrPrufungDE/Android/store-screenshots/uk/framed/03-quiz.png (1080x1920)
+framed uk/03-quiz.png
+Saved: /Users/test/Developer/projects/FahrPrufungDE/Android/store-screenshots/uk/framed/04-signs.png (1080x1920)
+framed uk/04-signs.png
+Saved: /Users/test/Developer/projects/FahrPrufungDE/Android/store-screenshots/uk/framed/05-sign-detail.png (1080x1920)
+framed uk/05-sign-detail.png
+Saved: /Users/test/Developer/projects/FahrPrufungDE/Android/store-screenshots/uk/framed/06-progress.png (1080x1920)
+framed uk/06-progress.png
+Saved: /Users/test/Developer/projects/FahrPrufungDE/Android/store-screenshots/uk/framed/07-examiner.png (1080x1920)
+framed uk/07-examiner.png
+Saved: /Users/test/Developer/projects/FahrPrufungDE/Android/store-screenshots/uk/framed/08-settings.png (1080x1920)
+framed uk/08-settings.png
+Saved: /Users/test/Developer/projects/FahrPrufungDE/Android/store-screenshots/fr/framed/01-home.png (1080x1920)
+framed fr/01-home.png
+Saved: /Users/test/Developer/projects/FahrPrufungDE/Android/store-screenshots/fr/framed/02-flashcards.png (1080x1920)
+framed fr/02-flashcards.png
+Saved: /Users/test/Developer/projects/FahrPrufungDE/Android/store-screenshots/fr/framed/03-quiz.png (1080x1920)
+framed fr/03-quiz.png
+Saved: /Users/test/Developer/projects/FahrPrufungDE/Android/store-screenshots/fr/framed/04-signs.png (1080x1920)
+framed fr/04-signs.png
+Saved: /Users/test/Developer/projects/FahrPrufungDE/Android/store-screenshots/fr/framed/05-sign-detail.png (1080x1920)
+framed fr/05-sign-detail.png
+Saved: /Users/test/Developer/projects/FahrPrufungDE/Android/store-screenshots/fr/framed/06-progress.png (1080x1920)
+framed fr/06-progress.png
+Saved: /Users/test/Developer/projects/FahrPrufungDE/Android/store-screenshots/fr/framed/07-examiner.png (1080x1920)
+framed fr/07-examiner.png
+Saved: /Users/test/Developer/projects/FahrPrufungDE/Android/store-screenshots/fr/framed/08-settings.png (1080x1920)
+framed fr/08-settings.png
+Saved: /Users/test/Developer/projects/FahrPrufungDE/Android/store-screenshots/tr/framed/01-home.png (1080x1920)
+framed tr/01-home.png
+Saved: /Users/test/Developer/projects/FahrPrufungDE/Android/store-screenshots/tr/framed/02-flashcards.png (1080x1920)
+framed tr/02-flashcards.png
+Saved: /Users/test/Developer/projects/FahrPrufungDE/Android/store-screenshots/tr/framed/03-quiz.png (1080x1920)
+framed tr/03-quiz.png
+Saved: /Users/test/Developer/projects/FahrPrufungDE/Android/store-screenshots/tr/framed/04-signs.png (1080x1920)
+framed tr/04-signs.png
+Saved: /Users/test/Developer/projects/FahrPrufungDE/Android/store-screenshots/tr/framed/05-sign-detail.png (1080x1920)
+framed tr/05-sign-detail.png
+Saved: /Users/test/Developer/projects/FahrPrufungDE/Android/store-screenshots/tr/framed/06-progress.png (1080x1920)
+framed tr/06-progress.png
+Saved: /Users/test/Developer/projects/FahrPrufungDE/Android/store-screenshots/tr/framed/07-examiner.png (1080x1920)
+framed tr/07-examiner.png
+Saved: /Users/test/Developer/projects/FahrPrufungDE/Android/store-screenshots/tr/framed/08-settings.png (1080x1920)
+framed tr/08-settings.png
+
+Framed 40 → /Users/test/Developer/projects/FahrPrufungDE/Android/store-screenshots
+DONE /Users/test/Developer/projects/FahrPrufungDE/Android/store-screenshots
